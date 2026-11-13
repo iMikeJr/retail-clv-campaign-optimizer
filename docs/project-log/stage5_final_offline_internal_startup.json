@@ -1,0 +1,42 @@
+{
+  "api": {
+    "status": "running",
+    "exit_code": 0,
+    "health": "healthy",
+    "started_at": "2026-10-25T21:09:19.207578879Z",
+    "finished_at": "0001-01-01T00:00:00Z",
+    "image": "sha256:d5ecfcdd7f232f08aa48454d9681145183a38524158a0b66f3d873e4a1ca230e"
+  },
+  "dashboard": {
+    "status": "running",
+    "exit_code": 0,
+    "health": "healthy",
+    "started_at": "2026-10-25T21:09:28.805961134Z",
+    "finished_at": "0001-01-01T00:00:00Z",
+    "image": "sha256:f8098d58c33ed7b0a354c20862765d2d618e3f0df2e9cb774163c1ea5525755f"
+  },
+  "etl": {
+    "status": "exited",
+    "exit_code": 0,
+    "health": null,
+    "started_at": "2026-10-25T21:08:24.536229715Z",
+    "finished_at": "2026-10-25T21:08:57.667351675Z",
+    "image": "sha256:51edd1b980321bc78e84e3495d171b41ce0393b5624289a01b67a6477e705c06"
+  },
+  "model": {
+    "status": "exited",
+    "exit_code": 0,
+    "health": null,
+    "started_at": "2026-10-25T21:08:58.127101592Z",
+    "finished_at": "2026-10-25T21:09:19.076468462Z",
+    "image": "sha256:7b92767ac8cbf04d9b52c19291e87be520a1850784423b47e85b239de170b1a5"
+  },
+  "postgres": {
+    "status": "running",
+    "exit_code": 0,
+    "health": "healthy",
+    "started_at": "2026-10-25T21:08:18.954014671Z",
+    "finished_at": "0001-01-01T00:00:00Z",
+    "image": "sha256:a02aa54ec383939cb93faa54c0337477fb214dfac7578411a281524b238aa972"
+  }
+}

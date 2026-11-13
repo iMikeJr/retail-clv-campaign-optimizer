@@ -1,0 +1,25 @@
+{
+  "api": {
+    "passed": 120,
+    "seconds": 2.24,
+    "existing_cases": 81,
+    "new_cases": 39
+  },
+  "etl": {
+    "passed": 39,
+    "seconds": 0.88
+  },
+  "model": {
+    "passed": 21,
+    "seconds": 60.85
+  },
+  "total_passed": 180,
+  "skipped": 0,
+  "all_suite_exit_codes": 0,
+  "protected_source_changes": [],
+  "javascript_syntax": "passed",
+  "git_diff_check": "passed",
+  "served_dashboard_assets_match_source": true,
+  "api_runtime_files_match_source": true,
+  "optimizer_matches_baseline_byte_for_byte": true
+}

@@ -1,0 +1,8 @@
+{
+  "customer_rows": 15,
+  "vertically_clipped": false,
+  "label": "Top 15 by incremental scenario net value",
+  "last_customer": "13564coupon0.0%\u00a3651.10\u00a318.52",
+  "backtest_comparison": "Coupon\t144\t5.42%\t9.72%\t\u00a337.83\t\u00a3466.29\t\u00a3304.89\nEmail only\t5,039\t34.95%\t43.70%\t\u00a3464.69\t\u00a3386.73\t\u00a3463.01\nNone\t71\t97.79%\t98.59%\t\u00a36,458.21\t\u00a3424.42\t\u00a3614.27\nAll eligible customers\t5,254\t34.99%\t43.51%\t\u00a3533.99\t\u00a3389.42\t\u00a3466.67",
+  "console_errors": []
+}

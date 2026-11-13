@@ -1,0 +1,40 @@
+{
+  "verification_cleanup_exit_code": 0,
+  "verification_access_harness_stopped": true,
+  "normal_services_restore_exit_code": 0,
+  "original_volume_preserved": true,
+  "services": {
+    "api": {
+      "status": "running",
+      "exit_code": 0,
+      "health": "healthy",
+      "image": "sha256:9a435a5ece4900bac3a8f1636564744999e12e400103ad0a3eb53a1fd40790da"
+    },
+    "dashboard": {
+      "status": "running",
+      "exit_code": 0,
+      "health": "healthy",
+      "image": "sha256:f8098d58c33ed7b0a354c20862765d2d618e3f0df2e9cb774163c1ea5525755f"
+    },
+    "etl": {
+      "status": "exited",
+      "exit_code": 0,
+      "health": null,
+      "image": "sha256:93a996771de5e932377a0b1e884d3c4f8ef61ad146b8928e5f30dfa05a9df1fc"
+    },
+    "model": {
+      "status": "exited",
+      "exit_code": 0,
+      "health": null,
+      "image": "sha256:d5801f23c583c8487b566f6ceab672e524b57bc47991c1650d615920e4806a1a"
+    },
+    "postgres": {
+      "status": "running",
+      "exit_code": 0,
+      "health": "healthy",
+      "image": "sha256:6b815ee4ec60281b184955569e837b0b936b904ff0911f796213b1047b5158a3"
+    }
+  },
+  "dashboard_matches_verified_image": true,
+  "original_database_full_snapshot_unchanged": true
+}

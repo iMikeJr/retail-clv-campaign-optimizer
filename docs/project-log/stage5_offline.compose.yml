@@ -1,0 +1,10 @@
+# Verification-only override: local service traffic works; external egress does not.
+# Use with prepared images and --pull never, without --build. See final report.
+services:
+  api:
+    ports: !reset []
+  dashboard:
+    ports: !reset []
+networks:
+  default:
+    internal: true

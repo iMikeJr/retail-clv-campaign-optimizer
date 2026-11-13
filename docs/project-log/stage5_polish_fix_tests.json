@@ -1,0 +1,24 @@
+{
+  "api": {
+    "passed": 81,
+    "seconds": 0.86
+  },
+  "etl": {
+    "passed": 39,
+    "seconds": 0.77
+  },
+  "model": {
+    "passed": 21,
+    "seconds": 57.21
+  },
+  "total_passed": 141,
+  "skipped": 0,
+  "exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "javascript_syntax": "passed",
+  "git_diff_check": "passed",
+  "protected_source_changes": []
+}

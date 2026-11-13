@@ -1,0 +1,72 @@
+{
+  "checks": [
+    "Brazil selection resets to All countries on reload; table and selector agree"
+  ],
+  "geometry": [
+    {
+      "width": 1280,
+      "overlaps": [],
+      "widths": [
+        1224,
+        1224,
+        1224,
+        1224
+      ],
+      "returnsNotes": [
+        {
+          "text": "1\u20139 Dec: 136 return invoices in 9 days (15.1 a day); previous months averaged 9.8 a day.",
+          "characters": 88
+        },
+        {
+          "text": "1\u20139 Dec: \u00a3174k in 9 days (\u00a319.3k a day); previous months averaged \u00a30.7k a day.",
+          "characters": 78
+        },
+        {
+          "text": "1\u20139 Dec: 14.9% of invoices were returns; previous months averaged 16.6%.",
+          "characters": 72
+        }
+      ],
+      "backtest_visible": true,
+      "return_note_text_lines": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "width": 1440,
+      "overlaps": [],
+      "widths": [
+        1304,
+        1304,
+        1304,
+        1304
+      ],
+      "returnsNotes": [
+        {
+          "text": "1\u20139 Dec: 136 return invoices in 9 days (15.1 a day); previous months averaged 9.8 a day.",
+          "characters": 88
+        },
+        {
+          "text": "1\u20139 Dec: \u00a3174k in 9 days (\u00a319.3k a day); previous months averaged \u00a30.7k a day.",
+          "characters": 78
+        },
+        {
+          "text": "1\u20139 Dec: 14.9% of invoices were returns; previous months averaged 16.6%.",
+          "characters": 72
+        }
+      ],
+      "backtest_visible": true,
+      "return_note_text_lines": [
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "neutral_sensitivity_note": true,
+  "mobile_controls_fit": true,
+  "loyalty_note_one_line": true,
+  "normal_console_errors": [],
+  "external_requests": []
+}

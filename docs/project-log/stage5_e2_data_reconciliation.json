@@ -1,0 +1,20 @@
+{
+  "independent_sql": {
+    "gross_sales_full_history": 17124926.229998343,
+    "returns_full_history": 713009.6499999878,
+    "gross_sales_12m": 8451542.900003463,
+    "returns_12m": 467760.00000001787,
+    "sales_invoices_12m": 17628,
+    "cancelled_invoices_12m": 3262,
+    "valid_return_lines": 17641,
+    "valid_return_documents": 7282,
+    "net_sales_12m": 7983782.900003445,
+    "net_sales_full_history": 16411916.579998355,
+    "cancellation_rate_12m": 0.15615126854954522
+  },
+  "historical_hashes": {
+    "historical_metrics": "04598d662434c62e47d08fd2d3f8f6fa",
+    "historical_predictions": "b8d6623b46afe8035bb884c132667dbb"
+  },
+  "all_checks_passed": true
+}

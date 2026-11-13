@@ -1,0 +1,9 @@
+{
+  "command": "docker compose --env-file .env.example up --build",
+  "fresh_volume_verified": true,
+  "old_stack_stop_exit_code": 0,
+  "start_time": 1792962236.524336,
+  "compose_project_name": "clv-final",
+  "all_five_images_built": true,
+  "original_volume_preserved": true
+}

@@ -1,0 +1,12 @@
+{
+  "command": "docker compose --env-file .env.example up --pull never",
+  "compose_project_name": "clv-final",
+  "compose_file": "docker-compose.yml:docs/project-log/stage5_offline.compose.yml",
+  "down_verification_project_exit_code": 0,
+  "fresh_volume_verified": true,
+  "prepared_images_only": true,
+  "start_time": 1792962679.450547,
+  "external_network_disabled": "Compose default network internal=true; local service and host/browser traffic retained",
+  "compose_exit_code": 1,
+  "note": "Browser-access harness bound ports before Docker attempted its suppressed bindings; this retry failed at API creation. Final override removes published ports and uses the harness explicitly."
+}

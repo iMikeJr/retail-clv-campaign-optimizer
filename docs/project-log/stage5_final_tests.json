@@ -1,0 +1,31 @@
+{
+  "api": {
+    "passed": 81,
+    "exit_code": 0,
+    "pytest_summary": "81 passed in 0.90s"
+  },
+  "etl": {
+    "passed": 39,
+    "exit_code": 0,
+    "pytest_summary": "39 passed in 0.65s"
+  },
+  "model": {
+    "passed": 21,
+    "exit_code": 0,
+    "pytest_summary": "21 passed in 60.97s (0:01:00)"
+  },
+  "javascript_syntax": "passed",
+  "git_diff_check": "passed",
+  "initial_setup_errors": [
+    {
+      "suite": "etl",
+      "exit_code": 2,
+      "reason": "Test module requires repository root on Python import path; corrected mount/workdir and reran all tests."
+    },
+    {
+      "suite": "model",
+      "exit_code": 1,
+      "reason": "Integration tests launched before clean ETL completed; reran all tests after startup."
+    }
+  ]
+}

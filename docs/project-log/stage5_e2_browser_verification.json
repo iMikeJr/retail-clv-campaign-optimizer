@@ -1,0 +1,396 @@
+{
+  "normal_console_errors": [],
+  "external_page_requests": [],
+  "local_request_count": 92,
+  "above_fold_text": "\u25a5 CUSTOMER OUTLOOK Sales Customers Returns Campaign LOCAL DEMO ONLINE RETAIL \u00b7 THE NEXT 90 DAYS Where do we sell, and who should we contact next? Understand customer demand. Put a limited budget where it can create the most value. Data as of 09 Dec 2011 Sales in GBP \u00b7 forecast through 08 Mar 2012 i Sales to identified customers only (about 77% of lines) Product revenue after returns. Revenue is not profit. Net sales \u00b7 last 12 months \u00a37,983,783 10 Dec 2010 \u2013 09 Dec 2011 Customers 4,260 Purchased in the last 12 months 5,851 total accounts Returns 15.62% Share of invoices in the last 12 months Partial returns included Expected profit from the campaign \u00a39,123 invest \u00a31,682, expect \u00a39,123 in profit Explore the proposal \u2197 ! The response to each offer and the margin are assumptions, not estimated from data; an A/B test would estimate them. 01 / WHERE AND WHAT WE SELL Sales at a glance Countries & products: last 12 months Where sales come from Top 10 countries + Other \u00b7 share of net sales \u00a37,983,783 United Kingdom \u00a36.6m \u00b7 82.1% Netherlands \u00a3283k \u00b7 3.5% EIRE \u00a3242k \u00b7 3.0% Germany \u00a3196k \u00b7 2.5% France \u00a3176k \u00b7 2.2% Australia \u00a3136k \u00b7 1.7% Switzerland \u00a352k \u00b7 0.6% Spain \u00a351k \u00b7 0.6% Belgium \u00a336k \u00b7 0.5% Sweden \u00a335k \u00b7 0.4% Other \u00a3225k \u00b7 2.8% How sales have changed Monthly net sales \u00b7 whole history Dec 2009 \u2013 Dec 2011 \u00a30 \u00a3307k \u00a3614k \u00a3921k \u00a31.2m Dec '09 Apr '10 Aug '10 Dec '10 Apr '11 Aug '11 Dec (1-9) The last point is Dec (1-9), not a complete month. Monthly totals cover the full history; the headline uses the last 12 months.",
+  "executive_labels_passed": true,
+  "method_collapsed_by_default": true,
+  "advanced_collapsed_by_default": true,
+  "technical_requests_before_open": 0,
+  "heatmap_cells": 300,
+  "heatmap_hover_value": "475.39",
+  "customer_page_rows": 25,
+  "selected_customer_rows": 15,
+  "selected_customer_table_clipped": false,
+  "partial_month_labels_passed": true,
+  "responsive": [
+    {
+      "width": 1280,
+      "height": 800,
+      "page_horizontal_overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "page_horizontal_overflow": false
+    }
+  ],
+  "interactions": [
+    {
+      "label": "Product country France",
+      "milliseconds": 8,
+      "status": 200
+    },
+    {
+      "label": "Product all countries",
+      "milliseconds": 6,
+      "status": 200
+    },
+    {
+      "label": "Customer next page",
+      "milliseconds": 51,
+      "status": 200
+    },
+    {
+      "label": "Customer previous page",
+      "milliseconds": 48,
+      "status": 200
+    },
+    {
+      "label": "Customer search",
+      "milliseconds": 270,
+      "status": 200
+    },
+    {
+      "label": "Empty customer search",
+      "milliseconds": 262,
+      "status": 200
+    },
+    {
+      "label": "Clear customer search",
+      "milliseconds": 270,
+      "status": 200
+    },
+    {
+      "label": "Ascending expected spend",
+      "milliseconds": 43,
+      "status": 200
+    },
+    {
+      "label": "Descending expected spend",
+      "milliseconds": 48,
+      "status": 200
+    },
+    {
+      "label": "Sort days_since_last_purchase",
+      "milliseconds": 50,
+      "status": 200
+    },
+    {
+      "label": "Sort number_of_purchases",
+      "milliseconds": 50,
+      "status": 200
+    },
+    {
+      "label": "Sort customer_age_days",
+      "milliseconds": 50,
+      "status": 200
+    },
+    {
+      "label": "Sort probability_of_buying_90d",
+      "milliseconds": 49,
+      "status": 200
+    },
+    {
+      "label": "Restore customer order",
+      "milliseconds": 49,
+      "status": 200
+    },
+    {
+      "label": "Budget slider",
+      "milliseconds": 371,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912275,
+        "bound_pence": 912351,
+        "optimality_gap": 8.330821298402345e-05,
+        "lp_bound_pence": 912351.544359576,
+        "integer_variables": 0,
+        "seconds": 0.0856172920030076
+      }
+    },
+    {
+      "label": "Zero coupon limit",
+      "milliseconds": 523,
+      "status": 200,
+      "cache_hit": false,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "OPTIMAL_BOUND_CERTIFICATE",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": true,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 799781,
+        "bound_pence": 799781,
+        "optimality_gap": 0,
+        "lp_bound_pence": 799781,
+        "integer_variables": 0,
+        "seconds": 0.059910750002018176
+      }
+    },
+    {
+      "label": "Maximum coupons",
+      "milliseconds": 368,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912275,
+        "bound_pence": 912351,
+        "optimality_gap": 8.330821298402345e-05,
+        "lp_bound_pence": 912351.544359576,
+        "integer_variables": 0,
+        "seconds": 0.0834731670038309
+      }
+    },
+    {
+      "label": "m assumption",
+      "milliseconds": 370,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 984302,
+        "bound_pence": 984383,
+        "optimality_gap": 8.229181694236119e-05,
+        "lp_bound_pence": 984383.876233168,
+        "integer_variables": 0,
+        "seconds": 0.07330516600632109
+      }
+    },
+    {
+      "label": "tau_e assumption",
+      "milliseconds": 368,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 1405562,
+        "bound_pence": 1405570,
+        "optimality_gap": 5.69167350853253e-06,
+        "lp_bound_pence": 1405570.133630756,
+        "integer_variables": 0,
+        "seconds": 0.08226450000074692
+      }
+    },
+    {
+      "label": "tau_c assumption",
+      "milliseconds": 371,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 1450514,
+        "bound_pence": 1450535,
+        "optimality_gap": 1.4477626551691332e-05,
+        "lp_bound_pence": 1450535.300092732,
+        "integer_variables": 0,
+        "seconds": 0.09272375000000466
+      }
+    },
+    {
+      "label": "f_e assumption",
+      "milliseconds": 370,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 1440310,
+        "bound_pence": 1440315,
+        "optimality_gap": 3.471474890822115e-06,
+        "lp_bound_pence": 1440315.04949736,
+        "integer_variables": 0,
+        "seconds": 0.09373200099798851
+      }
+    },
+    {
+      "label": "f_c assumption",
+      "milliseconds": 370,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 1436267,
+        "bound_pence": 1436374,
+        "optimality_gap": 7.449868304430862e-05,
+        "lp_bound_pence": 1436374.014402716,
+        "integer_variables": 0,
+        "seconds": 0.09370883299561683
+      }
+    },
+    {
+      "label": "d assumption",
+      "milliseconds": 372,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 1399708,
+        "bound_pence": 1399745,
+        "optimality_gap": 2.6434084823406025e-05,
+        "lp_bound_pence": 1399745.625191333,
+        "integer_variables": 0,
+        "seconds": 0.08443374998751096
+      }
+    },
+    {
+      "label": "Reset campaign",
+      "milliseconds": 399,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912266,
+        "bound_pence": 912296,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 0,
+        "seconds": 0.054260249991784804
+      }
+    },
+    {
+      "label": "Campaign model in evidence",
+      "milliseconds": 373,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 733731,
+        "bound_pence": 733733,
+        "optimality_gap": 2.725794603199265e-06,
+        "lp_bound_pence": 733733.807017556,
+        "integer_variables": 0,
+        "seconds": 0.07023529199068435
+      }
+    },
+    {
+      "label": "Optional extra investment",
+      "milliseconds": 387,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 733731,
+        "bound_pence": 733733,
+        "optimality_gap": 2.725794603199265e-06,
+        "lp_bound_pence": 733733.807017556,
+        "integer_variables": 0,
+        "seconds": 0.06507762499677483
+      }
+    },
+    {
+      "label": "Restore default campaign",
+      "milliseconds": 388,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912266,
+        "bound_pence": 912296,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 0,
+        "seconds": 0.054260249991784804
+      }
+    },
+    {
+      "label": "Recover campaign failure",
+      "milliseconds": 384,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912266,
+        "bound_pence": 912296,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 0,
+        "seconds": 0.054260249991784804
+      }
+    },
+    {
+      "label": "Recover product failure",
+      "milliseconds": 10,
+      "status": 200
+    },
+    {
+      "label": "Restore customer search after loading",
+      "milliseconds": 270,
+      "status": 200
+    }
+  ],
+  "sensitivity_points": 15,
+  "campaign_error_recovery": true,
+  "product_error_recovery": true,
+  "loading_state_verified": true,
+  "startup_retry_passed": true,
+  "localhost_origin_passed": true
+}

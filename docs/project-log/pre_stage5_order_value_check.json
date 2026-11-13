@@ -1,0 +1,74 @@
+{
+  "model": "bgnbd",
+  "run": "A",
+  "B": 1682.0,
+  "K": 300,
+  "counts": {
+    "none": 71,
+    "email": 5039,
+    "coupon": 144
+  },
+  "backtest": {
+    "label": "What was at stake, not campaign effect",
+    "selected_realized_spend": 2347028.3,
+    "total_eligible_realized_spend": 2805561.2600000002,
+    "share": 0.8365628416183647,
+    "coverage_note": "Contacted customers cover almost every customer",
+    "groups": {
+      "coupon": {
+        "customers": 144,
+        "mean_predicted_pi": 0.054195428661674774,
+        "observed_purchase_rate": 0.09722222222222222,
+        "mean_realized_spend": 37.828125,
+        "buyers": 14,
+        "mean_predicted_order_value": 466.28970449948804,
+        "mean_predicted_order_value_buyers": 404.02666819287697,
+        "mean_realized_order_value_buyers": 304.8883333333333
+      },
+      "email_only": {
+        "customers": 5039,
+        "mean_predicted_pi": 0.3494906993443297,
+        "observed_purchase_rate": 0.43699146656082555,
+        "mean_realized_spend": 464.6916153998809,
+        "buyers": 2202,
+        "mean_predicted_order_value": 386.72876845643003,
+        "mean_predicted_order_value_buyers": 409.6947406583859,
+        "mean_realized_order_value_buyers": 463.0111245112996
+      },
+      "none": {
+        "customers": 71,
+        "mean_predicted_pi": 0.9778920010733522,
+        "observed_purchase_rate": 0.9859154929577465,
+        "mean_realized_spend": 6458.210704225352,
+        "buyers": 70,
+        "mean_predicted_order_value": 424.4195507414188,
+        "mean_predicted_order_value_buyers": 429.839056365199,
+        "mean_realized_order_value_buyers": 614.2749909859862
+      },
+      "all_eligible": {
+        "customers": 5254,
+        "mean_predicted_pi": 0.34988924777304276,
+        "observed_purchase_rate": 0.4350970688998858,
+        "mean_realized_spend": 533.9857746478874,
+        "buyers": 2286,
+        "mean_predicted_order_value": 389.41868477398515,
+        "mean_predicted_order_value_buyers": 410.27687061681104,
+        "mean_realized_order_value_buyers": 466.6746203891371
+      }
+    }
+  },
+  "solver": {
+    "solver": "OR-Tools CP-SAT",
+    "status": "OPTIMAL",
+    "native_status": "OPTIMAL",
+    "requested_relative_gap": 0.0,
+    "optimality_proven": true,
+    "cp_sat_bound_pence": 861272.0,
+    "objective_pence": 861272,
+    "bound_pence": 861272.0,
+    "optimality_gap": 0.0,
+    "lp_bound_pence": 861276.052860928,
+    "integer_variables": 5253,
+    "seconds": 0.1201500839961227
+  }
+}

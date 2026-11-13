@@ -1,0 +1,31 @@
+# Local configuration and data (never commit)
+.env
+.env.*
+!.env.example
+data/raw/
+notebooks/
+docker-compose.override.yml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-*/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Node / browser tooling
+node_modules/
+.playwright-cli/
+playwright-report/
+test-results/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~

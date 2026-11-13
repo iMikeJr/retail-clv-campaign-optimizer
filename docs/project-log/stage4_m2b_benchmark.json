@@ -1,0 +1,2382 @@
+{
+  "A": {
+    "exact": {
+      "counts": {
+        "none": 71,
+        "email": 5039,
+        "coupon": 144
+      },
+      "cost": 1681.2711850489427,
+      "net_value": 8612.630662872185,
+      "roi": 5.1226897477705045,
+      "cost_pence": 168197,
+      "net_value_pence": 861272,
+      "cost_rounding_difference": 0.6988149510573294,
+      "net_rounding_difference": 0.08933712781436043,
+      "backtest": {
+        "label": "What was at stake, not campaign effect",
+        "selected_realized_spend": 2347028.3,
+        "total_eligible_realized_spend": 2805561.2600000002,
+        "share": 0.8365628416183647,
+        "coverage_note": "Contacted customers cover almost every customer",
+        "groups": {
+          "coupon": {
+            "customers": 144,
+            "mean_predicted_pi": 0.054195428661674774,
+            "observed_purchase_rate": 0.09722222222222222,
+            "mean_realized_spend": 37.828125
+          },
+          "email_only": {
+            "customers": 5039,
+            "mean_predicted_pi": 0.3494906993443297,
+            "observed_purchase_rate": 0.43699146656082555,
+            "mean_realized_spend": 464.6916153998809
+          },
+          "none": {
+            "customers": 71,
+            "mean_predicted_pi": 0.9778920010733522,
+            "observed_purchase_rate": 0.9859154929577465,
+            "mean_realized_spend": 6458.210704225352
+          },
+          "all_eligible": {
+            "customers": 5254,
+            "mean_predicted_pi": 0.34988924777304276,
+            "observed_purchase_rate": 0.4350970688998858,
+            "mean_realized_spend": 533.9857746478874
+          }
+        }
+      },
+      "by_action": {
+        "none": {
+          "customers": 71,
+          "cost": 0.0,
+          "net_value": 0.0
+        },
+        "email": {
+          "customers": 5039,
+          "cost": 251.95000000000002,
+          "net_value": 7167.642728056824
+        },
+        "coupon": {
+          "customers": 144,
+          "cost": 1429.3211850489427,
+          "net_value": 1444.987934815361
+        }
+      },
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "OPTIMAL",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.0,
+        "optimality_proven": true,
+        "objective_pence": 861272,
+        "bound_pence": 861272.0,
+        "optimality_gap": 0.0,
+        "lp_bound_pence": 861276.052860928,
+        "integer_variables": 5253,
+        "seconds": 0.1421418760000961
+      },
+      "B": 1682,
+      "K": 300,
+      "assumptions": {
+        "m": 0.3,
+        "tau_e": 0.02,
+        "tau_c": 0.15,
+        "f_e": 0.05,
+        "f_c": 1.0,
+        "d": 0.1
+      },
+      "baseline": {
+        "counts": {
+          "none": 5246,
+          "email": 0,
+          "coupon": 8
+        },
+        "cost": 1681.4566958183755,
+        "net_value": -1654.6022741547474,
+        "roi": -0.9840290732848413,
+        "cost_pence": 168149,
+        "net_value_pence": -165461,
+        "cost_rounding_difference": 0.03330418162454407,
+        "net_rounding_difference": -0.007725845252480212,
+        "backtest": {
+          "label": "What was at stake, not campaign effect",
+          "selected_realized_spend": 436816.05000000005,
+          "total_eligible_realized_spend": 2805561.2600000002,
+          "share": 0.15569649332839733,
+          "coverage_note": "Contacted subset of eligible customers",
+          "groups": {
+            "coupon": {
+              "customers": 8,
+              "mean_predicted_pi": 0.9649633871331988,
+              "observed_purchase_rate": 1.0,
+              "mean_realized_spend": 54602.006250000006
+            },
+            "email_only": {
+              "customers": 0,
+              "mean_predicted_pi": null,
+              "observed_purchase_rate": null,
+              "mean_realized_spend": null
+            },
+            "none": {
+              "customers": 5246,
+              "mean_predicted_pi": 0.34895127729746495,
+              "observed_purchase_rate": 0.43423560808234846,
+              "mean_realized_spend": 451.5335894014487
+            },
+            "all_eligible": {
+              "customers": 5254,
+              "mean_predicted_pi": 0.34988924777304276,
+              "observed_purchase_rate": 0.4350970688998858,
+              "mean_realized_spend": 533.9857746478874
+            }
+          }
+        },
+        "by_action": {
+          "none": {
+            "customers": 5246,
+            "cost": 0.0,
+            "net_value": 0.0
+          },
+          "email": {
+            "customers": 0,
+            "cost": 0.0,
+            "net_value": 0.0
+          },
+          "coupon": {
+            "customers": 8,
+            "cost": 1681.4566958183755,
+            "net_value": -1654.6022741547474
+          }
+        }
+      },
+      "baselines": {
+        "naive": {
+          "counts": {
+            "none": 5246,
+            "email": 0,
+            "coupon": 8
+          },
+          "cost": 1681.4566958183755,
+          "net_value": -1654.6022741547474,
+          "roi": -0.9840290732848413,
+          "cost_pence": 168149,
+          "net_value_pence": -165461,
+          "cost_rounding_difference": 0.03330418162454407,
+          "net_rounding_difference": -0.007725845252480212,
+          "backtest": {
+            "label": "What was at stake, not campaign effect",
+            "selected_realized_spend": 436816.05000000005,
+            "total_eligible_realized_spend": 2805561.2600000002,
+            "share": 0.15569649332839733,
+            "coverage_note": "Contacted subset of eligible customers",
+            "groups": {
+              "coupon": {
+                "customers": 8,
+                "mean_predicted_pi": 0.9649633871331988,
+                "observed_purchase_rate": 1.0,
+                "mean_realized_spend": 54602.006250000006
+              },
+              "email_only": {
+                "customers": 0,
+                "mean_predicted_pi": null,
+                "observed_purchase_rate": null,
+                "mean_realized_spend": null
+              },
+              "none": {
+                "customers": 5246,
+                "mean_predicted_pi": 0.34895127729746495,
+                "observed_purchase_rate": 0.43423560808234846,
+                "mean_realized_spend": 451.5335894014487
+              },
+              "all_eligible": {
+                "customers": 5254,
+                "mean_predicted_pi": 0.34988924777304276,
+                "observed_purchase_rate": 0.4350970688998858,
+                "mean_realized_spend": 533.9857746478874
+              }
+            }
+          },
+          "by_action": {
+            "none": {
+              "customers": 5246,
+              "cost": 0.0,
+              "net_value": 0.0
+            },
+            "email": {
+              "customers": 0,
+              "cost": 0.0,
+              "net_value": 0.0
+            },
+            "coupon": {
+              "customers": 8,
+              "cost": 1681.4566958183755,
+              "net_value": -1654.6022741547474
+            }
+          },
+          "feasible": true,
+          "improvement": 10267.232937026933,
+          "improvement_fraction": null
+        },
+        "email_only": {
+          "counts": {
+            "none": 51,
+            "email": 5203,
+            "coupon": 0
+          },
+          "cost": 260.15000000000003,
+          "net_value": 7543.873766309745,
+          "roi": 28.998169388082815,
+          "cost_pence": 26015,
+          "net_value_pence": 754376,
+          "cost_rounding_difference": -5.684341886080802e-14,
+          "net_rounding_difference": -0.11376630974518775,
+          "backtest": {
+            "label": "What was at stake, not campaign effect",
+            "selected_realized_spend": 2388006.7600000002,
+            "total_eligible_realized_spend": 2805561.2600000002,
+            "share": 0.8511689956825252,
+            "coverage_note": "Contacted customers cover almost every customer",
+            "groups": {
+              "coupon": {
+                "customers": 0,
+                "mean_predicted_pi": null,
+                "observed_purchase_rate": null,
+                "mean_realized_spend": null
+              },
+              "email_only": {
+                "customers": 5203,
+                "mean_predicted_pi": 0.3436509659645919,
+                "observed_purchase_rate": 0.4295598693061695,
+                "mean_realized_spend": 458.9672804151452
+              },
+              "none": {
+                "customers": 51,
+                "mean_predicted_pi": 0.9863163114861762,
+                "observed_purchase_rate": 1.0,
+                "mean_realized_spend": 8187.343137254902
+              },
+              "all_eligible": {
+                "customers": 5254,
+                "mean_predicted_pi": 0.34988924777304276,
+                "observed_purchase_rate": 0.4350970688998858,
+                "mean_realized_spend": 533.9857746478874
+              }
+            }
+          },
+          "by_action": {
+            "none": {
+              "customers": 51,
+              "cost": 0.0,
+              "net_value": 0.0
+            },
+            "email": {
+              "customers": 5203,
+              "cost": 260.15000000000003,
+              "net_value": 7543.873766309745
+            },
+            "coupon": {
+              "customers": 0,
+              "cost": 0.0,
+              "net_value": 0.0
+            }
+          },
+          "feasible": true,
+          "improvement": 1068.7568965624396,
+          "improvement_fraction": 0.14167216070547345
+        },
+        "ratio_greedy": {
+          "counts": {
+            "none": 51,
+            "email": 5058,
+            "coupon": 145
+          },
+          "cost": 1680.3517991212384,
+          "net_value": 8611.832296336694,
+          "roi": 5.125017452202784,
+          "cost_pence": 168104,
+          "net_value_pence": 861188,
+          "cost_rounding_difference": 0.6882008787615632,
+          "net_rounding_difference": 0.04770366330558318,
+          "backtest": {
+            "label": "What was at stake, not campaign effect",
+            "selected_realized_spend": 2388006.7600000002,
+            "total_eligible_realized_spend": 2805561.2600000002,
+            "share": 0.8511689956825252,
+            "coverage_note": "Contacted customers cover almost every customer",
+            "groups": {
+              "coupon": {
+                "customers": 145,
+                "mean_predicted_pi": 0.054010670257899226,
+                "observed_purchase_rate": 0.09655172413793103,
+                "mean_realized_spend": 37.567241379310346
+              },
+              "email_only": {
+                "customers": 5058,
+                "mean_predicted_pi": 0.35195421683004674,
+                "observed_purchase_rate": 0.4391063661526295,
+                "mean_realized_spend": 471.0477481217873
+              },
+              "none": {
+                "customers": 51,
+                "mean_predicted_pi": 0.9863163114861762,
+                "observed_purchase_rate": 1.0,
+                "mean_realized_spend": 8187.343137254902
+              },
+              "all_eligible": {
+                "customers": 5254,
+                "mean_predicted_pi": 0.34988924777304276,
+                "observed_purchase_rate": 0.4350970688998858,
+                "mean_realized_spend": 533.9857746478874
+              }
+            }
+          },
+          "by_action": {
+            "none": {
+              "customers": 51,
+              "cost": 0.0,
+              "net_value": 0.0
+            },
+            "email": {
+              "customers": 5058,
+              "cost": 252.9,
+              "net_value": 7168.329869517716
+            },
+            "coupon": {
+              "customers": 145,
+              "cost": 1427.4517991212383,
+              "net_value": 1443.5024268189763
+            }
+          },
+          "feasible": true,
+          "improvement": 0.7983665354913683,
+          "improvement_fraction": 9.270576899540623e-05
+        }
+      },
+      "interactive": false,
+      "improvement": 10267.232937026933,
+      "improvement_fraction": null,
+      "extra_100": {
+        "net_value": 8664.146591864373,
+        "marginal_net_value": 51.51592899218849,
+        "marginal_net_value_pence": 5151,
+        "solver": {
+          "solver": "OR-Tools CP-SAT",
+          "status": "OPTIMAL",
+          "native_status": "OPTIMAL",
+          "requested_relative_gap": 0.0,
+          "optimality_proven": true,
+          "objective_pence": 866423,
+          "bound_pence": 866423.0,
+          "optimality_gap": 0.0,
+          "lp_bound_pence": 866427.708738742,
+          "integer_variables": 5249,
+          "seconds": 0.1274775839992799
+        }
+      },
+      "top_selected": [
+        {
+          "customer_id": "13902",
+          "action": "coupon",
+          "pi": 0.013024585404014292,
+          "v": 2722.3721181333567,
+          "cost": 44.84949206510185,
+          "net_value": 76.0616536839631,
+          "cost_pence": 4485,
+          "net_value_pence": 7606,
+          "break_even": {
+            "email": {
+              "tau": 6.202902100990139e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.008459102567688238,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "12482",
+          "action": "coupon",
+          "pi": 0.014405698411700358,
+          "v": 2285.801801686517,
+          "cost": 38.08595559293923,
+          "net_value": 63.29333977067324,
+          "cost_pence": 3809,
+          "net_value_pence": 6329,
+          "break_even": {
+            "email": {
+              "tau": 7.397960276898841e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.009527515975289284,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "16754",
+          "action": "coupon",
+          "pi": 0.0011168709303381497,
+          "v": 2063.957036327528,
+          "cost": 32.15529530221691,
+          "net_value": 60.61903851983148,
+          "cost_pence": 3216,
+          "net_value_pence": 6062,
+          "break_even": {
+            "email": {
+              "tau": 8.084132422212638e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.002984299589542034,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "17850",
+          "action": "coupon",
+          "pi": 0.0012756760726873094,
+          "v": 1864.5899266915226,
+          "cost": 29.171030984535445,
+          "net_value": 54.628478142614625,
+          "cost_pence": 2918,
+          "net_value_pence": 5463,
+          "break_even": {
+            "email": {
+              "tau": 8.949933094023444e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.003323632678583098,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "15413",
+          "action": "coupon",
+          "pi": 0.002463083793498146,
+          "v": 1274.0158268974283,
+          "cost": 20.376968061012175,
+          "net_value": 36.81253380125699,
+          "cost_pence": 2038,
+          "net_value_pence": 3681,
+          "break_even": {
+            "email": {
+              "tau": 0.00013114295029291264,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.0051688712863676425,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "13093",
+          "action": "coupon",
+          "pi": 0.000623013084675181,
+          "v": 1239.581603335719,
+          "cost": 19.659367472499852,
+          "net_value": 36.08705227747946,
+          "cost_pence": 1966,
+          "net_value_pence": 3609,
+          "break_even": {
+            "email": {
+              "tau": 0.00013453778796265715,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.00434783437485432,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "14091",
+          "action": "coupon",
+          "pi": 0.08167055774141692,
+          "v": 1832.4633810371029,
+          "cost": 41.20790675700847,
+          "net_value": 34.51832160301012,
+          "cost_pence": 4121,
+          "net_value_pence": 3452,
+          "break_even": {
+            "email": {
+              "tau": 9.90409817367822e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.04743814621595702,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "17448",
+          "action": "coupon",
+          "pi": 1.0525364191168217e-05,
+          "v": 1095.5303116547968,
+          "cost": 17.433934797540527,
+          "net_value": 31.86441033842726,
+          "cost_pence": 1744,
+          "net_value_pence": 3186,
+          "break_even": {
+            "email": {
+              "tau": 0.00015213492419095513,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.004569310463216467,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "14063",
+          "action": "coupon",
+          "pi": 9.891194471385273e-05,
+          "v": 1032.5798097424624,
+          "cost": 16.497378576686515,
+          "net_value": 29.96411681025687,
+          "cost_pence": 1650,
+          "net_value_pence": 2996,
+          "break_even": {
+            "email": {
+              "tau": 0.00016142399071614153,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.00489218058611148,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "15523",
+          "action": "coupon",
+          "pi": 0.03896469960873045,
+          "v": 1141.7045046582664,
+          "cost": 21.906892280479216,
+          "net_value": 27.467932641175306,
+          "cost_pence": 2191,
+          "net_value_pence": 2747,
+          "break_even": {
+            "email": {
+              "tau": 0.00015189927279540984,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.02482923019836511,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "13935",
+          "action": "coupon",
+          "pi": 0.06385389280721294,
+          "v": 1309.5200321682696,
+          "cost": 27.750326382376556,
+          "net_value": 27.41526723586189,
+          "cost_pence": 2776,
+          "net_value_pence": 2742,
+          "break_even": {
+            "email": {
+              "tau": 0.00013595430608255804,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.03818329100641524,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "14160",
+          "action": "coupon",
+          "pi": 0.0012802110636948977,
+          "v": 723.2452263947345,
+          "cost": 11.927380451871596,
+          "net_value": 20.576988941564682,
+          "cost_pence": 1193,
+          "net_value_pence": 2058,
+          "break_even": {
+            "email": {
+              "tau": 0.0002307382096609603,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.007563072342299642,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "13564",
+          "action": "coupon",
+          "pi": 0.0014983233431483734,
+          "v": 651.4933035975924,
+          "cost": 10.855372102062121,
+          "net_value": 18.41789991671871,
+          "cost_pence": 1086,
+          "net_value_pence": 1842,
+          "break_even": {
+            "email": {
+              "tau": 0.00025620641229269595,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.008436478211146715,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "15369",
+          "action": "coupon",
+          "pi": 0.04384112927086627,
+          "v": 777.3494863916918,
+          "cost": 15.55703203820625,
+          "net_value": 17.890100279950595,
+          "cost_pence": 1556,
+          "net_value_pence": 1789,
+          "break_even": {
+            "email": {
+              "tau": 0.000224234470347361,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.02965268517792311,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "15808",
+          "action": "coupon",
+          "pi": 0.06096752920735046,
+          "v": 798.4069994006653,
+          "cost": 17.113641665711597,
+          "net_value": 16.62421271482925,
+          "cost_pence": 1712,
+          "net_value_pence": 1662,
+          "break_even": {
+            "email": {
+              "tau": 0.00022230222216875219,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.039132017150622984,
+              "attainable": true
+            }
+          }
+        }
+      ],
+      "total_seconds": 0.3641959590022452
+    },
+    "interactive": {
+      "counts": {
+        "none": 71,
+        "email": 5039,
+        "coupon": 144
+      },
+      "cost": 1681.2711850489427,
+      "net_value": 8612.630662872185,
+      "roi": 5.1226897477705045,
+      "cost_pence": 168197,
+      "net_value_pence": 861272,
+      "cost_rounding_difference": 0.6988149510573294,
+      "net_rounding_difference": 0.08933712781436043,
+      "backtest": {
+        "label": "What was at stake, not campaign effect",
+        "selected_realized_spend": 2347028.3,
+        "total_eligible_realized_spend": 2805561.2600000002,
+        "share": 0.8365628416183647,
+        "coverage_note": "Contacted customers cover almost every customer",
+        "groups": {
+          "coupon": {
+            "customers": 144,
+            "mean_predicted_pi": 0.054195428661674774,
+            "observed_purchase_rate": 0.09722222222222222,
+            "mean_realized_spend": 37.828125
+          },
+          "email_only": {
+            "customers": 5039,
+            "mean_predicted_pi": 0.3494906993443297,
+            "observed_purchase_rate": 0.43699146656082555,
+            "mean_realized_spend": 464.6916153998809
+          },
+          "none": {
+            "customers": 71,
+            "mean_predicted_pi": 0.9778920010733522,
+            "observed_purchase_rate": 0.9859154929577465,
+            "mean_realized_spend": 6458.210704225352
+          },
+          "all_eligible": {
+            "customers": 5254,
+            "mean_predicted_pi": 0.34988924777304276,
+            "observed_purchase_rate": 0.4350970688998858,
+            "mean_realized_spend": 533.9857746478874
+          }
+        }
+      },
+      "by_action": {
+        "none": {
+          "customers": 71,
+          "cost": 0.0,
+          "net_value": 0.0
+        },
+        "email": {
+          "customers": 5039,
+          "cost": 251.95000000000002,
+          "net_value": 7167.642728056824
+        },
+        "coupon": {
+          "customers": 144,
+          "cost": 1429.3211850489427,
+          "net_value": 1444.987934815361
+        }
+      },
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "objective_pence": 861272,
+        "bound_pence": 863578.0,
+        "optimality_gap": 0.0026774352353263545,
+        "lp_bound_pence": 861276.052860928,
+        "integer_variables": 5253,
+        "seconds": 0.10179295799753163
+      },
+      "B": 1682,
+      "K": 300,
+      "assumptions": {
+        "m": 0.3,
+        "tau_e": 0.02,
+        "tau_c": 0.15,
+        "f_e": 0.05,
+        "f_c": 1.0,
+        "d": 0.1
+      },
+      "baseline": {
+        "counts": {
+          "none": 5246,
+          "email": 0,
+          "coupon": 8
+        },
+        "cost": 1681.4566958183755,
+        "net_value": -1654.6022741547474,
+        "roi": -0.9840290732848413,
+        "cost_pence": 168149,
+        "net_value_pence": -165461,
+        "cost_rounding_difference": 0.03330418162454407,
+        "net_rounding_difference": -0.007725845252480212,
+        "backtest": {
+          "label": "What was at stake, not campaign effect",
+          "selected_realized_spend": 436816.05000000005,
+          "total_eligible_realized_spend": 2805561.2600000002,
+          "share": 0.15569649332839733,
+          "coverage_note": "Contacted subset of eligible customers",
+          "groups": {
+            "coupon": {
+              "customers": 8,
+              "mean_predicted_pi": 0.9649633871331988,
+              "observed_purchase_rate": 1.0,
+              "mean_realized_spend": 54602.006250000006
+            },
+            "email_only": {
+              "customers": 0,
+              "mean_predicted_pi": null,
+              "observed_purchase_rate": null,
+              "mean_realized_spend": null
+            },
+            "none": {
+              "customers": 5246,
+              "mean_predicted_pi": 0.34895127729746495,
+              "observed_purchase_rate": 0.43423560808234846,
+              "mean_realized_spend": 451.5335894014487
+            },
+            "all_eligible": {
+              "customers": 5254,
+              "mean_predicted_pi": 0.34988924777304276,
+              "observed_purchase_rate": 0.4350970688998858,
+              "mean_realized_spend": 533.9857746478874
+            }
+          }
+        },
+        "by_action": {
+          "none": {
+            "customers": 5246,
+            "cost": 0.0,
+            "net_value": 0.0
+          },
+          "email": {
+            "customers": 0,
+            "cost": 0.0,
+            "net_value": 0.0
+          },
+          "coupon": {
+            "customers": 8,
+            "cost": 1681.4566958183755,
+            "net_value": -1654.6022741547474
+          }
+        }
+      },
+      "baselines": {
+        "naive": {
+          "counts": {
+            "none": 5246,
+            "email": 0,
+            "coupon": 8
+          },
+          "cost": 1681.4566958183755,
+          "net_value": -1654.6022741547474,
+          "roi": -0.9840290732848413,
+          "cost_pence": 168149,
+          "net_value_pence": -165461,
+          "cost_rounding_difference": 0.03330418162454407,
+          "net_rounding_difference": -0.007725845252480212,
+          "backtest": {
+            "label": "What was at stake, not campaign effect",
+            "selected_realized_spend": 436816.05000000005,
+            "total_eligible_realized_spend": 2805561.2600000002,
+            "share": 0.15569649332839733,
+            "coverage_note": "Contacted subset of eligible customers",
+            "groups": {
+              "coupon": {
+                "customers": 8,
+                "mean_predicted_pi": 0.9649633871331988,
+                "observed_purchase_rate": 1.0,
+                "mean_realized_spend": 54602.006250000006
+              },
+              "email_only": {
+                "customers": 0,
+                "mean_predicted_pi": null,
+                "observed_purchase_rate": null,
+                "mean_realized_spend": null
+              },
+              "none": {
+                "customers": 5246,
+                "mean_predicted_pi": 0.34895127729746495,
+                "observed_purchase_rate": 0.43423560808234846,
+                "mean_realized_spend": 451.5335894014487
+              },
+              "all_eligible": {
+                "customers": 5254,
+                "mean_predicted_pi": 0.34988924777304276,
+                "observed_purchase_rate": 0.4350970688998858,
+                "mean_realized_spend": 533.9857746478874
+              }
+            }
+          },
+          "by_action": {
+            "none": {
+              "customers": 5246,
+              "cost": 0.0,
+              "net_value": 0.0
+            },
+            "email": {
+              "customers": 0,
+              "cost": 0.0,
+              "net_value": 0.0
+            },
+            "coupon": {
+              "customers": 8,
+              "cost": 1681.4566958183755,
+              "net_value": -1654.6022741547474
+            }
+          },
+          "feasible": true,
+          "improvement": 10267.232937026933,
+          "improvement_fraction": null
+        },
+        "email_only": {
+          "counts": {
+            "none": 51,
+            "email": 5203,
+            "coupon": 0
+          },
+          "cost": 260.15000000000003,
+          "net_value": 7543.873766309745,
+          "roi": 28.998169388082815,
+          "cost_pence": 26015,
+          "net_value_pence": 754376,
+          "cost_rounding_difference": -5.684341886080802e-14,
+          "net_rounding_difference": -0.11376630974518775,
+          "backtest": {
+            "label": "What was at stake, not campaign effect",
+            "selected_realized_spend": 2388006.7600000002,
+            "total_eligible_realized_spend": 2805561.2600000002,
+            "share": 0.8511689956825252,
+            "coverage_note": "Contacted customers cover almost every customer",
+            "groups": {
+              "coupon": {
+                "customers": 0,
+                "mean_predicted_pi": null,
+                "observed_purchase_rate": null,
+                "mean_realized_spend": null
+              },
+              "email_only": {
+                "customers": 5203,
+                "mean_predicted_pi": 0.3436509659645919,
+                "observed_purchase_rate": 0.4295598693061695,
+                "mean_realized_spend": 458.9672804151452
+              },
+              "none": {
+                "customers": 51,
+                "mean_predicted_pi": 0.9863163114861762,
+                "observed_purchase_rate": 1.0,
+                "mean_realized_spend": 8187.343137254902
+              },
+              "all_eligible": {
+                "customers": 5254,
+                "mean_predicted_pi": 0.34988924777304276,
+                "observed_purchase_rate": 0.4350970688998858,
+                "mean_realized_spend": 533.9857746478874
+              }
+            }
+          },
+          "by_action": {
+            "none": {
+              "customers": 51,
+              "cost": 0.0,
+              "net_value": 0.0
+            },
+            "email": {
+              "customers": 5203,
+              "cost": 260.15000000000003,
+              "net_value": 7543.873766309745
+            },
+            "coupon": {
+              "customers": 0,
+              "cost": 0.0,
+              "net_value": 0.0
+            }
+          },
+          "feasible": true,
+          "improvement": 1068.7568965624396,
+          "improvement_fraction": 0.14167216070547345
+        },
+        "ratio_greedy": {
+          "counts": {
+            "none": 51,
+            "email": 5058,
+            "coupon": 145
+          },
+          "cost": 1680.3517991212384,
+          "net_value": 8611.832296336694,
+          "roi": 5.125017452202784,
+          "cost_pence": 168104,
+          "net_value_pence": 861188,
+          "cost_rounding_difference": 0.6882008787615632,
+          "net_rounding_difference": 0.04770366330558318,
+          "backtest": {
+            "label": "What was at stake, not campaign effect",
+            "selected_realized_spend": 2388006.7600000002,
+            "total_eligible_realized_spend": 2805561.2600000002,
+            "share": 0.8511689956825252,
+            "coverage_note": "Contacted customers cover almost every customer",
+            "groups": {
+              "coupon": {
+                "customers": 145,
+                "mean_predicted_pi": 0.054010670257899226,
+                "observed_purchase_rate": 0.09655172413793103,
+                "mean_realized_spend": 37.567241379310346
+              },
+              "email_only": {
+                "customers": 5058,
+                "mean_predicted_pi": 0.35195421683004674,
+                "observed_purchase_rate": 0.4391063661526295,
+                "mean_realized_spend": 471.0477481217873
+              },
+              "none": {
+                "customers": 51,
+                "mean_predicted_pi": 0.9863163114861762,
+                "observed_purchase_rate": 1.0,
+                "mean_realized_spend": 8187.343137254902
+              },
+              "all_eligible": {
+                "customers": 5254,
+                "mean_predicted_pi": 0.34988924777304276,
+                "observed_purchase_rate": 0.4350970688998858,
+                "mean_realized_spend": 533.9857746478874
+              }
+            }
+          },
+          "by_action": {
+            "none": {
+              "customers": 51,
+              "cost": 0.0,
+              "net_value": 0.0
+            },
+            "email": {
+              "customers": 5058,
+              "cost": 252.9,
+              "net_value": 7168.329869517716
+            },
+            "coupon": {
+              "customers": 145,
+              "cost": 1427.4517991212383,
+              "net_value": 1443.5024268189763
+            }
+          },
+          "feasible": true,
+          "improvement": 0.7983665354913683,
+          "improvement_fraction": 9.270576899540623e-05
+        }
+      },
+      "interactive": true,
+      "improvement": 10267.232937026933,
+      "improvement_fraction": null,
+      "extra_100": null,
+      "top_selected": [
+        {
+          "customer_id": "13902",
+          "action": "coupon",
+          "pi": 0.013024585404014292,
+          "v": 2722.3721181333567,
+          "cost": 44.84949206510185,
+          "net_value": 76.0616536839631,
+          "cost_pence": 4485,
+          "net_value_pence": 7606,
+          "break_even": {
+            "email": {
+              "tau": 6.202902100990139e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.008459102567688238,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "12482",
+          "action": "coupon",
+          "pi": 0.014405698411700358,
+          "v": 2285.801801686517,
+          "cost": 38.08595559293923,
+          "net_value": 63.29333977067324,
+          "cost_pence": 3809,
+          "net_value_pence": 6329,
+          "break_even": {
+            "email": {
+              "tau": 7.397960276898841e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.009527515975289284,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "16754",
+          "action": "coupon",
+          "pi": 0.0011168709303381497,
+          "v": 2063.957036327528,
+          "cost": 32.15529530221691,
+          "net_value": 60.61903851983148,
+          "cost_pence": 3216,
+          "net_value_pence": 6062,
+          "break_even": {
+            "email": {
+              "tau": 8.084132422212638e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.002984299589542034,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "17850",
+          "action": "coupon",
+          "pi": 0.0012756760726873094,
+          "v": 1864.5899266915226,
+          "cost": 29.171030984535445,
+          "net_value": 54.628478142614625,
+          "cost_pence": 2918,
+          "net_value_pence": 5463,
+          "break_even": {
+            "email": {
+              "tau": 8.949933094023444e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.003323632678583098,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "15413",
+          "action": "coupon",
+          "pi": 0.002463083793498146,
+          "v": 1274.0158268974283,
+          "cost": 20.376968061012175,
+          "net_value": 36.81253380125699,
+          "cost_pence": 2038,
+          "net_value_pence": 3681,
+          "break_even": {
+            "email": {
+              "tau": 0.00013114295029291264,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.0051688712863676425,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "13093",
+          "action": "coupon",
+          "pi": 0.000623013084675181,
+          "v": 1239.581603335719,
+          "cost": 19.659367472499852,
+          "net_value": 36.08705227747946,
+          "cost_pence": 1966,
+          "net_value_pence": 3609,
+          "break_even": {
+            "email": {
+              "tau": 0.00013453778796265715,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.00434783437485432,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "14091",
+          "action": "coupon",
+          "pi": 0.08167055774141692,
+          "v": 1832.4633810371029,
+          "cost": 41.20790675700847,
+          "net_value": 34.51832160301012,
+          "cost_pence": 4121,
+          "net_value_pence": 3452,
+          "break_even": {
+            "email": {
+              "tau": 9.90409817367822e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.04743814621595702,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "17448",
+          "action": "coupon",
+          "pi": 1.0525364191168217e-05,
+          "v": 1095.5303116547968,
+          "cost": 17.433934797540527,
+          "net_value": 31.86441033842726,
+          "cost_pence": 1744,
+          "net_value_pence": 3186,
+          "break_even": {
+            "email": {
+              "tau": 0.00015213492419095513,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.004569310463216467,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "14063",
+          "action": "coupon",
+          "pi": 9.891194471385273e-05,
+          "v": 1032.5798097424624,
+          "cost": 16.497378576686515,
+          "net_value": 29.96411681025687,
+          "cost_pence": 1650,
+          "net_value_pence": 2996,
+          "break_even": {
+            "email": {
+              "tau": 0.00016142399071614153,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.00489218058611148,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "15523",
+          "action": "coupon",
+          "pi": 0.03896469960873045,
+          "v": 1141.7045046582664,
+          "cost": 21.906892280479216,
+          "net_value": 27.467932641175306,
+          "cost_pence": 2191,
+          "net_value_pence": 2747,
+          "break_even": {
+            "email": {
+              "tau": 0.00015189927279540984,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.02482923019836511,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "13935",
+          "action": "coupon",
+          "pi": 0.06385389280721294,
+          "v": 1309.5200321682696,
+          "cost": 27.750326382376556,
+          "net_value": 27.41526723586189,
+          "cost_pence": 2776,
+          "net_value_pence": 2742,
+          "break_even": {
+            "email": {
+              "tau": 0.00013595430608255804,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.03818329100641524,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "14160",
+          "action": "coupon",
+          "pi": 0.0012802110636948977,
+          "v": 723.2452263947345,
+          "cost": 11.927380451871596,
+          "net_value": 20.576988941564682,
+          "cost_pence": 1193,
+          "net_value_pence": 2058,
+          "break_even": {
+            "email": {
+              "tau": 0.0002307382096609603,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.007563072342299642,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "13564",
+          "action": "coupon",
+          "pi": 0.0014983233431483734,
+          "v": 651.4933035975924,
+          "cost": 10.855372102062121,
+          "net_value": 18.41789991671871,
+          "cost_pence": 1086,
+          "net_value_pence": 1842,
+          "break_even": {
+            "email": {
+              "tau": 0.00025620641229269595,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.008436478211146715,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "15369",
+          "action": "coupon",
+          "pi": 0.04384112927086627,
+          "v": 777.3494863916918,
+          "cost": 15.55703203820625,
+          "net_value": 17.890100279950595,
+          "cost_pence": 1556,
+          "net_value_pence": 1789,
+          "break_even": {
+            "email": {
+              "tau": 0.000224234470347361,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.02965268517792311,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "15808",
+          "action": "coupon",
+          "pi": 0.06096752920735046,
+          "v": 798.4069994006653,
+          "cost": 17.113641665711597,
+          "net_value": 16.62421271482925,
+          "cost_pence": 1712,
+          "net_value_pence": 1662,
+          "break_even": {
+            "email": {
+              "tau": 0.00022230222216875219,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.039132017150622984,
+              "attainable": true
+            }
+          }
+        }
+      ],
+      "total_seconds": 0.1751637510024011
+    },
+    "interactive_seconds": [
+      0.19308675000502262,
+      0.20312245799868833,
+      0.17187129199737683,
+      0.17006708298868034,
+      0.1565393749915529,
+      0.1751637510024011
+    ],
+    "median_seconds": 0.17351752149988897
+  },
+  "PROD": {
+    "exact": {
+      "counts": {
+        "none": 106,
+        "email": 5598,
+        "coupon": 147
+      },
+      "cost": 1681.2862096120766,
+      "net_value": 9122.742858723526,
+      "roi": 5.42604989356834,
+      "cost_pence": 168199,
+      "net_value_pence": 912286,
+      "cost_rounding_difference": 0.7037903879233909,
+      "net_rounding_difference": 0.1171412764742854,
+      "backtest": null,
+      "by_action": {
+        "none": {
+          "customers": 106,
+          "cost": 0.0,
+          "net_value": 0.0
+        },
+        "email": {
+          "customers": 5598,
+          "cost": 279.90000000000003,
+          "net_value": 7617.156053744549
+        },
+        "coupon": {
+          "customers": 147,
+          "cost": 1401.3862096120765,
+          "net_value": 1505.5868049789779
+        }
+      },
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "OPTIMAL",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.0,
+        "optimality_proven": true,
+        "objective_pence": 912286,
+        "bound_pence": 912286.0,
+        "optimality_gap": 0.0,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 5927,
+        "seconds": 1.8160362510097912
+      },
+      "B": 1682,
+      "K": 300,
+      "assumptions": {
+        "m": 0.3,
+        "tau_e": 0.02,
+        "tau_c": 0.15,
+        "f_e": 0.05,
+        "f_c": 1.0,
+        "d": 0.1
+      },
+      "baseline": {
+        "counts": {
+          "none": 5843,
+          "email": 0,
+          "coupon": 8
+        },
+        "cost": 1681.7454453380374,
+        "net_value": -1673.690890758261,
+        "roi": -0.9952105982495125,
+        "cost_pence": 168179,
+        "net_value_pence": -167370,
+        "cost_rounding_difference": 0.044554661962592945,
+        "net_rounding_difference": -0.009109241738997298,
+        "backtest": null,
+        "by_action": {
+          "none": {
+            "customers": 5843,
+            "cost": 0.0,
+            "net_value": 0.0
+          },
+          "email": {
+            "customers": 0,
+            "cost": 0.0,
+            "net_value": 0.0
+          },
+          "coupon": {
+            "customers": 8,
+            "cost": 1681.7454453380374,
+            "net_value": -1673.690890758261
+          }
+        }
+      },
+      "baselines": {
+        "naive": {
+          "counts": {
+            "none": 5843,
+            "email": 0,
+            "coupon": 8
+          },
+          "cost": 1681.7454453380374,
+          "net_value": -1673.690890758261,
+          "roi": -0.9952105982495125,
+          "cost_pence": 168179,
+          "net_value_pence": -167370,
+          "cost_rounding_difference": 0.044554661962592945,
+          "net_rounding_difference": -0.009109241738997298,
+          "backtest": null,
+          "by_action": {
+            "none": {
+              "customers": 5843,
+              "cost": 0.0,
+              "net_value": 0.0
+            },
+            "email": {
+              "customers": 0,
+              "cost": 0.0,
+              "net_value": 0.0
+            },
+            "coupon": {
+              "customers": 8,
+              "cost": 1681.7454453380374,
+              "net_value": -1673.690890758261
+            }
+          },
+          "feasible": true,
+          "improvement": 10796.433749481788,
+          "improvement_fraction": null
+        },
+        "email_only": {
+          "counts": {
+            "none": 73,
+            "email": 5778,
+            "coupon": 0
+          },
+          "cost": 288.90000000000003,
+          "net_value": 7997.767262620537,
+          "roi": 27.683514235446644,
+          "cost_pence": 28890,
+          "net_value_pence": 799781,
+          "cost_rounding_difference": -5.684341886080802e-14,
+          "net_rounding_difference": 0.04273737946368783,
+          "backtest": null,
+          "by_action": {
+            "none": {
+              "customers": 73,
+              "cost": 0.0,
+              "net_value": 0.0
+            },
+            "email": {
+              "customers": 5778,
+              "cost": 288.90000000000003,
+              "net_value": 7997.767262620537
+            },
+            "coupon": {
+              "customers": 0,
+              "cost": 0.0,
+              "net_value": 0.0
+            }
+          },
+          "feasible": true,
+          "improvement": 1124.9755961029896,
+          "improvement_fraction": 0.14066120695469972
+        },
+        "ratio_greedy": {
+          "counts": {
+            "none": 73,
+            "email": 5631,
+            "coupon": 147
+          },
+          "cost": 1680.6964058642623,
+          "net_value": 9122.003019999462,
+          "roi": 5.427513849717949,
+          "cost_pence": 168142,
+          "net_value_pence": 912209,
+          "cost_rounding_difference": 0.7235941357378124,
+          "net_rounding_difference": 0.08698000053846044,
+          "backtest": null,
+          "by_action": {
+            "none": {
+              "customers": 73,
+              "cost": 0.0,
+              "net_value": 0.0
+            },
+            "email": {
+              "customers": 5631,
+              "cost": 281.55,
+              "net_value": 7618.035391352354
+            },
+            "coupon": {
+              "customers": 147,
+              "cost": 1399.1464058642623,
+              "net_value": 1503.9676286471079
+            }
+          },
+          "feasible": true,
+          "improvement": 0.7398387240646116,
+          "improvement_fraction": 8.110485410304712e-05
+        }
+      },
+      "interactive": false,
+      "improvement": 10796.433749481788,
+      "improvement_fraction": null,
+      "extra_100": {
+        "net_value": 9177.943442540887,
+        "marginal_net_value": 55.200583817360894,
+        "marginal_net_value_pence": 5517,
+        "solver": {
+          "solver": "OR-Tools CP-SAT",
+          "status": "OPTIMAL",
+          "native_status": "OPTIMAL",
+          "requested_relative_gap": 0.0,
+          "optimality_proven": true,
+          "objective_pence": 917803,
+          "bound_pence": 917803.0,
+          "optimality_gap": 0.0,
+          "lp_bound_pence": 917813.488500109,
+          "integer_variables": 5967,
+          "seconds": 1.1818771249963902
+        }
+      },
+      "top_selected": [
+        {
+          "customer_id": "13902",
+          "action": "coupon",
+          "pi": 0.009980835956907977,
+          "v": 2751.729661465119,
+          "cost": 44.6104327216283,
+          "net_value": 77.9814967386042,
+          "cost_pence": 4462,
+          "net_value_pence": 7798,
+          "break_even": {
+            "email": {
+              "tau": 6.117857866355647e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.006876086024262906,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "12482",
+          "action": "coupon",
+          "pi": 0.010360887442639494,
+          "v": 2302.6022340189143,
+          "cost": 37.56687872889013,
+          "net_value": 64.97665668622818,
+          "cost_pence": 3757,
+          "net_value_pence": 6498,
+          "break_even": {
+            "email": {
+              "tau": 7.313966667560646e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.007428869648218632,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "16754",
+          "action": "coupon",
+          "pi": 0.00013173458060100702,
+          "v": 2078.05656540935,
+          "cost": 32.19411739349954,
+          "net_value": 61.306109213966266,
+          "cost_pence": 3220,
+          "net_value_pence": 6131,
+          "break_even": {
+            "email": {
+              "tau": 8.021370933662679e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.0024722872485423816,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "17850",
+          "action": "coupon",
+          "pi": 0.0001292144465962611,
+          "v": 1876.6562315991214,
+          "cost": 29.170455217182308,
+          "net_value": 55.268163105439356,
+          "cost_pence": 2918,
+          "net_value_pence": 5527,
+          "break_even": {
+            "email": {
+              "tau": 8.882191761291174e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.002729273100950933,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "15413",
+          "action": "coupon",
+          "pi": 0.0018912019571120378,
+          "v": 1266.8740629252977,
+          "cost": 20.206763693993064,
+          "net_value": 36.69475297582049,
+          "cost_pence": 2021,
+          "net_value_pence": 3669,
+          "break_even": {
+            "email": {
+              "tau": 0.00013180668001383478,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.004901593089879532,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "13093",
+          "action": "coupon",
+          "pi": 5.982926128950812e-06,
+          "v": 1238.739644362505,
+          "cost": 19.581724624899316,
+          "net_value": 36.16122586346307,
+          "cost_pence": 1959,
+          "net_value_pence": 3616,
+          "break_even": {
+            "email": {
+              "tau": 0.00013454616116105651,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.004039376315793981,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "14091",
+          "action": "coupon",
+          "pi": 0.07825408404905888,
+          "v": 1842.5074074672016,
+          "cost": 40.893228121628944,
+          "net_value": 35.53133738577228,
+          "cost_pence": 4090,
+          "net_value_pence": 3553,
+          "break_even": {
+            "email": {
+              "tau": 9.813598481333431e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.0453929164173718,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "17448",
+          "action": "coupon",
+          "pi": 2.745978822275482e-06,
+          "v": 1093.2793279587518,
+          "cost": 17.399445099741197,
+          "net_value": 31.797989562917966,
+          "cost_pence": 1740,
+          "net_value_pence": 3180,
+          "break_even": {
+            "email": {
+              "tau": 0.00015244697312830616,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.004574782187030533,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "14063",
+          "action": "coupon",
+          "pi": 6.105134147520688e-05,
+          "v": 1028.8717775578111,
+          "cost": 16.43841585355637,
+          "net_value": 29.857987506444957,
+          "cost_pence": 1644,
+          "net_value_pence": 2986,
+          "break_even": {
+            "email": {
+              "tau": 0.0001619996253635497,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.004890516295391028,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "13935",
+          "action": "coupon",
+          "pi": 0.05708129252930115,
+          "v": 1297.6013637904052,
+          "cost": 26.759865314655997,
+          "net_value": 28.299101719429927,
+          "cost_pence": 2676,
+          "net_value_pence": 2830,
+          "break_even": {
+            "email": {
+              "tau": 0.00013621759368200454,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.034354933812509335,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "15808",
+          "action": "coupon",
+          "pi": 0.008389050401613961,
+          "v": 797.6276383787126,
+          "cost": 13.533178344787434,
+          "net_value": 22.058955151551064,
+          "cost_pence": 1354,
+          "net_value_pence": 2206,
+          "break_even": {
+            "email": {
+              "tau": 0.00021072072009315079,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.010551632578879259,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "14134",
+          "action": "coupon",
+          "pi": 0.058762518720261975,
+          "v": 969.5113609968115,
+          "cost": 20.385199422459127,
+          "net_value": 20.679119994893707,
+          "cost_pence": 2039,
+          "net_value_pence": 2068,
+          "break_even": {
+            "email": {
+              "tau": 0.00018264030931024446,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.03669477383606855,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "14160",
+          "action": "coupon",
+          "pi": 0.0007636462448480188,
+          "v": 721.4381190836722,
+          "cost": 11.86840028465,
+          "net_value": 20.57152351614146,
+          "cost_pence": 1187,
+          "net_value_pence": 2057,
+          "break_even": {
+            "email": {
+              "tau": 0.00023119659731805586,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.007318012842591774,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "15369",
+          "action": "coupon",
+          "pi": 0.025301085920863206,
+          "v": 775.466915138011,
+          "cost": 14.299716906209117,
+          "net_value": 19.71338729781017,
+          "cost_pence": 1430,
+          "net_value_pence": 1971,
+          "break_even": {
+            "email": {
+              "tau": 0.00022050324942448902,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.019594021310082338,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "13564",
+          "action": "coupon",
+          "pi": 0.00012155577018668821,
+          "v": 651.098163408388,
+          "cost": 10.77319975391704,
+          "net_value": 18.522656086218007,
+          "cost_pence": 1078,
+          "net_value_pence": 1852,
+          "break_even": {
+            "email": {
+              "tau": 0.00025600890586459916,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.007741052449832102,
+              "attainable": true
+            }
+          }
+        }
+      ],
+      "total_seconds": 3.0708847509959014
+    },
+    "interactive": {
+      "counts": {
+        "none": 88,
+        "email": 5617,
+        "coupon": 146
+      },
+      "cost": 1681.2860519820997,
+      "net_value": 9122.550711942204,
+      "roi": 5.4259361166932045,
+      "cost_pence": 168199,
+      "net_value_pence": 912266,
+      "cost_rounding_difference": 0.7039480179003021,
+      "net_rounding_difference": 0.10928805779622053,
+      "backtest": null,
+      "by_action": {
+        "none": {
+          "customers": 88,
+          "cost": 0.0,
+          "net_value": 0.0
+        },
+        "email": {
+          "customers": 5617,
+          "cost": 280.85,
+          "net_value": 7617.574293447444
+        },
+        "coupon": {
+          "customers": 146,
+          "cost": 1400.4360519820996,
+          "net_value": 1504.9764184947605
+        }
+      },
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "objective_pence": 912266,
+        "bound_pence": 912296.0,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 5927,
+        "seconds": 0.5082525839970913
+      },
+      "B": 1682,
+      "K": 300,
+      "assumptions": {
+        "m": 0.3,
+        "tau_e": 0.02,
+        "tau_c": 0.15,
+        "f_e": 0.05,
+        "f_c": 1.0,
+        "d": 0.1
+      },
+      "baseline": {
+        "counts": {
+          "none": 5843,
+          "email": 0,
+          "coupon": 8
+        },
+        "cost": 1681.7454453380374,
+        "net_value": -1673.690890758261,
+        "roi": -0.9952105982495125,
+        "cost_pence": 168179,
+        "net_value_pence": -167370,
+        "cost_rounding_difference": 0.044554661962592945,
+        "net_rounding_difference": -0.009109241738997298,
+        "backtest": null,
+        "by_action": {
+          "none": {
+            "customers": 5843,
+            "cost": 0.0,
+            "net_value": 0.0
+          },
+          "email": {
+            "customers": 0,
+            "cost": 0.0,
+            "net_value": 0.0
+          },
+          "coupon": {
+            "customers": 8,
+            "cost": 1681.7454453380374,
+            "net_value": -1673.690890758261
+          }
+        }
+      },
+      "baselines": {
+        "naive": {
+          "counts": {
+            "none": 5843,
+            "email": 0,
+            "coupon": 8
+          },
+          "cost": 1681.7454453380374,
+          "net_value": -1673.690890758261,
+          "roi": -0.9952105982495125,
+          "cost_pence": 168179,
+          "net_value_pence": -167370,
+          "cost_rounding_difference": 0.044554661962592945,
+          "net_rounding_difference": -0.009109241738997298,
+          "backtest": null,
+          "by_action": {
+            "none": {
+              "customers": 5843,
+              "cost": 0.0,
+              "net_value": 0.0
+            },
+            "email": {
+              "customers": 0,
+              "cost": 0.0,
+              "net_value": 0.0
+            },
+            "coupon": {
+              "customers": 8,
+              "cost": 1681.7454453380374,
+              "net_value": -1673.690890758261
+            }
+          },
+          "feasible": true,
+          "improvement": 10796.241602700466,
+          "improvement_fraction": null
+        },
+        "email_only": {
+          "counts": {
+            "none": 73,
+            "email": 5778,
+            "coupon": 0
+          },
+          "cost": 288.90000000000003,
+          "net_value": 7997.767262620537,
+          "roi": 27.683514235446644,
+          "cost_pence": 28890,
+          "net_value_pence": 799781,
+          "cost_rounding_difference": -5.684341886080802e-14,
+          "net_rounding_difference": 0.04273737946368783,
+          "backtest": null,
+          "by_action": {
+            "none": {
+              "customers": 73,
+              "cost": 0.0,
+              "net_value": 0.0
+            },
+            "email": {
+              "customers": 5778,
+              "cost": 288.90000000000003,
+              "net_value": 7997.767262620537
+            },
+            "coupon": {
+              "customers": 0,
+              "cost": 0.0,
+              "net_value": 0.0
+            }
+          },
+          "feasible": true,
+          "improvement": 1124.783449321667,
+          "improvement_fraction": 0.1406371819018302
+        },
+        "ratio_greedy": {
+          "counts": {
+            "none": 73,
+            "email": 5631,
+            "coupon": 147
+          },
+          "cost": 1680.6964058642623,
+          "net_value": 9122.003019999462,
+          "roi": 5.427513849717949,
+          "cost_pence": 168142,
+          "net_value_pence": 912209,
+          "cost_rounding_difference": 0.7235941357378124,
+          "net_rounding_difference": 0.08698000053846044,
+          "backtest": null,
+          "by_action": {
+            "none": {
+              "customers": 73,
+              "cost": 0.0,
+              "net_value": 0.0
+            },
+            "email": {
+              "customers": 5631,
+              "cost": 281.55,
+              "net_value": 7618.035391352354
+            },
+            "coupon": {
+              "customers": 147,
+              "cost": 1399.1464058642623,
+              "net_value": 1503.9676286471079
+            }
+          },
+          "feasible": true,
+          "improvement": 0.5476919427419489,
+          "improvement_fraction": 6.0040754376113024e-05
+        }
+      },
+      "interactive": true,
+      "improvement": 10796.241602700466,
+      "improvement_fraction": null,
+      "extra_100": null,
+      "top_selected": [
+        {
+          "customer_id": "13902",
+          "action": "coupon",
+          "pi": 0.009980835956907977,
+          "v": 2751.729661465119,
+          "cost": 44.6104327216283,
+          "net_value": 77.9814967386042,
+          "cost_pence": 4462,
+          "net_value_pence": 7798,
+          "break_even": {
+            "email": {
+              "tau": 6.117857866355647e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.006876086024262906,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "12482",
+          "action": "coupon",
+          "pi": 0.010360887442639494,
+          "v": 2302.6022340189143,
+          "cost": 37.56687872889013,
+          "net_value": 64.97665668622818,
+          "cost_pence": 3757,
+          "net_value_pence": 6498,
+          "break_even": {
+            "email": {
+              "tau": 7.313966667560646e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.007428869648218632,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "16754",
+          "action": "coupon",
+          "pi": 0.00013173458060100702,
+          "v": 2078.05656540935,
+          "cost": 32.19411739349954,
+          "net_value": 61.306109213966266,
+          "cost_pence": 3220,
+          "net_value_pence": 6131,
+          "break_even": {
+            "email": {
+              "tau": 8.021370933662679e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.0024722872485423816,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "17850",
+          "action": "coupon",
+          "pi": 0.0001292144465962611,
+          "v": 1876.6562315991214,
+          "cost": 29.170455217182308,
+          "net_value": 55.268163105439356,
+          "cost_pence": 2918,
+          "net_value_pence": 5527,
+          "break_even": {
+            "email": {
+              "tau": 8.882191761291174e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.002729273100950933,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "15413",
+          "action": "coupon",
+          "pi": 0.0018912019571120378,
+          "v": 1266.8740629252977,
+          "cost": 20.206763693993064,
+          "net_value": 36.69475297582049,
+          "cost_pence": 2021,
+          "net_value_pence": 3669,
+          "break_even": {
+            "email": {
+              "tau": 0.00013180668001383478,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.004901593089879532,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "13093",
+          "action": "coupon",
+          "pi": 5.982926128950812e-06,
+          "v": 1238.739644362505,
+          "cost": 19.581724624899316,
+          "net_value": 36.16122586346307,
+          "cost_pence": 1959,
+          "net_value_pence": 3616,
+          "break_even": {
+            "email": {
+              "tau": 0.00013454616116105651,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.004039376315793981,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "14091",
+          "action": "coupon",
+          "pi": 0.07825408404905888,
+          "v": 1842.5074074672016,
+          "cost": 40.893228121628944,
+          "net_value": 35.53133738577228,
+          "cost_pence": 4090,
+          "net_value_pence": 3553,
+          "break_even": {
+            "email": {
+              "tau": 9.813598481333431e-05,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.0453929164173718,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "17448",
+          "action": "coupon",
+          "pi": 2.745978822275482e-06,
+          "v": 1093.2793279587518,
+          "cost": 17.399445099741197,
+          "net_value": 31.797989562917966,
+          "cost_pence": 1740,
+          "net_value_pence": 3180,
+          "break_even": {
+            "email": {
+              "tau": 0.00015244697312830616,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.004574782187030533,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "14063",
+          "action": "coupon",
+          "pi": 6.105134147520688e-05,
+          "v": 1028.8717775578111,
+          "cost": 16.43841585355637,
+          "net_value": 29.857987506444957,
+          "cost_pence": 1644,
+          "net_value_pence": 2986,
+          "break_even": {
+            "email": {
+              "tau": 0.0001619996253635497,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.004890516295391028,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "13935",
+          "action": "coupon",
+          "pi": 0.05708129252930115,
+          "v": 1297.6013637904052,
+          "cost": 26.759865314655997,
+          "net_value": 28.299101719429927,
+          "cost_pence": 2676,
+          "net_value_pence": 2830,
+          "break_even": {
+            "email": {
+              "tau": 0.00013621759368200454,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.034354933812509335,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "15808",
+          "action": "coupon",
+          "pi": 0.008389050401613961,
+          "v": 797.6276383787126,
+          "cost": 13.533178344787434,
+          "net_value": 22.058955151551064,
+          "cost_pence": 1354,
+          "net_value_pence": 2206,
+          "break_even": {
+            "email": {
+              "tau": 0.00021072072009315079,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.010551632578879259,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "14134",
+          "action": "coupon",
+          "pi": 0.058762518720261975,
+          "v": 969.5113609968115,
+          "cost": 20.385199422459127,
+          "net_value": 20.679119994893707,
+          "cost_pence": 2039,
+          "net_value_pence": 2068,
+          "break_even": {
+            "email": {
+              "tau": 0.00018264030931024446,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.03669477383606855,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "14160",
+          "action": "coupon",
+          "pi": 0.0007636462448480188,
+          "v": 721.4381190836722,
+          "cost": 11.86840028465,
+          "net_value": 20.57152351614146,
+          "cost_pence": 1187,
+          "net_value_pence": 2057,
+          "break_even": {
+            "email": {
+              "tau": 0.00023119659731805586,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.007318012842591774,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "15369",
+          "action": "coupon",
+          "pi": 0.025301085920863206,
+          "v": 775.466915138011,
+          "cost": 14.299716906209117,
+          "net_value": 19.71338729781017,
+          "cost_pence": 1430,
+          "net_value_pence": 1971,
+          "break_even": {
+            "email": {
+              "tau": 0.00022050324942448902,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.019594021310082338,
+              "attainable": true
+            }
+          }
+        },
+        {
+          "customer_id": "13564",
+          "action": "coupon",
+          "pi": 0.00012155577018668821,
+          "v": 651.098163408388,
+          "cost": 10.77319975391704,
+          "net_value": 18.522656086218007,
+          "cost_pence": 1078,
+          "net_value_pence": 1852,
+          "break_even": {
+            "email": {
+              "tau": 0.00025600890586459916,
+              "attainable": true
+            },
+            "coupon": {
+              "tau": 0.007741052449832102,
+              "attainable": true
+            }
+          }
+        }
+      ],
+      "total_seconds": 0.5605335419968469
+    },
+    "interactive_seconds": [
+      0.5563282090006396,
+      0.5470355420111446,
+      0.5586903330113273,
+      0.5577086249977583,
+      0.554720500993426,
+      0.5605335419968469
+    ],
+    "median_seconds": 0.557018416999199
+  }
+}

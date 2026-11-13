@@ -1,0 +1,1464 @@
+{
+  "health": {
+    "status": "ok",
+    "database": "ok"
+  },
+  "runs": [
+    "C",
+    "B",
+    "A",
+    "A_no_cap",
+    "PROD"
+  ],
+  "startup_precompute_seconds": 2.177024667005753,
+  "uncached_optimize": [
+    {
+      "seconds": 0.1726400830084458,
+      "cache_hit": false,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912268,
+        "bound_pence": 912302,
+        "optimality_gap": 3.726974967882245e-05,
+        "lp_bound_pence": 912302.414020033,
+        "integer_variables": 0,
+        "seconds": 0.07233049999922514
+      }
+    },
+    {
+      "seconds": 0.1439919170225039,
+      "cache_hit": false,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912270,
+        "bound_pence": 912308,
+        "optimality_gap": 4.165433479123505e-05,
+        "lp_bound_pence": 912308.48630919,
+        "integer_variables": 0,
+        "seconds": 0.05569508299231529
+      }
+    },
+    {
+      "seconds": 0.142379124998115,
+      "cache_hit": false,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912272,
+        "bound_pence": 912314,
+        "optimality_gap": 4.603890067874493e-05,
+        "lp_bound_pence": 912314.558598347,
+        "integer_variables": 0,
+        "seconds": 0.05540179199306294
+      }
+    },
+    {
+      "seconds": 0.14442570798564702,
+      "cache_hit": false,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912275,
+        "bound_pence": 912320,
+        "optimality_gap": 4.9327231372119154e-05,
+        "lp_bound_pence": 912320.630887504,
+        "integer_variables": 0,
+        "seconds": 0.055216707987710834
+      }
+    },
+    {
+      "seconds": 0.14353404089342803,
+      "cache_hit": false,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912275,
+        "bound_pence": 912326,
+        "optimality_gap": 5.5904195555068373e-05,
+        "lp_bound_pence": 912326.703176661,
+        "integer_variables": 0,
+        "seconds": 0.05518100000335835
+      }
+    },
+    {
+      "seconds": 0.10390125005505979,
+      "cache_hit": false,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912275,
+        "bound_pence": 912332,
+        "optimality_gap": 6.24811597380176e-05,
+        "lp_bound_pence": 912332.775465818,
+        "integer_variables": 0,
+        "seconds": 0.0552766249893466
+      }
+    }
+  ],
+  "uncached_median_seconds": 0.14376297895796597,
+  "cached_optimize": [
+    {
+      "seconds": 0.0013746669283136725,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912266,
+        "bound_pence": 912296,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 0,
+        "seconds": 0.06122499999764841
+      }
+    },
+    {
+      "seconds": 0.0014293750282377005,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912266,
+        "bound_pence": 912296,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 0,
+        "seconds": 0.06122499999764841
+      }
+    },
+    {
+      "seconds": 0.002277082996442914,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912266,
+        "bound_pence": 912296,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 0,
+        "seconds": 0.06122499999764841
+      }
+    },
+    {
+      "seconds": 0.0011922500561922789,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912266,
+        "bound_pence": 912296,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 0,
+        "seconds": 0.06122499999764841
+      }
+    },
+    {
+      "seconds": 0.001126041985116899,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912266,
+        "bound_pence": 912296,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 0,
+        "seconds": 0.06122499999764841
+      }
+    },
+    {
+      "seconds": 0.001141957938671112,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912266,
+        "bound_pence": 912296,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 0,
+        "seconds": 0.06122499999764841
+      }
+    }
+  ],
+  "cached_median_seconds": 0.0012834584922529757,
+  "optional_extra_100": {
+    "seconds": 0.24699024995788932,
+    "result": {
+      "net_value": 9177.653877309858,
+      "marginal_net_value": 55.10316536765458,
+      "marginal_net_value_pence": 5509,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 917775,
+        "bound_pence": 917813,
+        "optimality_gap": 4.1404483669744764e-05,
+        "lp_bound_pence": 917813.488500109,
+        "integer_variables": 0,
+        "seconds": 0.056841749988961965
+      }
+    }
+  },
+  "default_sensitivity": {
+    "seconds": 0.0014716250589117408,
+    "response": {
+      "run": "PROD",
+      "model": "bgnbd",
+      "points": [
+        {
+          "tau_c": 0.05,
+          "B": 500.0,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 804738,
+            "bound_pence": 804738,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 0,
+            "seconds": 0.032329249996109866
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.05,
+          "B": 1000.0,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 804738,
+            "bound_pence": 804738,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 0,
+            "seconds": 0.03270787501242012
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.05,
+          "B": 1682.0,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 804738,
+            "bound_pence": 804738,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 0,
+            "seconds": 0.05705104200751521
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.05,
+          "B": 2500.0,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 804738,
+            "bound_pence": 804738,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 0,
+            "seconds": 0.03371575000346638
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.05,
+          "B": 3500.0,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 804738,
+            "bound_pence": 804738,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 0,
+            "seconds": 0.03144849999807775
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 500.0,
+          "net_value": 8304.880424052953,
+          "cost": 499.9261329878546,
+          "counts": {
+            "none": 158,
+            "email": 5683,
+            "coupon": 10
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 830489,
+            "bound_pence": 830606,
+            "optimality_gap": 0.000140880854532691,
+            "lp_bound_pence": 830606.385929808,
+            "integer_variables": 0,
+            "seconds": 0.05948791600530967
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 1000.0,
+          "net_value": 8741.616091428275,
+          "cost": 999.6384467030203,
+          "counts": {
+            "none": 79,
+            "email": 5701,
+            "coupon": 71
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 874168,
+            "bound_pence": 874215,
+            "optimality_gap": 5.376540893741249e-05,
+            "lp_bound_pence": 874215.373134385,
+            "integer_variables": 0,
+            "seconds": 0.061398292004014365
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 1682.0,
+          "net_value": 9122.550711942204,
+          "cost": 1681.2860519820997,
+          "counts": {
+            "none": 88,
+            "email": 5617,
+            "coupon": 146
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 912266,
+            "bound_pence": 912296,
+            "optimality_gap": 3.2885145341380696e-05,
+            "lp_bound_pence": 912296.341730876,
+            "integer_variables": 0,
+            "seconds": 0.06122499999764841
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 2500.0,
+          "net_value": 9556.984771313635,
+          "cost": 2498.249414549655,
+          "counts": {
+            "none": 79,
+            "email": 5538,
+            "coupon": 234
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 955710,
+            "bound_pence": 955778,
+            "optimality_gap": 7.115129066348579e-05,
+            "lp_bound_pence": 955778.8536112,
+            "integer_variables": 0,
+            "seconds": 0.05540329100040253
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 3500.0,
+          "net_value": 9933.802607245141,
+          "cost": 3362.9889071634466,
+          "counts": {
+            "none": 79,
+            "email": 5472,
+            "coupon": 300
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 993393,
+            "bound_pence": 993393,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 993393.0,
+            "integer_variables": 0,
+            "seconds": 0.0564914169954136
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 500.0,
+          "net_value": 8355.349415599383,
+          "cost": 499.9490620435232,
+          "counts": {
+            "none": 174,
+            "email": 5670,
+            "coupon": 7
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 835537,
+            "bound_pence": 835803,
+            "optimality_gap": 0.0003183581337511086,
+            "lp_bound_pence": 835803.500153566,
+            "integer_variables": 0,
+            "seconds": 0.06714650000503752
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 1000.0,
+          "net_value": 9082.603599016631,
+          "cost": 999.7481070383332,
+          "counts": {
+            "none": 117,
+            "email": 5694,
+            "coupon": 40
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 908262,
+            "bound_pence": 908306,
+            "optimality_gap": 4.8444171395478396e-05,
+            "lp_bound_pence": 908306.356852224,
+            "integer_variables": 0,
+            "seconds": 0.06427916600659955
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 1682.0,
+          "net_value": 9790.107216721208,
+          "cost": 1681.4714437476428,
+          "counts": {
+            "none": 119,
+            "email": 5637,
+            "coupon": 95
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 979020,
+            "bound_pence": 979032,
+            "optimality_gap": 1.225715511429797e-05,
+            "lp_bound_pence": 979032.947372,
+            "integer_variables": 0,
+            "seconds": 0.06839716699323617
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 2500.0,
+          "net_value": 10580.305141859173,
+          "cost": 2499.1496435864747,
+          "counts": {
+            "none": 96,
+            "email": 5594,
+            "coupon": 161
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 1058038,
+            "bound_pence": 1058100,
+            "optimality_gap": 5.859902952445942e-05,
+            "lp_bound_pence": 1058100.98746674,
+            "integer_variables": 0,
+            "seconds": 0.07153941699652933
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 3500.0,
+          "net_value": 11522.639707219365,
+          "cost": 3498.745460775279,
+          "counts": {
+            "none": 123,
+            "email": 5491,
+            "coupon": 237
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 1152277,
+            "bound_pence": 1152296,
+            "optimality_gap": 1.6489090730787823e-05,
+            "lp_bound_pence": 1152296.029435012,
+            "integer_variables": 0,
+            "seconds": 0.07217795799078885
+          },
+          "cache_hit": true
+        }
+      ],
+      "solves": 0,
+      "grid_points": 15,
+      "seconds": 8.70829971972853e-05
+    }
+  },
+  "uncached_sensitivity": {
+    "seconds": 1.9877726660342887,
+    "response": {
+      "run": "PROD",
+      "model": "bgnbd",
+      "points": [
+        {
+          "tau_c": 0.05,
+          "B": 500.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 804738,
+            "bound_pence": 804738,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 0,
+            "seconds": 0.0328559170011431
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.05,
+          "B": 1000.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 804738,
+            "bound_pence": 804738,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 0,
+            "seconds": 0.06871033299830742
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.05,
+          "B": 1682.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 804738,
+            "bound_pence": 804738,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 0,
+            "seconds": 0.03340820799348876
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.05,
+          "B": 2500.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 804738,
+            "bound_pence": 804738,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 0,
+            "seconds": 0.033505042010801844
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.05,
+          "B": 3500.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 804738,
+            "bound_pence": 804738,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 0,
+            "seconds": 0.033572166998055764
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.15,
+          "B": 500.17,
+          "net_value": 8305.082717631887,
+          "cost": 500.0761329878546,
+          "counts": {
+            "none": 155,
+            "email": 5686,
+            "coupon": 10
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 830510,
+            "bound_pence": 830629,
+            "optimality_gap": 0.00014328545110835512,
+            "lp_bound_pence": 830629.656718737,
+            "integer_variables": 0,
+            "seconds": 0.053638291006791405
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.15,
+          "B": 1000.17,
+          "net_value": 8741.616091428275,
+          "cost": 999.6384467030203,
+          "counts": {
+            "none": 79,
+            "email": 5701,
+            "coupon": 71
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 874168,
+            "bound_pence": 874225,
+            "optimality_gap": 6.520485764750025e-05,
+            "lp_bound_pence": 874225.494195752,
+            "integer_variables": 0,
+            "seconds": 0.055158000002847984
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.15,
+          "B": 1682.17,
+          "net_value": 9122.579567151568,
+          "cost": 1681.4360519820996,
+          "counts": {
+            "none": 85,
+            "email": 5620,
+            "coupon": 146
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 912269,
+            "bound_pence": 912305,
+            "optimality_gap": 3.9462044638149496e-05,
+            "lp_bound_pence": 912305.726177755,
+            "integer_variables": 0,
+            "seconds": 0.05595712500507943
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.15,
+          "B": 2500.17,
+          "net_value": 9556.984771313635,
+          "cost": 2498.249414549655,
+          "counts": {
+            "none": 79,
+            "email": 5538,
+            "coupon": 234
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 955710,
+            "bound_pence": 955787,
+            "optimality_gap": 8.056837325130008e-05,
+            "lp_bound_pence": 955787.637249536,
+            "integer_variables": 0,
+            "seconds": 0.05631520799943246
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.15,
+          "B": 3500.17,
+          "net_value": 9933.802607245141,
+          "cost": 3362.9889071634466,
+          "counts": {
+            "none": 79,
+            "email": 5472,
+            "coupon": 300
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 993393,
+            "bound_pence": 993393,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 993393.0,
+            "integer_variables": 0,
+            "seconds": 0.05611008300911635
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.25,
+          "B": 500.17,
+          "net_value": 8355.588884776811,
+          "cost": 500.0990620435232,
+          "counts": {
+            "none": 171,
+            "email": 5673,
+            "coupon": 7
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 835561,
+            "bound_pence": 835831,
+            "optimality_gap": 0.00032313619233066167,
+            "lp_bound_pence": 835831.707407459,
+            "integer_variables": 0,
+            "seconds": 0.06485383400286082
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.25,
+          "B": 1000.17,
+          "net_value": 9082.731685841622,
+          "cost": 999.9481070383332,
+          "counts": {
+            "none": 113,
+            "email": 5698,
+            "coupon": 40
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 908274,
+            "bound_pence": 908326,
+            "optimality_gap": 5.725144614950995e-05,
+            "lp_bound_pence": 908326.72455916,
+            "integer_variables": 0,
+            "seconds": 0.06692437500169035
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.25,
+          "B": 1682.17,
+          "net_value": 9790.37606419652,
+          "cost": 1681.6702782147859,
+          "counts": {
+            "none": 140,
+            "email": 5616,
+            "coupon": 95
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 979048,
+            "bound_pence": 979049,
+            "optimality_gap": 1.021400380778062e-06,
+            "lp_bound_pence": 979049.4532636,
+            "integer_variables": 0,
+            "seconds": 0.10575591599626932
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.25,
+          "B": 2500.17,
+          "net_value": 10580.324217818164,
+          "cost": 2499.2996435864748,
+          "counts": {
+            "none": 93,
+            "email": 5597,
+            "coupon": 161
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 1058041,
+            "bound_pence": 1058117,
+            "optimality_gap": 7.183086477745191e-05,
+            "lp_bound_pence": 1058117.361291205,
+            "integer_variables": 0,
+            "seconds": 0.07307070899696555
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.25,
+          "B": 3500.17,
+          "net_value": 11522.760299752172,
+          "cost": 3498.895460775279,
+          "counts": {
+            "none": 120,
+            "email": 5494,
+            "coupon": 237
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 1152289,
+            "bound_pence": 1152311,
+            "optimality_gap": 1.9092432540794888e-05,
+            "lp_bound_pence": 1152311.857475293,
+            "integer_variables": 0,
+            "seconds": 0.10957462499209214
+          },
+          "cache_hit": false
+        }
+      ],
+      "solves": 15,
+      "grid_points": 15,
+      "seconds": 1.9855950009950902
+    }
+  },
+  "cached_sensitivity": {
+    "seconds": 0.0015220409259200096,
+    "response": {
+      "run": "PROD",
+      "model": "bgnbd",
+      "points": [
+        {
+          "tau_c": 0.05,
+          "B": 500.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 804738,
+            "bound_pence": 804738,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 0,
+            "seconds": 0.0328559170011431
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.05,
+          "B": 1000.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 804738,
+            "bound_pence": 804738,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 0,
+            "seconds": 0.06871033299830742
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.05,
+          "B": 1682.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 804738,
+            "bound_pence": 804738,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 0,
+            "seconds": 0.03340820799348876
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.05,
+          "B": 2500.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 804738,
+            "bound_pence": 804738,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 0,
+            "seconds": 0.033505042010801844
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.05,
+          "B": 3500.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 804738,
+            "bound_pence": 804738,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 0,
+            "seconds": 0.033572166998055764
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 500.17,
+          "net_value": 8305.082717631887,
+          "cost": 500.0761329878546,
+          "counts": {
+            "none": 155,
+            "email": 5686,
+            "coupon": 10
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 830510,
+            "bound_pence": 830629,
+            "optimality_gap": 0.00014328545110835512,
+            "lp_bound_pence": 830629.656718737,
+            "integer_variables": 0,
+            "seconds": 0.053638291006791405
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 1000.17,
+          "net_value": 8741.616091428275,
+          "cost": 999.6384467030203,
+          "counts": {
+            "none": 79,
+            "email": 5701,
+            "coupon": 71
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 874168,
+            "bound_pence": 874225,
+            "optimality_gap": 6.520485764750025e-05,
+            "lp_bound_pence": 874225.494195752,
+            "integer_variables": 0,
+            "seconds": 0.055158000002847984
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 1682.17,
+          "net_value": 9122.579567151568,
+          "cost": 1681.4360519820996,
+          "counts": {
+            "none": 85,
+            "email": 5620,
+            "coupon": 146
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 912269,
+            "bound_pence": 912305,
+            "optimality_gap": 3.9462044638149496e-05,
+            "lp_bound_pence": 912305.726177755,
+            "integer_variables": 0,
+            "seconds": 0.05595712500507943
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 2500.17,
+          "net_value": 9556.984771313635,
+          "cost": 2498.249414549655,
+          "counts": {
+            "none": 79,
+            "email": 5538,
+            "coupon": 234
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 955710,
+            "bound_pence": 955787,
+            "optimality_gap": 8.056837325130008e-05,
+            "lp_bound_pence": 955787.637249536,
+            "integer_variables": 0,
+            "seconds": 0.05631520799943246
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 3500.17,
+          "net_value": 9933.802607245141,
+          "cost": 3362.9889071634466,
+          "counts": {
+            "none": 79,
+            "email": 5472,
+            "coupon": 300
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "OPTIMAL_BOUND_CERTIFICATE",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 993393,
+            "bound_pence": 993393,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 993393.0,
+            "integer_variables": 0,
+            "seconds": 0.05611008300911635
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 500.17,
+          "net_value": 8355.588884776811,
+          "cost": 500.0990620435232,
+          "counts": {
+            "none": 171,
+            "email": 5673,
+            "coupon": 7
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 835561,
+            "bound_pence": 835831,
+            "optimality_gap": 0.00032313619233066167,
+            "lp_bound_pence": 835831.707407459,
+            "integer_variables": 0,
+            "seconds": 0.06485383400286082
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 1000.17,
+          "net_value": 9082.731685841622,
+          "cost": 999.9481070383332,
+          "counts": {
+            "none": 113,
+            "email": 5698,
+            "coupon": 40
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 908274,
+            "bound_pence": 908326,
+            "optimality_gap": 5.725144614950995e-05,
+            "lp_bound_pence": 908326.72455916,
+            "integer_variables": 0,
+            "seconds": 0.06692437500169035
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 1682.17,
+          "net_value": 9790.37606419652,
+          "cost": 1681.6702782147859,
+          "counts": {
+            "none": 140,
+            "email": 5616,
+            "coupon": 95
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 979048,
+            "bound_pence": 979049,
+            "optimality_gap": 1.021400380778062e-06,
+            "lp_bound_pence": 979049.4532636,
+            "integer_variables": 0,
+            "seconds": 0.10575591599626932
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 2500.17,
+          "net_value": 10580.324217818164,
+          "cost": 2499.2996435864748,
+          "counts": {
+            "none": 93,
+            "email": 5597,
+            "coupon": 161
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 1058041,
+            "bound_pence": 1058117,
+            "optimality_gap": 7.183086477745191e-05,
+            "lp_bound_pence": 1058117.361291205,
+            "integer_variables": 0,
+            "seconds": 0.07307070899696555
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 3500.17,
+          "net_value": 11522.760299752172,
+          "cost": 3498.895460775279,
+          "counts": {
+            "none": 120,
+            "email": 5494,
+            "coupon": 237
+          },
+          "solver": {
+            "solver": "OR-Tools GLOP / certified feasible campaign",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "NOT_RUN_CERTIFIED_GAP",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "cp_sat_bound_pence": null,
+            "objective_pence": 1152289,
+            "bound_pence": 1152311,
+            "optimality_gap": 1.9092432540794888e-05,
+            "lp_bound_pence": 1152311.857475293,
+            "integer_variables": 0,
+            "seconds": 0.10957462499209214
+          },
+          "cache_hit": true
+        }
+      ],
+      "solves": 0,
+      "grid_points": 15,
+      "seconds": 9.304098784923553e-05
+    }
+  }
+}

@@ -1,0 +1,1572 @@
+{
+  "summary": {
+    "as_of": "2011-12-09",
+    "ranking_window": {
+      "start": "2010-12-10",
+      "end": "2011-12-09"
+    },
+    "sales_basis": "net_sales",
+    "net_sales_12m": 7983782.900000012,
+    "gross_sales_12m": 8451542.900000012,
+    "returns_12m": 467760.0,
+    "net_sales_full_history": 16411916.580000095,
+    "customers": 5851,
+    "active_customers_12m": 4260,
+    "cancelled_invoices_12m": 3262,
+    "total_invoices_12m": 20890,
+    "cancellation_rate_12m": 0.15615126854954522,
+    "rfm_source": "customer_rfm",
+    "footnotes": {
+      "sales": "Net sales are product sales less valid returns for known customers, with overlapping source entries counted once; revenue is not profit.",
+      "population": "Lines without customer IDs and non-product codes are excluded, following the ETL population. Customer panels use retained clean purchases.",
+      "rankings": "Rankings use the rolling 12 months ending at the scoring date; December is partial. Sales and cancellation trends use the whole history.",
+      "cancellations": "Cancellation rate counts return invoices, which can represent partial returns; it is not the percentage of original orders fully cancelled.",
+      "loyalty": "Loyalty combines how recently, how often and how much a customer bought over the rolling year; ties use customer ID. Heatmap columns show the latest 12 calendar months.",
+      "customer_history": "A purchase is one customer-day; customer age starts at the first observed clean purchase. Dormant customers remain listed.",
+      "customer_forecasts": "Expected spend allows repeat purchases; it is not profit or the extra sales caused by an offer."
+    },
+    "reconciliation": {
+      "raw_rows": 1067371,
+      "clean_rows": 786895,
+      "overlap_rows_removed": 22523,
+      "cancellation_overlap_rows_removed": 329,
+      "known_customer_cancellation_rows": 18446,
+      "clean_sales_full_history": 16733758.540005703,
+      "restored_quick_reversal_sales": 391167.68999999994,
+      "restored_quick_reversal_rows": 1292,
+      "quality_report_matched": true,
+      "net_sales_full_history": 16411916.580000095,
+      "gross_sales_full_history": 17124926.230000097,
+      "returns_full_history": 713009.65,
+      "net_sales_12m": 7983782.900000012,
+      "country_sum_12m": 7983782.900000012,
+      "monthly_sum_full_history": 16411916.580000097,
+      "products_sum_12m": 7983782.9,
+      "aggregate_totals_matched": true
+    },
+    "campaign_expected_profit": 9122.550711942204,
+    "campaign_budget": 1682.0,
+    "campaign_max_coupons": 300,
+    "campaign_assumptions": {
+      "m": 0.3,
+      "tau_e": 0.02,
+      "tau_c": 0.15,
+      "f_e": 0.05,
+      "f_c": 1.0,
+      "d": 0.1
+    }
+  },
+  "countries": {
+    "as_of": "2011-12-09",
+    "window": {
+      "start": "2010-12-10",
+      "end": "2011-12-09"
+    },
+    "rows": [
+      {
+        "country": "United Kingdom",
+        "net_sales": 6550864.6100000115,
+        "share": 0.8205213859209526
+      },
+      {
+        "country": "Netherlands",
+        "net_sales": 283301.94,
+        "share": 0.03548467481499273
+      },
+      {
+        "country": "EIRE",
+        "net_sales": 242439.63,
+        "share": 0.030366510842873704
+      },
+      {
+        "country": "Germany",
+        "net_sales": 196039.67000000004,
+        "share": 0.02455473457325596
+      },
+      {
+        "country": "France",
+        "net_sales": 175839.06000000003,
+        "share": 0.022024529249160794
+      },
+      {
+        "country": "Australia",
+        "net_sales": 136372.85,
+        "share": 0.017081232256453242
+      },
+      {
+        "country": "Switzerland",
+        "net_sales": 51636.0,
+        "share": 0.006467610736258863
+      },
+      {
+        "country": "Spain",
+        "net_sales": 50970.479999999996,
+        "share": 0.006384251756144311
+      },
+      {
+        "country": "Belgium",
+        "net_sales": 36352.85999999999,
+        "share": 0.004553337741686331
+      },
+      {
+        "country": "Sweden",
+        "net_sales": 35176.909999999996,
+        "share": 0.004406045409877058
+      },
+      {
+        "country": "Other",
+        "net_sales": 224788.89,
+        "share": 0.028155686698344427
+      }
+    ],
+    "total": 7983782.900000012,
+    "countries": [
+      "Australia",
+      "Austria",
+      "Bahrain",
+      "Belgium",
+      "Brazil",
+      "Canada",
+      "Channel Islands",
+      "Cyprus",
+      "Czech Republic",
+      "Denmark",
+      "EIRE",
+      "European Community",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Iceland",
+      "Israel",
+      "Italy",
+      "Japan",
+      "Lebanon",
+      "Malta",
+      "Netherlands",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "RSA",
+      "Saudi Arabia",
+      "Singapore",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "USA",
+      "United Arab Emirates",
+      "United Kingdom",
+      "Unspecified"
+    ]
+  },
+  "monthly": {
+    "as_of": "2011-12-09",
+    "rows": [
+      {
+        "month": "2009-12",
+        "gross_sales": 681066.2200000056,
+        "returns_value": 19337.61,
+        "net_sales": 661728.6100000055,
+        "partial": false
+      },
+      {
+        "month": "2010-01",
+        "gross_sales": 535229.369999998,
+        "returns_value": 7322.82,
+        "net_sales": 527906.549999998,
+        "partial": false
+      },
+      {
+        "month": "2010-02",
+        "gross_sales": 499749.6799999978,
+        "returns_value": 12036.5,
+        "net_sales": 487713.1799999978,
+        "partial": false
+      },
+      {
+        "month": "2010-03",
+        "gross_sales": 668577.1900000044,
+        "returns_value": 9564.0,
+        "net_sales": 659013.1900000044,
+        "partial": false
+      },
+      {
+        "month": "2010-04",
+        "gross_sales": 587753.770000002,
+        "returns_value": 9958.65,
+        "net_sales": 577795.120000002,
+        "partial": false
+      },
+      {
+        "month": "2010-05",
+        "gross_sales": 594886.5400000003,
+        "returns_value": 37086.5,
+        "net_sales": 557800.0400000003,
+        "partial": false
+      },
+      {
+        "month": "2010-06",
+        "gross_sales": 631504.8500000007,
+        "returns_value": 26271.7,
+        "net_sales": 605233.1500000007,
+        "partial": false
+      },
+      {
+        "month": "2010-07",
+        "gross_sales": 583388.5300000015,
+        "returns_value": 17005.370000000003,
+        "net_sales": 566383.1600000015,
+        "partial": false
+      },
+      {
+        "month": "2010-08",
+        "gross_sales": 596579.2200000006,
+        "returns_value": 12324.34,
+        "net_sales": 584254.8800000006,
+        "partial": false
+      },
+      {
+        "month": "2010-09",
+        "gross_sales": 808145.060000005,
+        "returns_value": 27448.02,
+        "net_sales": 780697.0400000049,
+        "partial": false
+      },
+      {
+        "month": "2010-10",
+        "gross_sales": 1015124.740000032,
+        "returns_value": 25331.070000000003,
+        "net_sales": 989793.6700000319,
+        "partial": false
+      },
+      {
+        "month": "2010-11",
+        "gross_sales": 1161854.41000004,
+        "returns_value": 34919.74,
+        "net_sales": 1126934.67000004,
+        "partial": false
+      },
+      {
+        "month": "2010-12",
+        "gross_sales": 567490.7199999965,
+        "returns_value": 17365.64,
+        "net_sales": 550125.0799999965,
+        "partial": false
+      },
+      {
+        "month": "2011-01",
+        "gross_sales": 564026.6399999986,
+        "returns_value": 91253.81999999999,
+        "net_sales": 472772.81999999867,
+        "partial": false
+      },
+      {
+        "month": "2011-02",
+        "gross_sales": 443346.01999999705,
+        "returns_value": 8315.77,
+        "net_sales": 435030.24999999703,
+        "partial": false
+      },
+      {
+        "month": "2011-03",
+        "gross_sales": 584562.8499999982,
+        "returns_value": 10036.400000000001,
+        "net_sales": 574526.4499999983,
+        "partial": false
+      },
+      {
+        "month": "2011-04",
+        "gross_sales": 455266.90999999706,
+        "returns_value": 33313.96,
+        "net_sales": 421952.94999999716,
+        "partial": false
+      },
+      {
+        "month": "2011-05",
+        "gross_sales": 660481.8999999998,
+        "returns_value": 8928.249999999998,
+        "net_sales": 651553.6499999998,
+        "partial": false
+      },
+      {
+        "month": "2011-06",
+        "gross_sales": 654432.5599999956,
+        "returns_value": 12652.710000000001,
+        "net_sales": 641779.8499999957,
+        "partial": false
+      },
+      {
+        "month": "2011-07",
+        "gross_sales": 592731.8999999968,
+        "returns_value": 11391.009999999998,
+        "net_sales": 581340.8899999968,
+        "partial": false
+      },
+      {
+        "month": "2011-08",
+        "gross_sales": 636807.2399999993,
+        "returns_value": 22912.2,
+        "net_sales": 613895.0399999992,
+        "partial": false
+      },
+      {
+        "month": "2011-09",
+        "gross_sales": 940900.8099999957,
+        "returns_value": 17007.93,
+        "net_sales": 923892.8799999957,
+        "partial": false
+      },
+      {
+        "month": "2011-10",
+        "gross_sales": 1005642.9000000065,
+        "returns_value": 43663.2,
+        "net_sales": 961979.7000000065,
+        "partial": false
+      },
+      {
+        "month": "2011-11",
+        "gross_sales": 1142145.7700000254,
+        "returns_value": 23450.98,
+        "net_sales": 1118694.7900000254,
+        "partial": false
+      },
+      {
+        "month": "2011-12",
+        "gross_sales": 513230.43000000226,
+        "returns_value": 174111.46,
+        "net_sales": 339118.9700000023,
+        "partial": true
+      }
+    ],
+    "total": 16411916.580000095
+  },
+  "products": {
+    "as_of": "2011-12-09",
+    "window": {
+      "start": "2010-12-10",
+      "end": "2011-12-09"
+    },
+    "country": null,
+    "by_revenue": [
+      {
+        "stockcode": "22423",
+        "description": "REGENCY CAKESTAND 3 TIER",
+        "revenue": 124713.10000000005,
+        "units": 10827
+      },
+      {
+        "stockcode": "85123A",
+        "description": "WHITE HANGING HEART T-LIGHT HOLDER",
+        "revenue": 89298.50000000016,
+        "units": 32442
+      },
+      {
+        "stockcode": "85099B",
+        "description": "JUMBO BAG RED RETROSPOT",
+        "revenue": 80866.90999999981,
+        "units": 43697
+      },
+      {
+        "stockcode": "47566",
+        "description": "PARTY BUNTING",
+        "revenue": 67168.37999999989,
+        "units": 14892
+      },
+      {
+        "stockcode": "84879",
+        "description": "ASSORTED COLOUR BIRD ORNAMENT",
+        "revenue": 54133.50000000032,
+        "units": 33846
+      },
+      {
+        "stockcode": "23084",
+        "description": "RABBIT NIGHT LIGHT",
+        "revenue": 51137.79999999996,
+        "units": 27094
+      },
+      {
+        "stockcode": "22502",
+        "description": "PICNIC BASKET WICKER SMALL",
+        "revenue": 46572.65000000002,
+        "units": 1339
+      },
+      {
+        "stockcode": "79321",
+        "description": "CHILLI LIGHTS",
+        "revenue": 42493.32,
+        "units": 8755
+      },
+      {
+        "stockcode": "22086",
+        "description": "PAPER CHAIN KIT 50'S CHRISTMAS ",
+        "revenue": 38645.93000000001,
+        "units": 14115
+      },
+      {
+        "stockcode": "23203",
+        "description": "JUMBO BAG VINTAGE DOILY ",
+        "revenue": 36607.97999999995,
+        "units": 18926
+      }
+    ],
+    "by_units": [
+      {
+        "stockcode": "84077",
+        "description": "WORLD WAR 2 GLIDERS ASSTD DESIGNS",
+        "revenue": 12586.410000000014,
+        "units": 49471
+      },
+      {
+        "stockcode": "22197",
+        "description": "SMALL POPCORN HOLDER",
+        "revenue": 36062.220000000016,
+        "units": 47728
+      },
+      {
+        "stockcode": "85099B",
+        "description": "JUMBO BAG RED RETROSPOT",
+        "revenue": 80866.90999999981,
+        "units": 43697
+      },
+      {
+        "stockcode": "84879",
+        "description": "ASSORTED COLOUR BIRD ORNAMENT",
+        "revenue": 54133.50000000032,
+        "units": 33846
+      },
+      {
+        "stockcode": "85123A",
+        "description": "WHITE HANGING HEART T-LIGHT HOLDER",
+        "revenue": 89298.50000000016,
+        "units": 32442
+      },
+      {
+        "stockcode": "21212",
+        "description": "PACK OF 72 RETROSPOT CAKE CASES",
+        "revenue": 15619.039999999983,
+        "units": 32084
+      },
+      {
+        "stockcode": "23084",
+        "description": "RABBIT NIGHT LIGHT",
+        "revenue": 51137.79999999996,
+        "units": 27094
+      },
+      {
+        "stockcode": "22616",
+        "description": "PACK OF 12 LONDON TISSUES ",
+        "revenue": 6985.080000000002,
+        "units": 24378
+      },
+      {
+        "stockcode": "22492",
+        "description": "MINI PAINT SET VINTAGE ",
+        "revenue": 14738.340000000011,
+        "units": 23838
+      },
+      {
+        "stockcode": "21977",
+        "description": "PACK OF 60 PINK PAISLEY CAKE CASES",
+        "revenue": 11325.399999999987,
+        "units": 23654
+      }
+    ]
+  },
+  "cancellations": {
+    "as_of": "2011-12-09",
+    "rows": [
+      {
+        "month": "2009-12",
+        "cancelled_invoices": 372,
+        "sales_invoices": 1497,
+        "total_invoices": 1869,
+        "cancellation_value": 19337.61,
+        "cancellation_rate": 0.19903691813804172,
+        "partial": false
+      },
+      {
+        "month": "2010-01",
+        "cancelled_invoices": 231,
+        "sales_invoices": 959,
+        "total_invoices": 1190,
+        "cancellation_value": 7322.820000000001,
+        "cancellation_rate": 0.19411764705882353,
+        "partial": false
+      },
+      {
+        "month": "2010-02",
+        "cancelled_invoices": 213,
+        "sales_invoices": 1093,
+        "total_invoices": 1306,
+        "cancellation_value": 12036.5,
+        "cancellation_rate": 0.16309341500765698,
+        "partial": false
+      },
+      {
+        "month": "2010-03",
+        "cancelled_invoices": 345,
+        "sales_invoices": 1509,
+        "total_invoices": 1854,
+        "cancellation_value": 9564.0,
+        "cancellation_rate": 0.18608414239482202,
+        "partial": false
+      },
+      {
+        "month": "2010-04",
+        "cancelled_invoices": 258,
+        "sales_invoices": 1315,
+        "total_invoices": 1573,
+        "cancellation_value": 9958.65,
+        "cancellation_rate": 0.16401780038143673,
+        "partial": false
+      },
+      {
+        "month": "2010-05",
+        "cancelled_invoices": 379,
+        "sales_invoices": 1365,
+        "total_invoices": 1744,
+        "cancellation_value": 37086.5,
+        "cancellation_rate": 0.21731651376146788,
+        "partial": false
+      },
+      {
+        "month": "2010-06",
+        "cancelled_invoices": 310,
+        "sales_invoices": 1479,
+        "total_invoices": 1789,
+        "cancellation_value": 26271.7,
+        "cancellation_rate": 0.1732811626607043,
+        "partial": false
+      },
+      {
+        "month": "2010-07",
+        "cancelled_invoices": 309,
+        "sales_invoices": 1362,
+        "total_invoices": 1671,
+        "cancellation_value": 17005.37,
+        "cancellation_rate": 0.18491921005385997,
+        "partial": false
+      },
+      {
+        "month": "2010-08",
+        "cancelled_invoices": 233,
+        "sales_invoices": 1276,
+        "total_invoices": 1509,
+        "cancellation_value": 12324.34,
+        "cancellation_rate": 0.15440689198144467,
+        "partial": false
+      },
+      {
+        "month": "2010-09",
+        "cancelled_invoices": 316,
+        "sales_invoices": 1659,
+        "total_invoices": 1975,
+        "cancellation_value": 27448.02,
+        "cancellation_rate": 0.16,
+        "partial": false
+      },
+      {
+        "month": "2010-10",
+        "cancelled_invoices": 398,
+        "sales_invoices": 2108,
+        "total_invoices": 2506,
+        "cancellation_value": 25331.070000000003,
+        "cancellation_rate": 0.15881883479648842,
+        "partial": false
+      },
+      {
+        "month": "2010-11",
+        "cancelled_invoices": 535,
+        "sales_invoices": 2570,
+        "total_invoices": 3105,
+        "cancellation_value": 34919.74,
+        "cancellation_rate": 0.1723027375201288,
+        "partial": false
+      },
+      {
+        "month": "2010-12",
+        "cancelled_invoices": 297,
+        "sales_invoices": 1394,
+        "total_invoices": 1691,
+        "cancellation_value": 17365.64,
+        "cancellation_rate": 0.17563571850975754,
+        "partial": false
+      },
+      {
+        "month": "2011-01",
+        "cancelled_invoices": 242,
+        "sales_invoices": 983,
+        "total_invoices": 1225,
+        "cancellation_value": 91253.82000000002,
+        "cancellation_rate": 0.19755102040816327,
+        "partial": false
+      },
+      {
+        "month": "2011-02",
+        "cancelled_invoices": 188,
+        "sales_invoices": 992,
+        "total_invoices": 1180,
+        "cancellation_value": 8315.769999999999,
+        "cancellation_rate": 0.15932203389830507,
+        "partial": false
+      },
+      {
+        "month": "2011-03",
+        "cancelled_invoices": 276,
+        "sales_invoices": 1312,
+        "total_invoices": 1588,
+        "cancellation_value": 10036.4,
+        "cancellation_rate": 0.17380352644836272,
+        "partial": false
+      },
+      {
+        "month": "2011-04",
+        "cancelled_invoices": 219,
+        "sales_invoices": 1139,
+        "total_invoices": 1358,
+        "cancellation_value": 33313.96000000001,
+        "cancellation_rate": 0.16126656848306334,
+        "partial": false
+      },
+      {
+        "month": "2011-05",
+        "cancelled_invoices": 264,
+        "sales_invoices": 1544,
+        "total_invoices": 1808,
+        "cancellation_value": 8928.249999999998,
+        "cancellation_rate": 0.14601769911504425,
+        "partial": false
+      },
+      {
+        "month": "2011-06",
+        "cancelled_invoices": 296,
+        "sales_invoices": 1390,
+        "total_invoices": 1686,
+        "cancellation_value": 12652.710000000001,
+        "cancellation_rate": 0.17556346381969157,
+        "partial": false
+      },
+      {
+        "month": "2011-07",
+        "cancelled_invoices": 234,
+        "sales_invoices": 1321,
+        "total_invoices": 1555,
+        "cancellation_value": 11391.01,
+        "cancellation_rate": 0.1504823151125402,
+        "partial": false
+      },
+      {
+        "month": "2011-08",
+        "cancelled_invoices": 237,
+        "sales_invoices": 1267,
+        "total_invoices": 1504,
+        "cancellation_value": 22912.2,
+        "cancellation_rate": 0.15757978723404256,
+        "partial": false
+      },
+      {
+        "month": "2011-09",
+        "cancelled_invoices": 298,
+        "sales_invoices": 1739,
+        "total_invoices": 2037,
+        "cancellation_value": 17007.93,
+        "cancellation_rate": 0.14629356897398135,
+        "partial": false
+      },
+      {
+        "month": "2011-10",
+        "cancelled_invoices": 305,
+        "sales_invoices": 1903,
+        "total_invoices": 2208,
+        "cancellation_value": 43663.2,
+        "cancellation_rate": 0.1381340579710145,
+        "partial": false
+      },
+      {
+        "month": "2011-11",
+        "cancelled_invoices": 391,
+        "sales_invoices": 2642,
+        "total_invoices": 3033,
+        "cancellation_value": 23450.98,
+        "cancellation_rate": 0.12891526541378173,
+        "partial": false
+      },
+      {
+        "month": "2011-12",
+        "cancelled_invoices": 136,
+        "sales_invoices": 776,
+        "total_invoices": 912,
+        "cancellation_value": 174111.46000000002,
+        "cancellation_rate": 0.14912280701754385,
+        "partial": true
+      }
+    ]
+  },
+  "loyalty_heatmap": {
+    "as_of": "2011-12-09",
+    "months": [
+      "2011-01",
+      "2011-02",
+      "2011-03",
+      "2011-04",
+      "2011-05",
+      "2011-06",
+      "2011-07",
+      "2011-08",
+      "2011-09",
+      "2011-10",
+      "2011-11",
+      "2011-12"
+    ],
+    "rows": [
+      {
+        "customer_id": "12347",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 6,
+        "spend_12m": 3598.21,
+        "monthly_spend": [
+          475.39,
+          0.0,
+          0.0,
+          636.25,
+          0.0,
+          382.52,
+          0.0,
+          584.91,
+          0.0,
+          1294.3200000000002,
+          0.0,
+          224.82000000000002
+        ]
+      },
+      {
+        "customer_id": "12362",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 10,
+        "spend_12m": 4737.2300000000005,
+        "monthly_spend": [
+          0.0,
+          434.1,
+          0.0,
+          450.2400000000001,
+          0.0,
+          0.0,
+          273.76000000000005,
+          424.2499999999999,
+          769.9900000000001,
+          1491.9100000000003,
+          417.94000000000005,
+          475.04
+        ]
+      },
+      {
+        "customer_id": "12388",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 6,
+        "spend_12m": 2780.6600000000003,
+        "monthly_spend": [
+          431.30000000000007,
+          124.05000000000001,
+          210.89999999999998,
+          0.0,
+          0.0,
+          0.0,
+          902.0900000000001,
+          0.0,
+          825.9200000000001,
+          0.0,
+          286.40000000000003,
+          0.0
+        ]
+      },
+      {
+        "customer_id": "12417",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 9,
+        "spend_12m": 3226.1,
+        "monthly_spend": [
+          293.43999999999994,
+          0.0,
+          365.0,
+          352.29999999999995,
+          0.0,
+          392.19,
+          0.0,
+          819.25,
+          0.0,
+          417.84999999999997,
+          0.0,
+          324.73
+        ]
+      },
+      {
+        "customer_id": "12423",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 8,
+        "spend_12m": 1634.3100000000002,
+        "monthly_spend": [
+          0.0,
+          177.31,
+          317.35,
+          225.36,
+          303.82000000000005,
+          69.92,
+          0.0,
+          153.98000000000002,
+          0.0,
+          0.0,
+          0.0,
+          193.64000000000001
+        ]
+      },
+      {
+        "customer_id": "12433",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 4,
+        "spend_12m": 9588.750000000002,
+        "monthly_spend": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2608.1100000000006,
+          1498.6599999999999,
+          2843.2900000000013,
+          2638.69
+        ]
+      },
+      {
+        "customer_id": "12437",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 15,
+        "spend_12m": 4447.409999999999,
+        "monthly_spend": [
+          338.7,
+          536.26,
+          129.71,
+          191.09999999999997,
+          563.32,
+          447.64000000000004,
+          0.0,
+          0.0,
+          503.28,
+          227.45999999999998,
+          1398.04,
+          111.9
+        ]
+      },
+      {
+        "customer_id": "12451",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 5,
+        "spend_12m": 8995.519999999997,
+        "monthly_spend": [
+          2919.5099999999993,
+          0.0,
+          0.0,
+          0.0,
+          2388.31,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2539.5599999999995,
+          1148.1399999999999,
+          0.0
+        ]
+      },
+      {
+        "customer_id": "12471",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 19,
+        "spend_12m": 17424.05,
+        "monthly_spend": [
+          663.4499999999999,
+          1173.6999999999998,
+          734.3199999999999,
+          620.29,
+          809.1999999999998,
+          0.0,
+          840.26,
+          1560.8199999999997,
+          591.7600000000002,
+          2145.380000000001,
+          2988.0,
+          1998.5099999999998
+        ]
+      },
+      {
+        "customer_id": "12474",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 17,
+        "spend_12m": 6745.789999999999,
+        "monthly_spend": [
+          545.8000000000001,
+          251.58,
+          973.6700000000003,
+          0.0,
+          696.0799999999998,
+          436.00999999999993,
+          651.24,
+          0.0,
+          429.68,
+          1690.9999999999998,
+          1070.73,
+          0.0
+        ]
+      },
+      {
+        "customer_id": "12476",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 10,
+        "spend_12m": 5898.42,
+        "monthly_spend": [
+          459.58000000000004,
+          142.2,
+          0.0,
+          1213.6699999999998,
+          239.2,
+          0.0,
+          620.5699999999999,
+          0.0,
+          461.6,
+          953.1600000000001,
+          1795.9899999999998,
+          0.0
+        ]
+      },
+      {
+        "customer_id": "12483",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 8,
+        "spend_12m": 1910.98,
+        "monthly_spend": [
+          347.56,
+          0.0,
+          0.0,
+          283.0,
+          84.10000000000001,
+          283.95000000000005,
+          0.0,
+          0.0,
+          291.45,
+          374.2,
+          246.72000000000003,
+          0.0
+        ]
+      },
+      {
+        "customer_id": "12490",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 10,
+        "spend_12m": 4859.930000000001,
+        "monthly_spend": [
+          774.2199999999999,
+          0.0,
+          0.0,
+          0.0,
+          295.50000000000006,
+          430.06000000000006,
+          376.93000000000006,
+          370.0600000000001,
+          963.8200000000003,
+          0.0,
+          1241.04,
+          408.30000000000007
+        ]
+      },
+      {
+        "customer_id": "12518",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 5,
+        "spend_12m": 1840.89,
+        "monthly_spend": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          288.83,
+          470.90000000000003,
+          345.06,
+          432.96000000000015,
+          303.14000000000004
+        ]
+      },
+      {
+        "customer_id": "12524",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 8,
+        "spend_12m": 3945.72,
+        "monthly_spend": [
+          283.39,
+          435.3399999999999,
+          439.44000000000005,
+          0.0,
+          1315.21,
+          271.1,
+          0.0,
+          0.0,
+          0.0,
+          929.4400000000002,
+          271.79999999999995,
+          0.0
+        ]
+      },
+      {
+        "customer_id": "12528",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 6,
+        "spend_12m": 1645.48,
+        "monthly_spend": [
+          439.53,
+          0.0,
+          242.13,
+          0.0,
+          0.0,
+          0.0,
+          227.70999999999998,
+          180.00000000000003,
+          0.0,
+          238.51000000000002,
+          317.59999999999997,
+          0.0
+        ]
+      },
+      {
+        "customer_id": "12553",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 10,
+        "spend_12m": 3278.28,
+        "monthly_spend": [
+          592.3100000000001,
+          6.3,
+          585.1600000000001,
+          0.0,
+          316.85,
+          0.0,
+          248.75000000000003,
+          364.2200000000001,
+          0.0,
+          441.54999999999995,
+          464.12,
+          259.02
+        ]
+      },
+      {
+        "customer_id": "12557",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 4,
+        "spend_12m": 11370.96,
+        "monthly_spend": [
+          3417.12,
+          0.0,
+          817.5,
+          0.0,
+          0.0,
+          0.0,
+          4146.34,
+          0.0,
+          0.0,
+          0.0,
+          2990.0,
+          0.0
+        ]
+      },
+      {
+        "customer_id": "12562",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 7,
+        "spend_12m": 3385.7400000000002,
+        "monthly_spend": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          390.96000000000004,
+          456.27000000000004,
+          0.0,
+          596.0000000000001,
+          334.64,
+          477.6,
+          529.9,
+          600.3699999999999
+        ]
+      },
+      {
+        "customer_id": "12569",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 26,
+        "spend_12m": 3152.69,
+        "monthly_spend": [
+          0.0,
+          0.0,
+          0.0,
+          562.4000000000001,
+          277.92,
+          201.42000000000002,
+          148.25,
+          225.03,
+          230.66000000000003,
+          580.72,
+          447.27000000000004,
+          479.02000000000004
+        ]
+      },
+      {
+        "customer_id": "12583",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 14,
+        "spend_12m": 5903.52,
+        "monthly_spend": [
+          676.1600000000001,
+          285.56000000000006,
+          676.8499999999999,
+          0.0,
+          385.9599999999999,
+          563.48,
+          293.24,
+          225.1,
+          778.03,
+          296.2,
+          1082.17,
+          640.7700000000002
+        ]
+      },
+      {
+        "customer_id": "12584",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 9,
+        "spend_12m": 2254.15,
+        "monthly_spend": [
+          0.0,
+          0.0,
+          379.6300000000001,
+          0.0,
+          0.0,
+          159.10999999999999,
+          147.10000000000002,
+          12.75,
+          279.8,
+          661.06,
+          414.25,
+          200.45000000000005
+        ]
+      },
+      {
+        "customer_id": "12598",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 7,
+        "spend_12m": 2807.0800000000004,
+        "monthly_spend": [
+          0.0,
+          612.8600000000001,
+          0.0,
+          0.0,
+          528.88,
+          0.0,
+          280.6400000000001,
+          0.0,
+          325.76,
+          0.0,
+          1058.94,
+          0.0
+        ]
+      },
+      {
+        "customer_id": "12615",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 4,
+        "spend_12m": 2093.19,
+        "monthly_spend": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          580.7400000000002,
+          0.0,
+          0.0,
+          522.65,
+          0.0,
+          602.9499999999998,
+          386.8499999999999
+        ]
+      },
+      {
+        "customer_id": "12619",
+        "loyalty_score": 15,
+        "R": 5,
+        "F": 5,
+        "M": 5,
+        "purchase_days_12m": 8,
+        "spend_12m": 2945.5599999999995,
+        "monthly_spend": [
+          0.0,
+          0.0,
+          205.98000000000002,
+          389.67999999999995,
+          0.0,
+          0.0,
+          597.9999999999999,
+          342.12,
+          618.9199999999998,
+          0.0,
+          790.8599999999998,
+          0.0
+        ]
+      }
+    ],
+    "rank_window": {
+      "start": "2010-12-10",
+      "end": "2011-12-09"
+    },
+    "display_start": "2011-01-01",
+    "display_end": "2011-12-09",
+    "note": "Latest 12 calendar months (current month partial); rolling-year rankings also include the preceding December 10\u201331."
+  },
+  "customer_page": {
+    "as_of": "2011-12-09",
+    "rows": [
+      {
+        "customer_id": "12346",
+        "days_since_last_purchase": 529,
+        "number_of_purchases": 2,
+        "customer_age_days": 647,
+        "probability_of_buying_90d": 0.12552286199376456,
+        "expected_spend_90d": 41.49693838048092
+      },
+      {
+        "customer_id": "12347",
+        "days_since_last_purchase": 2,
+        "number_of_purchases": 8,
+        "customer_age_days": 404,
+        "probability_of_buying_90d": 0.730688123212438,
+        "expected_spend_90d": 836.3136263993243
+      },
+      {
+        "customer_id": "12348",
+        "days_since_last_purchase": 75,
+        "number_of_purchases": 5,
+        "customer_age_days": 438,
+        "probability_of_buying_90d": 0.5149040142642843,
+        "expected_spend_90d": 292.2625186670618
+      },
+      {
+        "customer_id": "12349",
+        "days_since_last_purchase": 18,
+        "number_of_purchases": 3,
+        "customer_age_days": 589,
+        "probability_of_buying_90d": 0.28183434404672986,
+        "expected_spend_90d": 332.58816427608264
+      },
+      {
+        "customer_id": "12350",
+        "days_since_last_purchase": 310,
+        "number_of_purchases": 1,
+        "customer_age_days": 310,
+        "probability_of_buying_90d": 0.13433040638927904,
+        "expected_spend_90d": 62.34534851863606
+      },
+      {
+        "customer_id": "12351",
+        "days_since_last_purchase": 375,
+        "number_of_purchases": 1,
+        "customer_age_days": 375,
+        "probability_of_buying_90d": 0.11728936081665374,
+        "expected_spend_90d": 53.17523304036892
+      },
+      {
+        "customer_id": "12352",
+        "days_since_last_purchase": 36,
+        "number_of_purchases": 9,
+        "customer_age_days": 392,
+        "probability_of_buying_90d": 0.7719329325096992,
+        "expected_spend_90d": 373.4688134189418
+      },
+      {
+        "customer_id": "12353",
+        "days_since_last_purchase": 204,
+        "number_of_purchases": 2,
+        "customer_age_days": 408,
+        "probability_of_buying_90d": 0.2264985471496975,
+        "expected_spend_90d": 73.83188688572167
+      },
+      {
+        "customer_id": "12354",
+        "days_since_last_purchase": 232,
+        "number_of_purchases": 1,
+        "customer_age_days": 232,
+        "probability_of_buying_90d": 0.16272322576686143,
+        "expected_spend_90d": 78.61698400278527
+      },
+      {
+        "customer_id": "12355",
+        "days_since_last_purchase": 214,
+        "number_of_purchases": 2,
+        "customer_age_days": 567,
+        "probability_of_buying_90d": 0.18307643721392491,
+        "expected_spend_90d": 91.25042626393937
+      },
+      {
+        "customer_id": "12356",
+        "days_since_last_purchase": 22,
+        "number_of_purchases": 6,
+        "customer_age_days": 424,
+        "probability_of_buying_90d": 0.6036014191750233,
+        "expected_spend_90d": 855.198787169587
+      },
+      {
+        "customer_id": "12357",
+        "days_since_last_purchase": 33,
+        "number_of_purchases": 2,
+        "customer_age_days": 388,
+        "probability_of_buying_90d": 0.2487528362726976,
+        "expected_spend_90d": 578.0583955363553
+      },
+      {
+        "customer_id": "12358",
+        "days_since_last_purchase": 1,
+        "number_of_purchases": 5,
+        "customer_age_days": 731,
+        "probability_of_buying_90d": 0.3860951095187124,
+        "expected_spend_90d": 245.31961024563458
+      },
+      {
+        "customer_id": "12359",
+        "days_since_last_purchase": 57,
+        "number_of_purchases": 10,
+        "customer_age_days": 734,
+        "probability_of_buying_90d": 0.6306264742309908,
+        "expected_spend_90d": 893.88074534684
+      },
+      {
+        "customer_id": "12360",
+        "days_since_last_purchase": 52,
+        "number_of_purchases": 6,
+        "customer_age_days": 655,
+        "probability_of_buying_90d": 0.47520733811356725,
+        "expected_spend_90d": 436.1836811484662
+      },
+      {
+        "customer_id": "12361",
+        "days_since_last_purchase": 287,
+        "number_of_purchases": 4,
+        "customer_age_days": 682,
+        "probability_of_buying_90d": 0.297914909471801,
+        "expected_spend_90d": 77.6260672113111
+      },
+      {
+        "customer_id": "12362",
+        "days_since_last_purchase": 3,
+        "number_of_purchases": 10,
+        "customer_age_days": 295,
+        "probability_of_buying_90d": 0.8750728711728942,
+        "expected_spend_90d": 1105.907791832009
+      },
+      {
+        "customer_id": "12363",
+        "days_since_last_purchase": 109,
+        "number_of_purchases": 2,
+        "customer_age_days": 242,
+        "probability_of_buying_90d": 0.31971603111515534,
+        "expected_spend_90d": 147.01430101408735
+      },
+      {
+        "customer_id": "12364",
+        "days_since_last_purchase": 7,
+        "number_of_purchases": 4,
+        "customer_age_days": 112,
+        "probability_of_buying_90d": 0.7585540462881466,
+        "expected_spend_90d": 473.6379236929869
+      },
+      {
+        "customer_id": "12365",
+        "days_since_last_purchase": 291,
+        "number_of_purchases": 1,
+        "customer_age_days": 291,
+        "probability_of_buying_90d": 0.14029083024352487,
+        "expected_spend_90d": 65.65520191358061
+      },
+      {
+        "customer_id": "12366",
+        "days_since_last_purchase": 633,
+        "number_of_purchases": 1,
+        "customer_age_days": 633,
+        "probability_of_buying_90d": 0.07803026024770889,
+        "expected_spend_90d": 33.57607269892369
+      },
+      {
+        "customer_id": "12367",
+        "days_since_last_purchase": 4,
+        "number_of_purchases": 1,
+        "customer_age_days": 4,
+        "probability_of_buying_90d": 0.43108654629484355,
+        "expected_spend_90d": 333.2847505051943
+      },
+      {
+        "customer_id": "12368",
+        "days_since_last_purchase": 628,
+        "number_of_purchases": 1,
+        "customer_age_days": 628,
+        "probability_of_buying_90d": 0.07853954961066316,
+        "expected_spend_90d": 33.81761360648611
+      },
+      {
+        "customer_id": "12369",
+        "days_since_last_purchase": 413,
+        "number_of_purchases": 3,
+        "customer_age_days": 641,
+        "probability_of_buying_90d": 0.20550644724996275,
+        "expected_spend_90d": 131.33307648310645
+      },
+      {
+        "customer_id": "12370",
+        "days_since_last_purchase": 51,
+        "number_of_purchases": 6,
+        "customer_age_days": 668,
+        "probability_of_buying_90d": 0.46976743988821185,
+        "expected_spend_90d": 435.32763423704097
+      }
+    ],
+    "total": 5851,
+    "page": 1,
+    "page_size": 25,
+    "pages": 235,
+    "search": "",
+    "sort": "customer_id",
+    "direction": "asc",
+    "rfm_source": "customer_rfm"
+  },
+  "timings": {
+    "/api/exec/summary": {
+      "warm_median_ms": 1.8536249990575016,
+      "warm_max_ms": 3.3411659533157945,
+      "repeats": 10
+    },
+    "/api/sales/by-country": {
+      "warm_median_ms": 1.138833467848599,
+      "warm_max_ms": 2.0249589579179883,
+      "repeats": 10
+    },
+    "/api/sales/monthly": {
+      "warm_median_ms": 1.968103984836489,
+      "warm_max_ms": 3.8870000280439854,
+      "repeats": 10
+    },
+    "/api/products/top": {
+      "warm_median_ms": 1.1324165388941765,
+      "warm_max_ms": 2.0585829624906182,
+      "repeats": 10
+    },
+    "/api/products/top?country=United%20Kingdom": {
+      "warm_median_ms": 1.0127709829248488,
+      "warm_max_ms": 1.962166978046298,
+      "repeats": 10
+    },
+    "/api/cancellations/monthly": {
+      "warm_median_ms": 1.1897710501216352,
+      "warm_max_ms": 2.6184580055996776,
+      "repeats": 10
+    },
+    "/api/customers/loyalty-heatmap": {
+      "warm_median_ms": 0.9766670409590006,
+      "warm_max_ms": 2.19391705468297,
+      "repeats": 10
+    },
+    "/api/customers": {
+      "warm_median_ms": 0.8134585223160684,
+      "warm_max_ms": 2.032625023275614,
+      "repeats": 10
+    },
+    "/api/customers?search=123&sort=expected_spend_90d&direction=desc&page=1": {
+      "warm_median_ms": 1.9174170447513461,
+      "warm_max_ms": 2.1465419558808208,
+      "repeats": 10
+    },
+    "/api/customers?sort=probability_of_buying_90d&direction=desc&page=2": {
+      "warm_median_ms": 0.8713124552741647,
+      "warm_max_ms": 5.9450839180499315,
+      "repeats": 10
+    }
+  },
+  "reconciliation_passed": true
+}

@@ -1,0 +1,96 @@
+{
+  "interactive": {
+    "net_value": 9122.550711942204,
+    "net_value_pence": 912266,
+    "assumptions": {
+      "m": 0.3,
+      "tau_e": 0.02,
+      "tau_c": 0.15,
+      "f_e": 0.05,
+      "f_c": 1.0,
+      "d": 0.1
+    },
+    "solver": {
+      "solver": "OR-Tools GLOP / certified feasible campaign",
+      "status": "FEASIBLE_GAP_TARGET",
+      "native_status": "NOT_RUN_CERTIFIED_GAP",
+      "requested_relative_gap": 0.005,
+      "optimality_proven": false,
+      "cp_sat_bound_pence": null,
+      "objective_pence": 912266,
+      "bound_pence": 912296,
+      "optimality_gap": 3.2885145341380696e-05,
+      "lp_bound_pence": 912296.341730876,
+      "integer_variables": 0,
+      "seconds": 0.055628125002840534
+    },
+    "greedy_profit": 9122.003019999462,
+    "improvement": 0.5476919427419489
+  },
+  "arithmetic": [
+    {
+      "customer_id": "13902",
+      "v": 2751.729661465119,
+      "pi": 0.009980835956907977,
+      "cost": 44.6104327216283,
+      "net_value": 77.9814967386042,
+      "net_value_pence": 7798,
+      "margin": 0.3,
+      "incremental_probability": 0.1485028746064638,
+      "calculated_gain": 77.9814967386042,
+      "gain_to_penny": "77.98"
+    },
+    {
+      "customer_id": "12482",
+      "v": 2302.6022340189143,
+      "pi": 0.010360887442639494,
+      "cost": 37.56687872889013,
+      "net_value": 64.97665668622818,
+      "net_value_pence": 6498,
+      "margin": 0.3,
+      "incremental_probability": 0.14844586688360406,
+      "calculated_gain": 64.97665668622818,
+      "gain_to_penny": "64.98"
+    },
+    {
+      "customer_id": "16754",
+      "v": 2078.05656540935,
+      "pi": 0.00013173458060100702,
+      "cost": 32.19411739349954,
+      "net_value": 61.306109213966266,
+      "net_value_pence": 6131,
+      "margin": 0.3,
+      "incremental_probability": 0.14998023981290984,
+      "calculated_gain": 61.306109213966266,
+      "gain_to_penny": "61.31"
+    }
+  ],
+  "exact": {
+    "net_value": 9122.742858723526,
+    "net_value_pence": 912286,
+    "assumptions": {
+      "m": 0.3,
+      "tau_e": 0.02,
+      "tau_c": 0.15,
+      "f_e": 0.05,
+      "f_c": 1.0,
+      "d": 0.1
+    },
+    "solver": {
+      "solver": "OR-Tools CP-SAT",
+      "status": "OPTIMAL",
+      "native_status": "OPTIMAL",
+      "requested_relative_gap": 0.0,
+      "optimality_proven": true,
+      "cp_sat_bound_pence": 912286.0,
+      "objective_pence": 912286,
+      "bound_pence": 912286.0,
+      "optimality_gap": 0.0,
+      "lp_bound_pence": 912296.341730876,
+      "integer_variables": 5927,
+      "seconds": 1.998428791994229
+    },
+    "greedy_profit": 9122.003019999462,
+    "improvement": 0.7398387240646116
+  }
+}

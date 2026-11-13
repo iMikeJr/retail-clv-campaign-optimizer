@@ -1,0 +1,11 @@
+{
+  "command": "docker compose --env-file .env.example up --pull never",
+  "compose_project_name": "clv-final",
+  "compose_file": "docker-compose.yml:docs/project-log/stage5_offline.compose.yml",
+  "down_verification_project_exit_code": 0,
+  "fresh_volume_verified": true,
+  "prepared_images_only": true,
+  "start_time": 1792962498.65393,
+  "external_network_disabled": "Compose default network internal=true; service traffic works; Docker Desktop suppresses published localhost bindings",
+  "compose_exit_code": 0
+}

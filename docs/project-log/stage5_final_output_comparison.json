@@ -1,0 +1,81 @@
+{
+  "hash_method": "Each table: md5 of concatenated sorted per-row md5(row_to_json(t)::text); stable model_runs JSON excludes created_at and keys containing seconds or fit_time.",
+  "online_matches_original": true,
+  "online": {
+    "modeling.customer_predictions": {
+      "md5": "dcb2a3cb715f00c136d6039e7d49119e",
+      "rows": 130520
+    },
+    "modeling.model_metrics": {
+      "md5": "dda6dd488983d07652a954d3ae570e45",
+      "rows": 1568
+    },
+    "public.clean_transactions": {
+      "md5": "682cfd18dc32affcf648f457ccc73796",
+      "rows": 786895
+    },
+    "public.customer_rfm": {
+      "md5": "61146638cb928bfd958234b2f63d69e1",
+      "rows": 5851
+    },
+    "public.data_quality_report": {
+      "md5": "2c188b36f85dc74368b3eb3ee451368d",
+      "rows": 22
+    },
+    "public.excluded_stockcodes": {
+      "md5": "605fdabd62bfdf8da86ab619d7b065f3",
+      "rows": 12
+    },
+    "public.raw_transactions": {
+      "md5": "af798022672a8042e5f87174b85645df",
+      "rows": 1067371
+    },
+    "public.reversed_purchases": {
+      "md5": "7f67666cccdfd095db006b0c2e4acb0f",
+      "rows": 1292
+    },
+    "modeling.model_runs": {
+      "rows": 5,
+      "sha256_without_created_at_or_timing": "b52566c9f41cf961a4b9087f7c5b6d31972e27671e2f180473a2486957979c68"
+    }
+  },
+  "offline_matches_original": true,
+  "offline": {
+    "modeling.customer_predictions": {
+      "md5": "dcb2a3cb715f00c136d6039e7d49119e",
+      "rows": 130520
+    },
+    "modeling.model_metrics": {
+      "md5": "dda6dd488983d07652a954d3ae570e45",
+      "rows": 1568
+    },
+    "public.clean_transactions": {
+      "md5": "682cfd18dc32affcf648f457ccc73796",
+      "rows": 786895
+    },
+    "public.customer_rfm": {
+      "md5": "61146638cb928bfd958234b2f63d69e1",
+      "rows": 5851
+    },
+    "public.data_quality_report": {
+      "md5": "2c188b36f85dc74368b3eb3ee451368d",
+      "rows": 22
+    },
+    "public.excluded_stockcodes": {
+      "md5": "605fdabd62bfdf8da86ab619d7b065f3",
+      "rows": 12
+    },
+    "public.raw_transactions": {
+      "md5": "af798022672a8042e5f87174b85645df",
+      "rows": 1067371
+    },
+    "public.reversed_purchases": {
+      "md5": "7f67666cccdfd095db006b0c2e4acb0f",
+      "rows": 1292
+    },
+    "modeling.model_runs": {
+      "rows": 5,
+      "sha256_without_created_at_or_timing": "b52566c9f41cf961a4b9087f7c5b6d31972e27671e2f180473a2486957979c68"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "all_checks_passed": true,
+  "country_count": 41,
+  "months_reconciled": 25,
+  "monthly_sum": 16411916.580000108,
+  "loyalty_total": 5851,
+  "loyalty_first_ten_ids": [
+    "12347",
+    "12362",
+    "12388",
+    "12417",
+    "12423",
+    "12433",
+    "12437",
+    "12451",
+    "12471",
+    "12474"
+  ],
+  "campaign": {
+    "coupon": {
+      "paginated_rows": 146,
+      "csv_rows": 146
+    },
+    "email": {
+      "paginated_rows": 5617,
+      "csv_rows": 5617
+    },
+    "none": {
+      "paginated_rows": 88,
+      "csv_rows": 88
+    },
+    "all": {
+      "paginated_rows": 5851,
+      "csv_rows": 5851
+    }
+  },
+  "context_rows_matched": 5851,
+  "default_profit": 9122.550711942204,
+  "latency": {
+    "monthly": {
+      "requests": 42,
+      "median_ms": 1.6139165381900966,
+      "max_ms": 20.444875000976026
+    },
+    "loyalty": {
+      "requests": 588,
+      "median_ms": 0.9787920280359685,
+      "max_ms": 5.717291962355375
+    },
+    "optimize_cached": {
+      "requests": 6,
+      "median_ms": 1.4235415146686137,
+      "max_ms": 2.5481251068413258
+    },
+    "campaign_page": {
+      "requests": 786,
+      "median_ms": 2.9220624710433185,
+      "max_ms": 6.738000083714724
+    },
+    "campaign_csv": {
+      "requests": 4,
+      "median_ms": 7.758457970339805,
+      "max_ms": 14.985083020292222
+    },
+    "existing_customers": {
+      "requests": 235,
+      "median_ms": 0.8725830120965838,
+      "max_ms": 2.7462500147521496
+    },
+    "optimize_probes": {
+      "requests": 20,
+      "median_ms": 68.16204148344696,
+      "max_ms": 257.25541706196964
+    },
+    "optimize_uncached": {
+      "requests": 10,
+      "median_ms": 173.12202049652115,
+      "max_ms": 257.25541706196964
+    }
+  },
+  "uncached_slider_samples": [
+    {
+      "budget": 1702,
+      "response_bytes": 9044,
+      "server_seconds": 0.2541173330100719
+    },
+    {
+      "budget": 1703,
+      "response_bytes": 9058,
+      "server_seconds": 0.17876312500447966
+    },
+    {
+      "budget": 1704,
+      "response_bytes": 9069,
+      "server_seconds": 0.17388070799643174
+    },
+    {
+      "budget": 1705,
+      "response_bytes": 9070,
+      "server_seconds": 0.1315144170075655
+    },
+    {
+      "budget": 1706,
+      "response_bytes": 9044,
+      "server_seconds": 0.16859187500085682
+    },
+    {
+      "budget": 1707,
+      "response_bytes": 9040,
+      "server_seconds": 0.16956141698756255
+    },
+    {
+      "budget": 1708,
+      "response_bytes": 9064,
+      "server_seconds": 0.16816620802273974
+    },
+    {
+      "budget": 1709,
+      "response_bytes": 9068,
+      "server_seconds": 0.177813457994489
+    },
+    {
+      "budget": 1710,
+      "response_bytes": 9070,
+      "server_seconds": 0.17162395801278763
+    },
+    {
+      "budget": 1711,
+      "response_bytes": 9081,
+      "server_seconds": 0.13120954201440327
+    }
+  ]
+}

@@ -1,0 +1,1160 @@
+{
+  "normal_console_errors": [],
+  "external_page_requests": [],
+  "local_request_count": 189,
+  "above_fold_text": "\u25a5 CUSTOMER OUTLOOK Sales Customers Returns Campaign LOCAL DEMO ONLINE RETAIL \u00b7 THE NEXT 90 DAYS Where do we sell, and who should we contact next? Understand customer demand. Put a limited budget where it can create the most value. Data as of 09 Dec 2011 Sales in GBP \u00b7 forecast through 08 Mar 2012 i Sales to identified customers only (about 77% of lines) Net sales \u00b7 last 12 months \u00a37,983,783 10 Dec 2010 \u2013 09 Dec 2011 Product revenue after returns. Revenue is not profit. i Customers 4,260 Purchased in the last 12 months 5,851 total accounts i Returns 15.62% Share of invoices in the last 12 months Partial returns included i Scenario (assumption-based) Expected profit from the campaign \u00a39,123 invest \u00a31,682, expect \u00a39,123 in profit Explore the proposal \u2197 i 01 / WHERE AND WHAT WE SELL Sales at a glance i Countries & products: last 12 months Where sales come from Last 12 months \u00b7 share of net sales \u00a37,983,783 United Kingdom: \u00a36,550,865 (82.1% of net sales) Excluding the United Kingdom Netherlands \u00a3283k \u00b7 3.5% EIRE \u00a3242k \u00b7 3.0% Germany \u00a3196k \u00b7 2.5% France \u00a3176k \u00b7 2.2% Australia \u00a3136k \u00b7 1.7% Switzerland \u00a352k \u00b7 0.6% Spain \u00a351k \u00b7 0.6% Belgium \u00a336k \u00b7 0.5% Sweden \u00a335k \u00b7 0.4% Other countries (combined) \u00a3225k \u00b7 2.8% How sales have changed i December is incomplete (1-9 Dec): \u00a3339k in 9 days, or \u00a337.7k per day. An average day in the previous months was \u00a322.0k. Country Dec 2009 \u2013 Nov 2011 \u00a30 \u00a3307k \u00a3614k \u00a3921k \u00a31.2m Dec '09 Apr '10 Aug '10 Dec '10 Apr '11 Aug '11 Nov '11",
+  "executive_labels_passed": true,
+  "method_collapsed_by_default": true,
+  "advanced_collapsed_by_default": true,
+  "technical_requests_before_open": 0,
+  "new_controls": {
+    "csv": [
+      {
+        "action": "email",
+        "total": 5617,
+        "csv_rows": 5617
+      },
+      {
+        "action": "none",
+        "total": 88,
+        "csv_rows": 88
+      },
+      {
+        "action": "all",
+        "total": 5851,
+        "csv_rows": 5851
+      },
+      {
+        "action": "coupon",
+        "total": 146,
+        "csv_rows": 146
+      }
+    ],
+    "loyalty_total": 5851,
+    "loyalty_search_offset": 2680,
+    "monthly_country_filter": true
+  },
+  "gain_arithmetic": {
+    "profit": 9122.550711942204,
+    "greedy": 9122.003019999462,
+    "improvement": 0.5476919427419489,
+    "rows": [
+      {
+        "id": "13902",
+        "margin": 0.3,
+        "v": 2751.729661465119,
+        "pi": 0.009980835956907977,
+        "tau": 0.15,
+        "incremental_probability": 0.1485028746064638,
+        "cost": 44.6104327216283,
+        "gain": 77.9814967386042
+      },
+      {
+        "id": "12482",
+        "margin": 0.3,
+        "v": 2302.6022340189143,
+        "pi": 0.010360887442639494,
+        "tau": 0.15,
+        "incremental_probability": 0.14844586688360406,
+        "cost": 37.56687872889013,
+        "gain": 64.97665668622818
+      },
+      {
+        "id": "16754",
+        "margin": 0.3,
+        "v": 2078.05656540935,
+        "pi": 0.00013173458060100702,
+        "tau": 0.15,
+        "incremental_probability": 0.14998023981290984,
+        "cost": 32.19411739349954,
+        "gain": 61.306109213966266
+      }
+    ]
+  },
+  "partial_month_styles": {
+    "sales-monthly-chart": "Complete months through November; December value and daily comparison in note",
+    "returns-count-chart": "Complete months through November; December value and daily comparison in note",
+    "returns-value-chart": "Complete months through November; December value and daily comparison in note",
+    "returns-rate-chart": "Complete months through November; December value and daily comparison in note"
+  },
+  "partial_daily_comparisons": [
+    {
+      "id": "sales-monthly-chart",
+      "value": 339118.9700000017,
+      "partial_daily": 37679.885555555746,
+      "previous_daily": 22017.530972602883,
+      "previous_days": 730,
+      "note": "December is incomplete (1-9 Dec): \u00a3339k in 9 days, or \u00a337.7k per day. An average day in the previous months was \u00a322.0k."
+    },
+    {
+      "id": "returns-count-chart",
+      "value": 136,
+      "partial_daily": 15.11111111111111,
+      "previous_daily": 9.789041095890411,
+      "previous_days": 730,
+      "note": "1\u20139 Dec: 136 return invoices in 9 days (15.1 a day); previous months averaged 9.8 a day."
+    },
+    {
+      "id": "returns-value-chart",
+      "value": 174111.46000000002,
+      "partial_daily": 19345.71777777778,
+      "previous_daily": 738.2166986301371,
+      "previous_days": 730,
+      "note": "1\u20139 Dec: \u00a3174k in 9 days (\u00a319.3k a day); previous months averaged \u00a30.7k a day."
+    },
+    {
+      "id": "returns-rate-chart",
+      "value": 0.14912280701754385,
+      "partial_daily": 15.11111111111111,
+      "previous_daily": 9.789041095890411,
+      "previous_days": 730,
+      "note": "1\u20139 Dec: 14.9% of invoices were returns; previous months averaged 16.6%."
+    }
+  ],
+  "tooltip_texts": [
+    {
+      "label": "About Net sales",
+      "text": "Product sales after returns in the last 12 months, for customers we can identify. This is revenue, not profit."
+    },
+    {
+      "label": "About Customers",
+      "text": "Customers who bought in the last 12 months. The note below shows all retained accounts, including those who have not bought recently."
+    },
+    {
+      "label": "About Returns",
+      "text": "The share of invoices that record a return in the last 12 months. A return may cover only part of an order."
+    },
+    {
+      "label": "About Expected profit from the campaign",
+      "text": "Extra profit we expect from the proposed campaign after its costs. It depends on our assumptions about offer responses and margin."
+    },
+    {
+      "label": "About Sales at a glance",
+      "text": "Countries follow the source Country field. Product sales and returns use the same country filter; overlapping source entries are counted once."
+    },
+    {
+      "label": "About How sales have changed",
+      "text": "Chart shows complete months through Nov 2011; the headline uses the last 12 months. Dec 1\u20139: \u00a3339,118.97. \u00a337,679.89 per calendar day, compared with \u00a322,017.53 per day. The previous average covers Dec 2009\u2013Nov 2011 (730 calendar days). December covers 9 days. Charts end at November; no full December month is estimated."
+    },
+    {
+      "label": "About Customer loyalty ranking",
+      "text": "Loyalty combines how recently, how often and how much customers bought in the rolling year; score ties use customer ID. These 12 calendar columns are Jan\u2013Dec 2011, with Dec (1-9) partial. Ranking spend also includes 10\u201331 Dec 2010."
+    },
+    {
+      "label": "About Who is likely to buy?",
+      "text": "A purchase is one customer-day; counts and customer age use the full retained history. Age starts at the first observed purchase. Expected spend allows repeat purchases and is not profit or the extra sales caused by an offer."
+    },
+    {
+      "label": "About Customer",
+      "text": "The customer\u2019s identifier in the source data."
+    },
+    {
+      "label": "About Days since last purchase",
+      "text": "Days from the customer\u2019s last recorded purchase to 9 December 2011."
+    },
+    {
+      "label": "About Purchases",
+      "text": "The number of days on which this customer bought something in the retained history. Several orders on one day count as one purchase."
+    },
+    {
+      "label": "About Time as customer (days)",
+      "text": "Days from the customer\u2019s first recorded purchase to 9 December 2011. This is the length of their recorded history, not their personal age."
+    },
+    {
+      "label": "About Probability of buying \u00b7 90 days",
+      "text": "The estimated chance that the customer buys at least once in the next 90 days, even if we do nothing. It is not a guarantee."
+    },
+    {
+      "label": "About Expected spend \u00b7 90 days",
+      "text": "What we expect the customer to spend in the next 90 days even if we do nothing."
+    },
+    {
+      "label": "About Returns",
+      "text": "A return invoice can contain a partial return; it does not establish that the whole original order was cancelled. Values are revenue returned, not lost profit. Charts show complete months through Nov 2011; notes report the partial December period separately."
+    },
+    {
+      "label": "About Return invoices",
+      "text": "Dec 1\u20139: 136.00. 15.11 per calendar day, compared with 9.79 per day. The previous average covers Dec 2009\u2013Nov 2011 (730 calendar days). December covers 9 days. Charts end at November; no full December month is estimated."
+    },
+    {
+      "label": "About Value returned",
+      "text": "Dec 1\u20139: \u00a3174,111.46. \u00a319,345.72 per calendar day, compared with \u00a3738.22 per day. The previous average covers Dec 2009\u2013Nov 2011 (730 calendar days). December covers 9 days. Charts end at November; no full December month is estimated."
+    },
+    {
+      "label": "About Share of invoices",
+      "text": "Dec 1\u20139: 14.91%. Return invoices: 15.11 per day; previous average 9.79 per day. The previous average covers Dec 2009\u2013Nov 2011 (730 calendar days). December covers 9 days. Charts end at November; no full December month is estimated."
+    },
+    {
+      "label": "About Reset proposal",
+      "text": "Restore the starting budget, coupon limit and assumptions for the proposal."
+    },
+    {
+      "label": "About Budget (\u00a3)",
+      "text": "The most we are willing to spend on emails and coupons."
+    },
+    {
+      "label": "About Maximum coupons",
+      "text": "A ceiling on coupons, not a target."
+    },
+    {
+      "label": "About Advanced assumptions",
+      "text": "Change the assumed margin, offer responses, costs and coupon discount used in the proposal."
+    },
+    {
+      "label": "About Margin (assumption, %)",
+      "text": "The share of each pound of sales left after product costs, before campaign costs. This is an assumption, not measured from these data."
+    },
+    {
+      "label": "About Response to email (assumption, %)",
+      "text": "The assumed share of customers who would not otherwise buy but buy because of an email. An A/B test would help estimate this."
+    },
+    {
+      "label": "About Response to coupon (assumption, %)",
+      "text": "The assumed share of customers who would not otherwise buy but buy because of a coupon. An A/B test would help estimate this."
+    },
+    {
+      "label": "About Email cost (\u00a3)",
+      "text": "The cost of sending one email, whether or not the customer buys."
+    },
+    {
+      "label": "About Coupon fixed cost (\u00a3)",
+      "text": "The fixed cost of offering one coupon, before any discount on a purchase."
+    },
+    {
+      "label": "About Coupon discount (%)",
+      "text": "The share taken off the purchase price when a customer uses the coupon."
+    },
+    {
+      "label": "About Proposed outreach",
+      "text": "These are customers to contact, not confirmed reactivations. Expected profit values one purchase occasion; it is not total future customer spend."
+    },
+    {
+      "label": "About No contact",
+      "text": "Customers we propose leaving without an email or coupon. No messages are sent from this demo."
+    },
+    {
+      "label": "About Email",
+      "text": "Customers we propose sending an email to. This is a proposed action, not a confirmed purchase."
+    },
+    {
+      "label": "About Coupon",
+      "text": "Customers we propose offering a coupon to. This is a proposed action, not a confirmed purchase."
+    },
+    {
+      "label": "About Total expected cost",
+      "text": "What we expect to spend on emails, coupon costs and discounts for this proposal. It can be less than the budget."
+    },
+    {
+      "label": "About Expected profit",
+      "text": "Extra profit we expect from the proposed campaign after its costs. It depends on our assumptions about offer responses and margin."
+    },
+    {
+      "label": "About Return on investment (ROI)",
+      "text": "Expected extra profit divided by expected campaign cost. For example, \u00a35.43 means \u00a35.43 profit for each \u00a31 spent. It depends on our assumptions."
+    },
+    {
+      "label": "About Customer",
+      "text": "The customer\u2019s identifier in the source data."
+    },
+    {
+      "label": "About Recommended action",
+      "text": "The action proposed for this customer under the current budget, coupon limit and assumptions."
+    },
+    {
+      "label": "About Days since last purchase",
+      "text": "Days from the customer\u2019s last recorded purchase to 9 December 2011."
+    },
+    {
+      "label": "About Expected spend \u00b7 90 days",
+      "text": "What we expect the customer to spend in the next 90 days even if we do nothing."
+    },
+    {
+      "label": "About Typical order value",
+      "text": "The size of a typical purchase for this customer. Expected gain is the extra chance of buying created by the offer times this value times the margin, minus the cost."
+    },
+    {
+      "label": "About Expected gain",
+      "text": "Extra profit we expect from this action after its cost; it depends on our assumption of how customers respond to the offer."
+    },
+    {
+      "label": "About Method and evidence",
+      "text": "Select a model to inspect calibration. Lift ranks propensity; revenue capture ranks probability \u00d7 expected order value."
+    },
+    {
+      "label": "About Calculation status",
+      "text": "Status: FEASIBLE_GAP_TARGET. Native status: NOT_RUN_CERTIFIED_GAP. Actual gap: 0.0033%. Target: 0.5%. The bound applies to the plan using values rounded to pennies."
+    },
+    {
+      "label": "About Historical model comparison",
+      "text": "The proposed campaign uses PROD's 09 Dec 2011 cutoff. The customer-account table always uses stored PROD/BG-NBD forecasts. Solver status and the actual certified gap are reported here, never presented as an estimated business effect. Run A underpredicts peak-season purchasing. PROD trains on that peak and scores an off-peak horizon; ML probabilities are expected to be overestimated, but future calibration is unverified. Loyalty uses R+F+M quintiles with average percentile ranks and ID tie-breaking; no-purchase-in-window accounts score 1+1+1. Heatmap colours use a logarithmic scale to preserve contrast across spend sizes. Forecasts, selection optimism, seasonality and campaign response assumptions are distinct limitations."
+    },
+    {
+      "label": "About Calibration",
+      "text": "Dashed line: perfect calibration; points above it indicate underprediction."
+    },
+    {
+      "label": "About Baseline challenge",
+      "text": "The improvement shown here compares the current interactive proposal with ratio greedy under the same assumptions. It uses unrounded expected profit, before formatting to pounds and pennies. A large improvement over the naive baseline does not establish a large gain over a sensible alternative."
+    },
+    {
+      "label": "About Sensitivity to budget and response",
+      "text": "At most 15 scenarios, 0.5% gap target, no extra-budget solve. Other current campaign assumptions are held fixed. The default grid is precomputed at API startup."
+    },
+    {
+      "label": "About Run A: what was at stake, not campaign effect",
+      "text": "These purchases occurred without the proposed campaign. Groups are selected, not randomized; the denominator excludes new customers acquired after cutoff. Buyer order value averages each buyer's spend / purchase occasions. Optimizing for high predicted value can select customers with overestimated order values; whole-group predictions and buyer-only outcomes have different populations (hover the prediction for the same-buyer mean). The model assumes the same action-response parameter tau for dormant customers (pi close to 0) as for other customers."
+    },
+    {
+      "label": "About Contacted-customer realized spend",
+      "text": "What these customers actually spent in the historical period, before any campaign. It is a reference point, not a result."
+    },
+    {
+      "label": "About Share of eligible spend",
+      "text": "The share of all eligible customers\u2019 actual spending covered by the selected customers in the historical check. It does not show extra sales caused by a campaign."
+    }
+  ],
+  "tooltip_hover_and_keyboard_checks": 50,
+  "default_sort": "expected_spend_90d desc",
+  "selected_customer_context": [
+    {
+      "cells": [
+        "13902",
+        "Coupon",
+        "632",
+        "\u00a336.75",
+        "\u00a32,751.73",
+        "\u00a377.98"
+      ],
+      "customer": {
+        "customer_id": "13902",
+        "days_since_last_purchase": 632,
+        "number_of_purchases": 5,
+        "customer_age_days": 724,
+        "probability_of_buying_90d": 0.009980835956907977,
+        "expected_spend_90d": 36.748499779583426
+      }
+    },
+    {
+      "cells": [
+        "12482",
+        "Coupon",
+        "576",
+        "\u00a332.77",
+        "\u00a32,302.60",
+        "\u00a364.98"
+      ],
+      "customer": {
+        "customer_id": "12482",
+        "days_since_last_purchase": 576,
+        "number_of_purchases": 5,
+        "customer_age_days": 653,
+        "probability_of_buying_90d": 0.010360887442639494,
+        "expected_spend_90d": 32.76738361421051
+      }
+    },
+    {
+      "cells": [
+        "16754",
+        "Coupon",
+        "372",
+        "\u00a30.73",
+        "\u00a32,078.06",
+        "\u00a361.31"
+      ],
+      "customer": {
+        "customer_id": "16754",
+        "days_since_last_purchase": 372,
+        "number_of_purchases": 19,
+        "customer_age_days": 641,
+        "probability_of_buying_90d": 0.00013173458060100702,
+        "expected_spend_90d": 0.7252332903865291
+      }
+    },
+    {
+      "cells": [
+        "17850",
+        "Coupon",
+        "372",
+        "\u00a30.68",
+        "\u00a31,876.66",
+        "\u00a355.27"
+      ],
+      "customer": {
+        "customer_id": "17850",
+        "days_since_last_purchase": 372,
+        "number_of_purchases": 23,
+        "customer_age_days": 734,
+        "probability_of_buying_90d": 0.0001292144465962611,
+        "expected_spend_90d": 0.6764220118190789
+      }
+    },
+    {
+      "cells": [
+        "15413",
+        "Coupon",
+        "691",
+        "\u00a33.19",
+        "\u00a31,266.87",
+        "\u00a336.69"
+      ],
+      "customer": {
+        "customer_id": "15413",
+        "days_since_last_purchase": 691,
+        "number_of_purchases": 5,
+        "customer_age_days": 738,
+        "probability_of_buying_90d": 0.0018912019571120378,
+        "expected_spend_90d": 3.190920155536708
+      }
+    },
+    {
+      "cells": [
+        "13093",
+        "Coupon",
+        "275",
+        "\u00a30.04",
+        "\u00a31,238.74",
+        "\u00a336.16"
+      ],
+      "customer": {
+        "customer_id": "13093",
+        "days_since_last_purchase": 275,
+        "number_of_purchases": 43,
+        "customer_age_days": 735,
+        "probability_of_buying_90d": 5.982926128950812e-06,
+        "expected_spend_90d": 0.03579068032585588
+      }
+    },
+    {
+      "cells": [
+        "14091",
+        "Coupon",
+        "654",
+        "\u00a3166.41",
+        "\u00a31,842.51",
+        "\u00a335.53"
+      ],
+      "customer": {
+        "customer_id": "14091",
+        "days_since_last_purchase": 654,
+        "number_of_purchases": 2,
+        "customer_age_days": 698,
+        "probability_of_buying_90d": 0.07825408404905888,
+        "expected_spend_90d": 166.40594812144403
+      }
+    },
+    {
+      "cells": [
+        "17448",
+        "Coupon",
+        "529",
+        "\u00a30.01",
+        "\u00a31,093.28",
+        "\u00a331.80"
+      ],
+      "customer": {
+        "customer_id": "17448",
+        "days_since_last_purchase": 529,
+        "number_of_purchases": 13,
+        "customer_age_days": 645,
+        "probability_of_buying_90d": 2.745978822275482e-06,
+        "expected_spend_90d": 0.006151264295416854
+      }
+    },
+    {
+      "cells": [
+        "14063",
+        "Coupon",
+        "686",
+        "\u00a30.09",
+        "\u00a31,028.87",
+        "\u00a329.86"
+      ],
+      "customer": {
+        "customer_id": "14063",
+        "days_since_last_purchase": 686,
+        "number_of_purchases": 7,
+        "customer_age_days": 731,
+        "probability_of_buying_90d": 6.105134147520688e-05,
+        "expected_spend_90d": 0.09232334215638997
+      }
+    },
+    {
+      "cells": [
+        "13935",
+        "Coupon",
+        "596",
+        "\u00a391.22",
+        "\u00a31,297.60",
+        "\u00a328.30"
+      ],
+      "customer": {
+        "customer_id": "13935",
+        "days_since_last_purchase": 596,
+        "number_of_purchases": 3,
+        "customer_age_days": 652,
+        "probability_of_buying_90d": 0.05708129252930115,
+        "expected_spend_90d": 91.21974830064384
+      }
+    },
+    {
+      "cells": [
+        "15808",
+        "Coupon",
+        "306",
+        "\u00a317.36",
+        "\u00a3797.63",
+        "\u00a322.06"
+      ],
+      "customer": {
+        "customer_id": "15808",
+        "days_since_last_purchase": 306,
+        "number_of_purchases": 21,
+        "customer_age_days": 738,
+        "probability_of_buying_90d": 0.008389050401613961,
+        "expected_spend_90d": 17.359012576649818
+      }
+    },
+    {
+      "cells": [
+        "14134",
+        "Coupon",
+        "382",
+        "\u00a3100.53",
+        "\u00a3969.51",
+        "\u00a320.68"
+      ],
+      "customer": {
+        "customer_id": "14134",
+        "days_since_last_purchase": 382,
+        "number_of_purchases": 11,
+        "customer_age_days": 729,
+        "probability_of_buying_90d": 0.058762518720261975,
+        "expected_spend_90d": 100.52930065240783
+      }
+    },
+    {
+      "cells": [
+        "14160",
+        "Coupon",
+        "610",
+        "\u00a30.82",
+        "\u00a3721.44",
+        "\u00a320.57"
+      ],
+      "customer": {
+        "customer_id": "14160",
+        "days_since_last_purchase": 610,
+        "number_of_purchases": 7,
+        "customer_age_days": 698,
+        "probability_of_buying_90d": 0.0007636462448480188,
+        "expected_spend_90d": 0.8218962492709485
+      }
+    },
+    {
+      "cells": [
+        "15369",
+        "Coupon",
+        "492",
+        "\u00a330.22",
+        "\u00a3775.47",
+        "\u00a319.71"
+      ],
+      "customer": {
+        "customer_id": "15369",
+        "days_since_last_purchase": 492,
+        "number_of_purchases": 8,
+        "customer_age_days": 731,
+        "probability_of_buying_90d": 0.025301085920863206,
+        "expected_spend_90d": 30.217852157632127
+      }
+    },
+    {
+      "cells": [
+        "13564",
+        "Coupon",
+        "354",
+        "\u00a30.24",
+        "\u00a3651.10",
+        "\u00a318.52"
+      ],
+      "customer": {
+        "customer_id": "13564",
+        "days_since_last_purchase": 354,
+        "number_of_purchases": 25,
+        "customer_age_days": 737,
+        "probability_of_buying_90d": 0.00012155577018668821,
+        "expected_spend_90d": 0.23512141960924035
+      }
+    }
+  ],
+  "heatmap_cells": 120,
+  "heatmap_hover_value": "475.39",
+  "customer_page_rows": 10,
+  "selected_customer_rows": 15,
+  "selected_customer_table_clipped": false,
+  "partial_month_labels_passed": true,
+  "responsive": [
+    {
+      "width": 1280,
+      "height": 800,
+      "page_horizontal_overflow": false,
+      "overlaps": [],
+      "widths": [
+        1224,
+        1224,
+        1224,
+        1224
+      ],
+      "notes": [
+        {
+          "text": "1\u20139 Dec: 136 return invoices in 9 days (15.1 a day); previous months averaged 9.8 a day.",
+          "length": 88
+        },
+        {
+          "text": "1\u20139 Dec: \u00a3174k in 9 days (\u00a319.3k a day); previous months averaged \u00a30.7k a day.",
+          "length": 78
+        },
+        {
+          "text": "1\u20139 Dec: 14.9% of invoices were returns; previous months averaged 16.6%.",
+          "length": 72
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "page_horizontal_overflow": false,
+      "overlaps": [],
+      "widths": [
+        1304,
+        1304,
+        1304,
+        1304
+      ],
+      "notes": [
+        {
+          "text": "1\u20139 Dec: 136 return invoices in 9 days (15.1 a day); previous months averaged 9.8 a day.",
+          "length": 88
+        },
+        {
+          "text": "1\u20139 Dec: \u00a3174k in 9 days (\u00a319.3k a day); previous months averaged \u00a30.7k a day.",
+          "length": 78
+        },
+        {
+          "text": "1\u20139 Dec: 14.9% of invoices were returns; previous months averaged 16.6%.",
+          "length": 72
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "page_horizontal_overflow": false,
+      "overlaps": [],
+      "widths": [
+        358,
+        358,
+        358,
+        358
+      ],
+      "notes": [
+        {
+          "text": "1\u20139 Dec: 136 return invoices in 9 days (15.1 a day); previous months averaged 9.8 a day.",
+          "length": 88
+        },
+        {
+          "text": "1\u20139 Dec: \u00a3174k in 9 days (\u00a319.3k a day); previous months averaged \u00a30.7k a day.",
+          "length": 78
+        },
+        {
+          "text": "1\u20139 Dec: 14.9% of invoices were returns; previous months averaged 16.6%.",
+          "length": 72
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "label": "Monthly France",
+      "milliseconds": 9,
+      "status": 200
+    },
+    {
+      "label": "Reload local data keeps monthly country",
+      "milliseconds": 66,
+      "status": 200
+    },
+    {
+      "label": "Monthly all countries",
+      "milliseconds": 10,
+      "status": 200
+    },
+    {
+      "label": "Loyalty next page",
+      "milliseconds": 47,
+      "status": 200
+    },
+    {
+      "label": "Loyalty previous page",
+      "milliseconds": 50,
+      "status": 200
+    },
+    {
+      "label": "Loyalty go to page",
+      "milliseconds": 42,
+      "status": 200
+    },
+    {
+      "label": "Find loyalty customer beyond top 25",
+      "milliseconds": 82,
+      "status": 200
+    },
+    {
+      "label": "Unknown loyalty customer",
+      "milliseconds": 42,
+      "status": 200
+    },
+    {
+      "label": "Clear loyalty search",
+      "milliseconds": 14,
+      "status": 200
+    },
+    {
+      "label": "Last loyalty page",
+      "milliseconds": 41,
+      "status": 200
+    },
+    {
+      "label": "Restore first loyalty page",
+      "milliseconds": 51,
+      "status": 200
+    },
+    {
+      "label": "Campaign next page",
+      "milliseconds": 45,
+      "status": 200
+    },
+    {
+      "label": "Campaign previous page",
+      "milliseconds": 49,
+      "status": 200
+    },
+    {
+      "label": "Campaign go to page",
+      "milliseconds": 383,
+      "status": 200
+    },
+    {
+      "label": "Campaign filter email",
+      "milliseconds": 15,
+      "status": 200
+    },
+    {
+      "label": "Campaign filter none",
+      "milliseconds": 7,
+      "status": 200
+    },
+    {
+      "label": "Campaign filter all",
+      "milliseconds": 9,
+      "status": 200
+    },
+    {
+      "label": "Campaign filter coupon",
+      "milliseconds": 11,
+      "status": 200
+    },
+    {
+      "label": "Product country France",
+      "milliseconds": 6,
+      "status": 200
+    },
+    {
+      "label": "Product all countries",
+      "milliseconds": 6,
+      "status": 200
+    },
+    {
+      "label": "Customer next page",
+      "milliseconds": 46,
+      "status": 200
+    },
+    {
+      "label": "Customer previous page",
+      "milliseconds": 49,
+      "status": 200
+    },
+    {
+      "label": "Customer page 2 for boundary",
+      "milliseconds": 50,
+      "status": 200
+    },
+    {
+      "label": "Customer boundary page 3",
+      "milliseconds": 54,
+      "status": 200
+    },
+    {
+      "label": "Last customer page",
+      "milliseconds": 41,
+      "status": 200
+    },
+    {
+      "label": "Go to customer page",
+      "milliseconds": 48,
+      "status": 200
+    },
+    {
+      "label": "First customer page",
+      "milliseconds": 45,
+      "status": 200
+    },
+    {
+      "label": "Customer search",
+      "milliseconds": 268,
+      "status": 200
+    },
+    {
+      "label": "Empty customer search",
+      "milliseconds": 267,
+      "status": 200
+    },
+    {
+      "label": "Clear customer search",
+      "milliseconds": 265,
+      "status": 200
+    },
+    {
+      "label": "Ascending expected spend",
+      "milliseconds": 56,
+      "status": 200
+    },
+    {
+      "label": "Descending expected spend",
+      "milliseconds": 48,
+      "status": 200
+    },
+    {
+      "label": "Sort days_since_last_purchase",
+      "milliseconds": 50,
+      "status": 200
+    },
+    {
+      "label": "Sort number_of_purchases",
+      "milliseconds": 49,
+      "status": 200
+    },
+    {
+      "label": "Sort customer_age_days",
+      "milliseconds": 50,
+      "status": 200
+    },
+    {
+      "label": "Sort probability_of_buying_90d",
+      "milliseconds": 50,
+      "status": 200
+    },
+    {
+      "label": "Restore customer order",
+      "milliseconds": 49,
+      "status": 200
+    },
+    {
+      "label": "Budget slider",
+      "milliseconds": 367,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912275,
+        "bound_pence": 912351,
+        "optimality_gap": 8.330821298402345e-05,
+        "lp_bound_pence": 912351.544359576,
+        "integer_variables": 0,
+        "seconds": 0.07206283399136737
+      }
+    },
+    {
+      "label": "Zero coupon limit",
+      "milliseconds": 372,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "OPTIMAL_BOUND_CERTIFICATE",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": true,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 799781,
+        "bound_pence": 799781,
+        "optimality_gap": 0,
+        "lp_bound_pence": 799781,
+        "integer_variables": 0,
+        "seconds": 0.05750020800041966
+      }
+    },
+    {
+      "label": "Maximum coupons",
+      "milliseconds": 367,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912275,
+        "bound_pence": 912351,
+        "optimality_gap": 8.330821298402345e-05,
+        "lp_bound_pence": 912351.544359576,
+        "integer_variables": 0,
+        "seconds": 0.07406024998635985
+      }
+    },
+    {
+      "label": "m assumption",
+      "milliseconds": 369,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 984302,
+        "bound_pence": 984383,
+        "optimality_gap": 8.229181694236119e-05,
+        "lp_bound_pence": 984383.876233168,
+        "integer_variables": 0,
+        "seconds": 0.07781970899668522
+      }
+    },
+    {
+      "label": "tau_e assumption",
+      "milliseconds": 370,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 1405562,
+        "bound_pence": 1405570,
+        "optimality_gap": 5.69167350853253e-06,
+        "lp_bound_pence": 1405570.133630756,
+        "integer_variables": 0,
+        "seconds": 0.1387221250042785
+      }
+    },
+    {
+      "label": "tau_c assumption",
+      "milliseconds": 378,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 1450514,
+        "bound_pence": 1450535,
+        "optimality_gap": 1.4477626551691332e-05,
+        "lp_bound_pence": 1450535.300092732,
+        "integer_variables": 0,
+        "seconds": 0.09202675000415184
+      }
+    },
+    {
+      "label": "f_e assumption",
+      "milliseconds": 374,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 1440310,
+        "bound_pence": 1440315,
+        "optimality_gap": 3.471474890822115e-06,
+        "lp_bound_pence": 1440315.04949736,
+        "integer_variables": 0,
+        "seconds": 0.08730241699959151
+      }
+    },
+    {
+      "label": "f_c assumption",
+      "milliseconds": 371,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 1436267,
+        "bound_pence": 1436374,
+        "optimality_gap": 7.449868304430862e-05,
+        "lp_bound_pence": 1436374.014402716,
+        "integer_variables": 0,
+        "seconds": 0.08575404199655168
+      }
+    },
+    {
+      "label": "d assumption",
+      "milliseconds": 373,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 1399708,
+        "bound_pence": 1399745,
+        "optimality_gap": 2.6434084823406025e-05,
+        "lp_bound_pence": 1399745.625191333,
+        "integer_variables": 0,
+        "seconds": 0.07445349998306483
+      }
+    },
+    {
+      "label": "Reset campaign",
+      "milliseconds": 397,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912266,
+        "bound_pence": 912296,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 0,
+        "seconds": 0.09294983299332671
+      }
+    },
+    {
+      "label": "Campaign model in evidence",
+      "milliseconds": 365,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 733731,
+        "bound_pence": 733733,
+        "optimality_gap": 2.725794603199265e-06,
+        "lp_bound_pence": 733733.807017556,
+        "integer_variables": 0,
+        "seconds": 0.06537079199915752
+      }
+    },
+    {
+      "label": "Optional extra investment",
+      "milliseconds": 406,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 733731,
+        "bound_pence": 733733,
+        "optimality_gap": 2.725794603199265e-06,
+        "lp_bound_pence": 733733.807017556,
+        "integer_variables": 0,
+        "seconds": 0.06614179199095815
+      }
+    },
+    {
+      "label": "Restore default campaign",
+      "milliseconds": 396,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912266,
+        "bound_pence": 912296,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 0,
+        "seconds": 0.09294983299332671
+      }
+    },
+    {
+      "label": "Recover campaign failure",
+      "milliseconds": 397,
+      "status": 200,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools GLOP / certified feasible campaign",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "NOT_RUN_CERTIFIED_GAP",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "cp_sat_bound_pence": null,
+        "objective_pence": 912266,
+        "bound_pence": 912296,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 0,
+        "seconds": 0.09294983299332671
+      }
+    },
+    {
+      "label": "Recover product failure",
+      "milliseconds": 9,
+      "status": 200
+    },
+    {
+      "label": "Restore customer search after loading",
+      "milliseconds": 267,
+      "status": 200
+    }
+  ],
+  "sensitivity_points": 15,
+  "campaign_error_recovery": true,
+  "product_error_recovery": true,
+  "campaign_list_error_recovery": true,
+  "loading_state_verified": true,
+  "startup_retry_passed": true,
+  "localhost_origin_passed": true
+}

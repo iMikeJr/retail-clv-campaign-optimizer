@@ -1,0 +1,1406 @@
+{
+  "health": {
+    "status": "ok",
+    "database": "ok"
+  },
+  "runs": [
+    "C",
+    "B",
+    "A",
+    "A_no_cap",
+    "PROD"
+  ],
+  "startup_precompute_seconds": 8.400779085990507,
+  "uncached_optimize": [
+    {
+      "seconds": 1.1120604170719162,
+      "cache_hit": false,
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "objective_pence": 912268,
+        "bound_pence": 912302.0,
+        "optimality_gap": 3.726974967882245e-05,
+        "lp_bound_pence": 912302.414020033,
+        "integer_variables": 5948,
+        "seconds": 0.9465582919947337
+      }
+    },
+    {
+      "seconds": 1.160413208999671,
+      "cache_hit": false,
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "objective_pence": 912270,
+        "bound_pence": 912308.0,
+        "optimality_gap": 4.165433479123505e-05,
+        "lp_bound_pence": 912308.48630919,
+        "integer_variables": 5960,
+        "seconds": 1.1065542500000447
+      }
+    },
+    {
+      "seconds": 1.193004957982339,
+      "cache_hit": false,
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "objective_pence": 912272,
+        "bound_pence": 912314.0,
+        "optimality_gap": 4.603890067874493e-05,
+        "lp_bound_pence": 912314.558598347,
+        "integer_variables": 5984,
+        "seconds": 1.1461006680037826
+      }
+    },
+    {
+      "seconds": 1.3829183750785887,
+      "cache_hit": false,
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "objective_pence": 912275,
+        "bound_pence": 912320.0,
+        "optimality_gap": 4.9327231372119154e-05,
+        "lp_bound_pence": 912320.630887504,
+        "integer_variables": 5991,
+        "seconds": 1.337508042997797
+      }
+    },
+    {
+      "seconds": 1.0496144170174375,
+      "cache_hit": false,
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "objective_pence": 912275,
+        "bound_pence": 912326.0,
+        "optimality_gap": 5.5904195555068373e-05,
+        "lp_bound_pence": 912326.703176661,
+        "integer_variables": 6016,
+        "seconds": 1.00332362500194
+      }
+    },
+    {
+      "seconds": 1.05880062491633,
+      "cache_hit": false,
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "objective_pence": 912275,
+        "bound_pence": 912332.0,
+        "optimality_gap": 6.24811597380176e-05,
+        "lp_bound_pence": 912332.775465818,
+        "integer_variables": 6038,
+        "seconds": 1.0123002089967486
+      }
+    }
+  ],
+  "uncached_median_seconds": 1.1362368130357936,
+  "cached_optimize": [
+    {
+      "seconds": 0.0014651250094175339,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "objective_pence": 912266,
+        "bound_pence": 912296.0,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 5927,
+        "seconds": 0.5041136669897242
+      }
+    },
+    {
+      "seconds": 0.002264374983496964,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "objective_pence": 912266,
+        "bound_pence": 912296.0,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 5927,
+        "seconds": 0.5041136669897242
+      }
+    },
+    {
+      "seconds": 0.0027104169130325317,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "objective_pence": 912266,
+        "bound_pence": 912296.0,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 5927,
+        "seconds": 0.5041136669897242
+      }
+    },
+    {
+      "seconds": 0.001168167102150619,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "objective_pence": 912266,
+        "bound_pence": 912296.0,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 5927,
+        "seconds": 0.5041136669897242
+      }
+    },
+    {
+      "seconds": 0.0012942500179633498,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "objective_pence": 912266,
+        "bound_pence": 912296.0,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 5927,
+        "seconds": 0.5041136669897242
+      }
+    },
+    {
+      "seconds": 0.0014830000000074506,
+      "cache_hit": true,
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "objective_pence": 912266,
+        "bound_pence": 912296.0,
+        "optimality_gap": 3.2885145341380696e-05,
+        "lp_bound_pence": 912296.341730876,
+        "integer_variables": 5927,
+        "seconds": 0.5041136669897242
+      }
+    }
+  ],
+  "cached_median_seconds": 0.0014740625047124922,
+  "optional_extra_100": {
+    "seconds": 1.789230708964169,
+    "result": {
+      "net_value": 9177.653877309858,
+      "marginal_net_value": 55.10316536765458,
+      "marginal_net_value_pence": 5509,
+      "solver": {
+        "solver": "OR-Tools CP-SAT",
+        "status": "FEASIBLE_GAP_TARGET",
+        "native_status": "OPTIMAL",
+        "requested_relative_gap": 0.005,
+        "optimality_proven": false,
+        "objective_pence": 917775,
+        "bound_pence": 917813.0,
+        "optimality_gap": 4.1404483669744764e-05,
+        "lp_bound_pence": 917813.488500109,
+        "integer_variables": 5967,
+        "seconds": 1.110426708997693
+      }
+    }
+  },
+  "default_sensitivity": {
+    "seconds": 0.0016473750583827496,
+    "response": {
+      "run": "PROD",
+      "model": "bgnbd",
+      "points": [
+        {
+          "tau_c": 0.05,
+          "B": 500.0,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 804738,
+            "bound_pence": 804738.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 5772,
+            "seconds": 0.07696145799127407
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.05,
+          "B": 1000.0,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 804738,
+            "bound_pence": 804738.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 5772,
+            "seconds": 0.07456720899790525
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.05,
+          "B": 1682.0,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 804738,
+            "bound_pence": 804738.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 5772,
+            "seconds": 0.07422116700035986
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.05,
+          "B": 2500.0,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 804738,
+            "bound_pence": 804738.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 5772,
+            "seconds": 0.07373991700296756
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.05,
+          "B": 3500.0,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 804738,
+            "bound_pence": 804738.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 5772,
+            "seconds": 0.07444033399224281
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 500.0,
+          "net_value": 8304.879421516713,
+          "cost": 499.9261329878546,
+          "counts": {
+            "none": 158,
+            "email": 5683,
+            "coupon": 10
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 830489,
+            "bound_pence": 830606.0,
+            "optimality_gap": 0.000140880854532691,
+            "lp_bound_pence": 830606.385929808,
+            "integer_variables": 5780,
+            "seconds": 1.2568317510013003
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 1000.0,
+          "net_value": 8741.616091428275,
+          "cost": 999.6384467030203,
+          "counts": {
+            "none": 79,
+            "email": 5701,
+            "coupon": 71
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 874168,
+            "bound_pence": 874215.0,
+            "optimality_gap": 5.376540893741249e-05,
+            "lp_bound_pence": 874215.373134385,
+            "integer_variables": 5882,
+            "seconds": 0.8566778759995941
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 1682.0,
+          "net_value": 9122.550711942204,
+          "cost": 1681.2860519820997,
+          "counts": {
+            "none": 88,
+            "email": 5617,
+            "coupon": 146
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 912266,
+            "bound_pence": 912296.0,
+            "optimality_gap": 3.2885145341380696e-05,
+            "lp_bound_pence": 912296.341730876,
+            "integer_variables": 5927,
+            "seconds": 0.5041136669897242
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 2500.0,
+          "net_value": 9556.984771313635,
+          "cost": 2498.249414549655,
+          "counts": {
+            "none": 79,
+            "email": 5538,
+            "coupon": 234
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 955710,
+            "bound_pence": 955778.0,
+            "optimality_gap": 7.115129066348579e-05,
+            "lp_bound_pence": 955778.8536112,
+            "integer_variables": 6195,
+            "seconds": 1.363248666995787
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 3500.0,
+          "net_value": 9933.802607245141,
+          "cost": 3362.9889071634466,
+          "counts": {
+            "none": 79,
+            "email": 5472,
+            "coupon": 300
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 993393,
+            "bound_pence": 993393.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 993393.0,
+            "integer_variables": 5776,
+            "seconds": 0.09753662500588689
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 500.0,
+          "net_value": 8355.349415599383,
+          "cost": 499.9490620435232,
+          "counts": {
+            "none": 174,
+            "email": 5670,
+            "coupon": 7
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "UNKNOWN_FEASIBLE_HINT",
+            "native_status": "UNKNOWN_FEASIBLE_HINT",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 835537,
+            "bound_pence": null,
+            "optimality_gap": null,
+            "lp_bound_pence": 835803.500153566,
+            "integer_variables": 5798,
+            "seconds": 1.7241459169890732
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 1000.0,
+          "net_value": 9082.603599016631,
+          "cost": 999.7481070383332,
+          "counts": {
+            "none": 117,
+            "email": 5694,
+            "coupon": 40
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 908262,
+            "bound_pence": 911028.0,
+            "optimality_gap": 0.0030453767745430285,
+            "lp_bound_pence": 908306.356852224,
+            "integer_variables": 5781,
+            "seconds": 0.1622579590039095
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 1682.0,
+          "net_value": 9790.102784519679,
+          "cost": 1681.4737521859397,
+          "counts": {
+            "none": 119,
+            "email": 5637,
+            "coupon": 95
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 979020,
+            "bound_pence": 979032.0,
+            "optimality_gap": 1.225715511429797e-05,
+            "lp_bound_pence": 979032.947372,
+            "integer_variables": 5864,
+            "seconds": 0.1248671259963885
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 2500.0,
+          "net_value": 10580.300298382317,
+          "cost": 2499.1496435864747,
+          "counts": {
+            "none": 96,
+            "email": 5594,
+            "coupon": 161
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 1058038,
+            "bound_pence": 1058100.0,
+            "optimality_gap": 5.859902952445942e-05,
+            "lp_bound_pence": 1058100.98746674,
+            "integer_variables": 6014,
+            "seconds": 0.6202151670004241
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 3500.0,
+          "net_value": 11522.639707219365,
+          "cost": 3498.745460775279,
+          "counts": {
+            "none": 123,
+            "email": 5491,
+            "coupon": 237
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 1152277,
+            "bound_pence": 1152296.0,
+            "optimality_gap": 1.6489090730787823e-05,
+            "lp_bound_pence": 1152296.029435012,
+            "integer_variables": 5886,
+            "seconds": 0.13662962499074638
+          },
+          "cache_hit": true
+        }
+      ],
+      "solves": 0,
+      "grid_points": 15,
+      "seconds": 0.00011008299770765007
+    }
+  },
+  "uncached_sensitivity": {
+    "seconds": 10.384900041040964,
+    "response": {
+      "run": "PROD",
+      "model": "bgnbd",
+      "points": [
+        {
+          "tau_c": 0.05,
+          "B": 500.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 804738,
+            "bound_pence": 804738.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 5772,
+            "seconds": 0.0753862499987008
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.05,
+          "B": 1000.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 804738,
+            "bound_pence": 804738.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 5772,
+            "seconds": 0.11028287500084843
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.05,
+          "B": 1682.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 804738,
+            "bound_pence": 804738.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 5772,
+            "seconds": 0.11119104099634569
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.05,
+          "B": 2500.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 804738,
+            "bound_pence": 804738.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 5772,
+            "seconds": 0.07571720800478943
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.05,
+          "B": 3500.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 804738,
+            "bound_pence": 804738.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 5772,
+            "seconds": 0.07582233400898986
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.15,
+          "B": 500.17,
+          "net_value": 8305.081407716323,
+          "cost": 500.0761329878546,
+          "counts": {
+            "none": 155,
+            "email": 5686,
+            "coupon": 10
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 830510,
+            "bound_pence": 830629.0,
+            "optimality_gap": 0.00014328545110835512,
+            "lp_bound_pence": 830629.656718737,
+            "integer_variables": 5780,
+            "seconds": 1.1580811250023544
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.15,
+          "B": 1000.17,
+          "net_value": 8741.616091428275,
+          "cost": 999.6384467030203,
+          "counts": {
+            "none": 79,
+            "email": 5701,
+            "coupon": 71
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 874168,
+            "bound_pence": 874225.0,
+            "optimality_gap": 6.520485764750025e-05,
+            "lp_bound_pence": 874225.494195752,
+            "integer_variables": 5893,
+            "seconds": 0.764171875998727
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.15,
+          "B": 1682.17,
+          "net_value": 9122.579567151568,
+          "cost": 1681.4360519820996,
+          "counts": {
+            "none": 85,
+            "email": 5620,
+            "coupon": 146
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 912269,
+            "bound_pence": 912305.0,
+            "optimality_gap": 3.9462044638149496e-05,
+            "lp_bound_pence": 912305.726177755,
+            "integer_variables": 5955,
+            "seconds": 0.9306905830017058
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.15,
+          "B": 2500.17,
+          "net_value": 9556.984771313635,
+          "cost": 2498.249414549655,
+          "counts": {
+            "none": 79,
+            "email": 5538,
+            "coupon": 234
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 955710,
+            "bound_pence": 955787.0,
+            "optimality_gap": 8.056837325130008e-05,
+            "lp_bound_pence": 955787.637249536,
+            "integer_variables": 6219,
+            "seconds": 1.6976328759919852
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.15,
+          "B": 3500.17,
+          "net_value": 9933.802607245141,
+          "cost": 3362.9889071634466,
+          "counts": {
+            "none": 79,
+            "email": 5472,
+            "coupon": 300
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 993393,
+            "bound_pence": 993393.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 993393.0,
+            "integer_variables": 5776,
+            "seconds": 0.09923387499293312
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.25,
+          "B": 500.17,
+          "net_value": 8355.588884776811,
+          "cost": 500.0990620435232,
+          "counts": {
+            "none": 171,
+            "email": 5673,
+            "coupon": 7
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "UNKNOWN_FEASIBLE_HINT",
+            "native_status": "UNKNOWN_FEASIBLE_HINT",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 835561,
+            "bound_pence": null,
+            "optimality_gap": null,
+            "lp_bound_pence": 835831.707407459,
+            "integer_variables": 5798,
+            "seconds": 1.8613115420012036
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.25,
+          "B": 1000.17,
+          "net_value": 9082.731685841622,
+          "cost": 999.9481070383332,
+          "counts": {
+            "none": 113,
+            "email": 5698,
+            "coupon": 40
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 908274,
+            "bound_pence": 908326.0,
+            "optimality_gap": 5.725144614950995e-05,
+            "lp_bound_pence": 908326.72455916,
+            "integer_variables": 5784,
+            "seconds": 0.19410349999088794
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.25,
+          "B": 1682.17,
+          "net_value": 9790.366764862272,
+          "cost": 1681.6725866530826,
+          "counts": {
+            "none": 140,
+            "email": 5616,
+            "coupon": 95
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 979048,
+            "bound_pence": 979048.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 979049.4532636,
+            "integer_variables": 5755,
+            "seconds": 0.11979433300439268
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.25,
+          "B": 2500.17,
+          "net_value": 10580.324217818164,
+          "cost": 2499.2996435864748,
+          "counts": {
+            "none": 93,
+            "email": 5597,
+            "coupon": 161
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "UNKNOWN_FEASIBLE_HINT",
+            "native_status": "UNKNOWN_FEASIBLE_HINT",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 1058041,
+            "bound_pence": null,
+            "optimality_gap": null,
+            "lp_bound_pence": 1058117.361291205,
+            "integer_variables": 6057,
+            "seconds": 1.8420052089932142
+          },
+          "cache_hit": false
+        },
+        {
+          "tau_c": 0.25,
+          "B": 3500.17,
+          "net_value": 11522.760299752172,
+          "cost": 3498.895460775279,
+          "counts": {
+            "none": 120,
+            "email": 5494,
+            "coupon": 237
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 1152289,
+            "bound_pence": 1152311.0,
+            "optimality_gap": 1.9092432540794888e-05,
+            "lp_bound_pence": 1152311.857475293,
+            "integer_variables": 5906,
+            "seconds": 0.14841320899722632
+          },
+          "cache_hit": false
+        }
+      ],
+      "solves": 15,
+      "grid_points": 15,
+      "seconds": 10.383316545005073
+    }
+  },
+  "cached_sensitivity": {
+    "seconds": 0.0026052079629153013,
+    "response": {
+      "run": "PROD",
+      "model": "bgnbd",
+      "points": [
+        {
+          "tau_c": 0.05,
+          "B": 500.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 804738,
+            "bound_pence": 804738.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 5772,
+            "seconds": 0.0753862499987008
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.05,
+          "B": 1000.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 804738,
+            "bound_pence": 804738.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 5772,
+            "seconds": 0.11028287500084843
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.05,
+          "B": 1682.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 804738,
+            "bound_pence": 804738.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 5772,
+            "seconds": 0.11119104099634569
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.05,
+          "B": 2500.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 804738,
+            "bound_pence": 804738.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 5772,
+            "seconds": 0.07571720800478943
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.05,
+          "B": 3500.17,
+          "net_value": 8047.324626706014,
+          "cost": 427.1363587592645,
+          "counts": {
+            "none": 79,
+            "email": 5749,
+            "coupon": 23
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 804738,
+            "bound_pence": 804738.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 804738.0,
+            "integer_variables": 5772,
+            "seconds": 0.07582233400898986
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 500.17,
+          "net_value": 8305.081407716323,
+          "cost": 500.0761329878546,
+          "counts": {
+            "none": 155,
+            "email": 5686,
+            "coupon": 10
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 830510,
+            "bound_pence": 830629.0,
+            "optimality_gap": 0.00014328545110835512,
+            "lp_bound_pence": 830629.656718737,
+            "integer_variables": 5780,
+            "seconds": 1.1580811250023544
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 1000.17,
+          "net_value": 8741.616091428275,
+          "cost": 999.6384467030203,
+          "counts": {
+            "none": 79,
+            "email": 5701,
+            "coupon": 71
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 874168,
+            "bound_pence": 874225.0,
+            "optimality_gap": 6.520485764750025e-05,
+            "lp_bound_pence": 874225.494195752,
+            "integer_variables": 5893,
+            "seconds": 0.764171875998727
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 1682.17,
+          "net_value": 9122.579567151568,
+          "cost": 1681.4360519820996,
+          "counts": {
+            "none": 85,
+            "email": 5620,
+            "coupon": 146
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 912269,
+            "bound_pence": 912305.0,
+            "optimality_gap": 3.9462044638149496e-05,
+            "lp_bound_pence": 912305.726177755,
+            "integer_variables": 5955,
+            "seconds": 0.9306905830017058
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 2500.17,
+          "net_value": 9556.984771313635,
+          "cost": 2498.249414549655,
+          "counts": {
+            "none": 79,
+            "email": 5538,
+            "coupon": 234
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 955710,
+            "bound_pence": 955787.0,
+            "optimality_gap": 8.056837325130008e-05,
+            "lp_bound_pence": 955787.637249536,
+            "integer_variables": 6219,
+            "seconds": 1.6976328759919852
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.15,
+          "B": 3500.17,
+          "net_value": 9933.802607245141,
+          "cost": 3362.9889071634466,
+          "counts": {
+            "none": 79,
+            "email": 5472,
+            "coupon": 300
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 993393,
+            "bound_pence": 993393.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 993393.0,
+            "integer_variables": 5776,
+            "seconds": 0.09923387499293312
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 500.17,
+          "net_value": 8355.588884776811,
+          "cost": 500.0990620435232,
+          "counts": {
+            "none": 171,
+            "email": 5673,
+            "coupon": 7
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "UNKNOWN_FEASIBLE_HINT",
+            "native_status": "UNKNOWN_FEASIBLE_HINT",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 835561,
+            "bound_pence": null,
+            "optimality_gap": null,
+            "lp_bound_pence": 835831.707407459,
+            "integer_variables": 5798,
+            "seconds": 1.8613115420012036
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 1000.17,
+          "net_value": 9082.731685841622,
+          "cost": 999.9481070383332,
+          "counts": {
+            "none": 113,
+            "email": 5698,
+            "coupon": 40
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 908274,
+            "bound_pence": 908326.0,
+            "optimality_gap": 5.725144614950995e-05,
+            "lp_bound_pence": 908326.72455916,
+            "integer_variables": 5784,
+            "seconds": 0.19410349999088794
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 1682.17,
+          "net_value": 9790.366764862272,
+          "cost": 1681.6725866530826,
+          "counts": {
+            "none": 140,
+            "email": 5616,
+            "coupon": 95
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "OPTIMAL",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": true,
+            "objective_pence": 979048,
+            "bound_pence": 979048.0,
+            "optimality_gap": 0.0,
+            "lp_bound_pence": 979049.4532636,
+            "integer_variables": 5755,
+            "seconds": 0.11979433300439268
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 2500.17,
+          "net_value": 10580.324217818164,
+          "cost": 2499.2996435864748,
+          "counts": {
+            "none": 93,
+            "email": 5597,
+            "coupon": 161
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "UNKNOWN_FEASIBLE_HINT",
+            "native_status": "UNKNOWN_FEASIBLE_HINT",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 1058041,
+            "bound_pence": null,
+            "optimality_gap": null,
+            "lp_bound_pence": 1058117.361291205,
+            "integer_variables": 6057,
+            "seconds": 1.8420052089932142
+          },
+          "cache_hit": true
+        },
+        {
+          "tau_c": 0.25,
+          "B": 3500.17,
+          "net_value": 11522.760299752172,
+          "cost": 3498.895460775279,
+          "counts": {
+            "none": 120,
+            "email": 5494,
+            "coupon": 237
+          },
+          "solver": {
+            "solver": "OR-Tools CP-SAT",
+            "status": "FEASIBLE_GAP_TARGET",
+            "native_status": "OPTIMAL",
+            "requested_relative_gap": 0.005,
+            "optimality_proven": false,
+            "objective_pence": 1152289,
+            "bound_pence": 1152311.0,
+            "optimality_gap": 1.9092432540794888e-05,
+            "lp_bound_pence": 1152311.857475293,
+            "integer_variables": 5906,
+            "seconds": 0.14841320899722632
+          },
+          "cache_hit": true
+        }
+      ],
+      "solves": 0,
+      "grid_points": 15,
+      "seconds": 9.275000775232911e-05
+    }
+  }
+}

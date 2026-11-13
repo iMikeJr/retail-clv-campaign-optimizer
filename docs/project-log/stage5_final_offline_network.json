@@ -1,0 +1,36 @@
+{
+  "docker_network": "clv-final_default",
+  "internal": true,
+  "driver": "bridge",
+  "host_network_disabled": false,
+  "browser_access": "Local exec/stdio forwarding; published ports cleared in verification override; no application container gets a second network",
+  "probes": {
+    "api": {
+      "target": "1.1.1.1:443",
+      "connect_ex": 101,
+      "external_connect_blocked": true
+    },
+    "dashboard": {
+      "target": "1.1.1.1:443",
+      "connect_ex": 101,
+      "external_connect_blocked": true
+    },
+    "etl": {
+      "target": "1.1.1.1:443",
+      "connect_ex": 101,
+      "external_connect_blocked": true
+    },
+    "model": {
+      "target": "1.1.1.1:443",
+      "connect_ex": 101,
+      "external_connect_blocked": true
+    },
+    "postgres": {
+      "target": "1.1.1.1:443",
+      "external_connect_blocked": true,
+      "method": "bash /dev/tcp with 2-second timeout"
+    }
+  },
+  "rejected_alternative": "Disabling bridge IP masquerading still allowed TCP egress on Docker Desktop; rejected, not used for final acceptance.",
+  "host_positive_control_same_target_connected": true
+}

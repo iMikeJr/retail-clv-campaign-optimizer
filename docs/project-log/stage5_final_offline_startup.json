@@ -1,0 +1,65 @@
+{
+  "services": {
+    "api": {
+      "status": "running",
+      "exit_code": 0,
+      "health": "healthy",
+      "started_at": "2026-10-25T21:14:09.888903666Z",
+      "finished_at": "0001-01-01T00:00:00Z",
+      "image": "sha256:d5ecfcdd7f232f08aa48454d9681145183a38524158a0b66f3d873e4a1ca230e",
+      "networks": [
+        "clv-final_default"
+      ]
+    },
+    "dashboard": {
+      "status": "running",
+      "exit_code": 0,
+      "health": "healthy",
+      "started_at": "2026-10-25T21:14:15.485609252Z",
+      "finished_at": "0001-01-01T00:00:00Z",
+      "image": "sha256:f8098d58c33ed7b0a354c20862765d2d618e3f0df2e9cb774163c1ea5525755f",
+      "networks": [
+        "clv-final_default"
+      ]
+    },
+    "etl": {
+      "status": "exited",
+      "exit_code": 0,
+      "health": null,
+      "started_at": "2026-10-25T21:13:15.742425544Z",
+      "finished_at": "2026-10-25T21:13:48.66967717Z",
+      "image": "sha256:51edd1b980321bc78e84e3495d171b41ce0393b5624289a01b67a6477e705c06",
+      "networks": [
+        "clv-final_default"
+      ]
+    },
+    "model": {
+      "status": "exited",
+      "exit_code": 0,
+      "health": null,
+      "started_at": "2026-10-25T21:13:48.830224545Z",
+      "finished_at": "2026-10-25T21:14:09.388309972Z",
+      "image": "sha256:7b92767ac8cbf04d9b52c19291e87be520a1850784423b47e85b239de170b1a5",
+      "networks": [
+        "clv-final_default"
+      ]
+    },
+    "postgres": {
+      "status": "running",
+      "exit_code": 0,
+      "health": "healthy",
+      "started_at": "2026-10-25T21:13:10.1688185Z",
+      "finished_at": "0001-01-01T00:00:00Z",
+      "image": "sha256:a02aa54ec383939cb93faa54c0337477fb214dfac7578411a281524b238aa972",
+      "networks": [
+        "clv-final_default"
+      ]
+    }
+  },
+  "same_images_as_online": true,
+  "http_checks_through_local_access": {
+    "8000": 200,
+    "8080": 200
+  },
+  "local_browser_access": "Verification-only localhost -> docker exec/stdio -> container HTTP; no external network needed"
+}

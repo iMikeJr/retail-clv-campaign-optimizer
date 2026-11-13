@@ -1,0 +1,71 @@
+{
+  "checks": [
+    "Brazil selection resets to All countries on reload; table and selector agree"
+  ],
+  "geometry": [
+    {
+      "width": 1280,
+      "overlaps": [],
+      "widths": [
+        1224,
+        1224,
+        1224,
+        1224
+      ],
+      "returnsNotes": [
+        {
+          "text": "Dec 1\u20139: 15.1 returns/day vs 9.8 average.",
+          "characters": 41
+        },
+        {
+          "text": "Dec 1\u20139: \u00a319.3k per day vs \u00a30.7k average.",
+          "characters": 41
+        },
+        {
+          "text": "Dec 1\u20139: 14.9% of invoices vs 16.6% average.",
+          "characters": 44
+        }
+      ],
+      "backtest_visible": true,
+      "return_note_text_lines": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "width": 1440,
+      "overlaps": [],
+      "widths": [
+        1304,
+        1304,
+        1304,
+        1304
+      ],
+      "returnsNotes": [
+        {
+          "text": "Dec 1\u20139: 15.1 returns/day vs 9.8 average.",
+          "characters": 41
+        },
+        {
+          "text": "Dec 1\u20139: \u00a319.3k per day vs \u00a30.7k average.",
+          "characters": 41
+        },
+        {
+          "text": "Dec 1\u20139: 14.9% of invoices vs 16.6% average.",
+          "characters": 44
+        }
+      ],
+      "backtest_visible": true,
+      "return_note_text_lines": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "neutral_sensitivity_note": true,
+  "mobile_controls_fit": true,
+  "normal_console_errors": [],
+  "external_requests": []
+}
